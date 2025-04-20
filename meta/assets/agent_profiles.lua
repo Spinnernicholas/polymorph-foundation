@@ -1,0 +1,64 @@
+---@meta
+
+---Enum for specific AGENT_PROFILE identifiers.
+---@class AGENT_PROFILES
+---@field PROFILE_COMBATANT string @readonly
+---@field PROFILE_ENVOY_ABBESS_HORSE string @readonly
+---@field PROFILE_ENVOY_CLERGY_HORSE string @readonly
+---@field PROFILE_ENVOY_FIRST_CONSTABLE string @readonly
+---@field PROFILE_ENVOY_KINGDOM_HORSE string @readonly
+---@field PROFILE_ENVOY_LABOUR_FOOT string @readonly
+---@field PROFILE_ENVOY_LABOUR_HORSE string @readonly
+---@field PROFILE_ENVOY_MERCHANT_CLERGY string @readonly
+---@field PROFILE_ENVOY_MERCHANT_KINGDOM string @readonly
+---@field PROFILE_ENVOY_MERCHANT_LABOUR string @readonly
+---@field PROFILE_ENVOY_MERCHANT_LABOUR_HORSE string @readonly
+---@field PROFILE_ENVOY_MILITARY_HERALD_HORSE string @readonly
+---@field PROFILE_ENVOY_MILITARY_HORSE string @readonly
+---@field PROFILE_ENVOY_MILITIAMAN string @readonly
+---@field PROFILE_ENVOY_ROYAL string @readonly
+---@field PROFILE_ENVOY_SENESCHAL_HORSE string @readonly
+---@field PROFILE_ENVOY_STEWARD_FOOT string @readonly
+---@field PROFILE_ENVOY_STEWARD_HORSE string @readonly
+---@field PROFILE_GUEST_ABBESS string @readonly
+---@field PROFILE_GUEST_ABBESS_ENVOY string @readonly
+---@field PROFILE_GUEST_ABBESS_RETINUE string @readonly
+---@field PROFILE_GUEST_ELDER string @readonly
+---@field PROFILE_GUEST_KING string @readonly
+---@field PROFILE_GUEST_KING_KNIGHT string @readonly
+---@field PROFILE_GUEST_KING_RETINUE string @readonly
+---@field PROFILE_GUEST_KNIGHT_HORSE string @readonly
+---@field PROFILE_GUEST_KNIGHT_ROYAL_COMPANY string @readonly
+---@field PROFILE_GUEST_LABOUR_FOOT string @readonly
+---@field PROFILE_GUEST_MILITIAMAN string @readonly
+---@field PROFILE_GUEST_MILITIAMAN_ROYAL_COMPANY string @readonly
+---@field PROFILE_GUEST_MONK string @readonly
+---@field PROFILE_GUEST_MYDDLE_PEOPLE string @readonly
+---@field PROFILE_GUEST_NUN string @readonly
+---@field PROFILE_GUEST_PILGRIM_HIGH string @readonly
+---@field PROFILE_GUEST_PILGRIM_LOW string @readonly
+---@field PROFILE_GUEST_PILGRIM_MILITIAMAN string @readonly
+---@field PROFILE_GUEST_PILGRIM_SOLDIER string @readonly
+---@field PROFILE_GUEST_PRIEST string @readonly
+---@field PROFILE_GUEST_PRIOR string @readonly
+---@field PROFILE_GUEST_REVELER_HIGH string @readonly
+---@field PROFILE_GUEST_REVELER_LOW string @readonly
+---@field PROFILE_GUEST_REVELER_MIDDLE string @readonly
+---@field PROFILE_GUEST_SENESCHAL string @readonly
+---@field PROFILE_GUEST_SOLDIER string @readonly
+---@field PROFILE_GUEST_SOLDIER_ROYAL_COMPANY string @readonly
+---@field PROFILE_GUEST_SOLDIER_SPEAR string @readonly
+---@field PROFILE_GUEST_SOLDIER_SPEAR_ROYAL_COMPANY string @readonly
+---@field PROFILE_GUEST_STEWARD string @readonly
+---@field PROFILE_GUEST_TRADE_ROUTE_MERCHANT string @readonly
+---@field PROFILE_GUEST_TRAVELLER_HIGH string @readonly
+---@field PROFILE_GUEST_TRAVELLER_LOW string @readonly
+---@field PROFILE_GUEST_TRAVELLER_MILITIAMAN string @readonly
+---@field PROFILE_GUEST_WANDERING_MONK string @readonly
+---@field PROFILE_MINSTREL string @readonly
+---@field PROFILE_MONASTIC string @readonly
+---@field PROFILE_NEWCOMER string @readonly
+---@field PROFILE_VILLAGER string @readonly
+
+---@type AGENT_PROFILES
+_G.AGENT_PROFILES = AGENT_PROFILES

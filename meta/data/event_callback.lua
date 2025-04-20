@@ -1,0 +1,8 @@
+---@meta
+
+---@class EVENT_CALLBACK
+
+local EVENT_CALLBACK = {}
+
+---@type EVENT_CALLBACK
+_G.EVENT_CALLBACK = EVENT_CALLBACK

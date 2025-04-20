@@ -1,0 +1,10 @@
+---@meta
+
+---@class WORK_AGENT_ACTIVITY_MESSAGE
+---@field ControlString string
+---@field ActivityMessageParameters bitfield<AGENT_WORK_ACTIVITY_MESSAGE_PARAMETERS>
+
+local WORK_AGENT_ACTIVITY_MESSAGE = {}
+
+---@type WORK_AGENT_ACTIVITY_MESSAGE
+_G.WORK_AGENT_ACTIVITY_MESSAGE = WORK_AGENT_ACTIVITY_MESSAGE

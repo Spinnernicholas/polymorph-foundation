@@ -1,0 +1,9 @@
+---@meta
+
+---@class JOB_PROGRESSION : ASSET
+---@field ProgressionElementList list<JOB_PROGESSION_ELEMENT> # List of JOB_PROGESSION_ELEMENT values.
+
+local JOB_PROGRESSION = {}
+
+---@type JOB_PROGRESSION
+_G.JOB_PROGRESSION = JOB_PROGRESSION
