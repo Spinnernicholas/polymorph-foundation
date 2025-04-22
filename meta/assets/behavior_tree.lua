@@ -1,6 +1,0 @@
----@meta
-
----@class BEHAVIOR_TREE end
-
----@type BEHAVIOR_TREE
-_G.BEHAVIOR_TREE = BEHAVIOR_TREE

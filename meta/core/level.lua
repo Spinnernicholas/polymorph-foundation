@@ -1,89 +1,82 @@
 ---@meta
 
+---
+---Abstract class
+---Category: Data
+---[Reference](https://www.polymorph.games/foundation/modding/api/level)
+---
 ---@class LEVEL
+---@field DataType 'LEVEL' The name of this data type (always "LEVEL")
+---
+---@field getGame fun():GAME
+---Returns the current game instance.
+---
+---@field createObject fun(objectSetuperCallback:fun(GAME_OBJECT):void):GAME_OBJECT
+---@field createObject fun(prefab:PREFAB, position?:vec3f, orientation?:quaternion, objectSetuperCallback?:fun(GAME_OBJECT):void):GAME_OBJECT
+---@field createObject fun(prefab:PREFAB, objectSetuperCallback:fun(GAME_OBJECT):void):GAME_OBJECT
+---Creates a new game object. Overloads allow for flexible parameter sets including:
+--- - Optional object setup callback
+--- - Prefab with optional position, orientation and setup callback
+--- - Prefab with object setup callback
+---
+---@field getDeltaTime fun():float
+---Returns the delta time scaled by the current time scale.
+---
+---@field getUnscaledDeltaTime fun():float
+---Returns the delta time not affected by time scale.
+---
+---@field getEnvironmentDeltaTime fun():float
+---Returns the delta time specific to the environment.
+---
+---@field getTimeScale fun():float
+---Returns the current time scale.
+---
+---@field getComponentManager fun(componentType:component_type):COMPONENT_MANAGER
+---Returns the component manager for the specified component type.
+---
+---@field find fun(componentType:component_type, enabledOnly?:boolean):COMPONENT
+---@field find fun(id:guid, componentType:component_type):COMPONENT
+---@field find fun(id:guid):GAME_OBJECT
+---@field find fun(name:string):GAME_OBJECT
+---@field find fun(name:string, outObjectList:list<GAME_OBJECT>):void
+---Finds components or game objects by type, id or name. Supports retrieving:
+--- - A component by type and optionally whether it is enabled only.
+--- - A component by its id and type.
+--- - A game object by id.
+--- - A game object by name.
+--- - A set of game objects by name as an out argument list.
+---
+---@field createPickingLine fun(screenPos:vec2f):LINE
+---@field createPickingLine fun(screenPos:vec2i):LINE
+---Creates a picking line from the screen position specified as vec2f or vec2i.
+---
+---@field pick fun(line:LINE, outPosition:vec3f, outObject:GAME_OBJECT, flag?:integer_and_unsigned_integer, recursiveFlag?:boolean, objectToSearchInto?:GAME_OBJECT):boolean
+---@field pick fun(screenPosition:vec2i, outPosition:vec3f, outObject:GAME_OBJECT, flag?:integer_and_unsigned_integer, recursiveFlag?:boolean, objectToSearchInto?:GAME_OBJECT):boolean
+---Perform a pick test by line or screen position. Returns true if something was picked,
+---and outputs the position and object picked.
+---
+---@field pickObject fun(line:LINE, flag?:integer_and_unsigned_integer, recursiveFlag?:boolean, objectToSearchInto?:GAME_OBJECT):GAME_OBJECT
+---@field pickObject fun(screenPosition:vec2i, flag?:integer_and_unsigned_integer, recursiveFlag?:boolean, objectToSearchInto?:GAME_OBJECT):GAME_OBJECT
+---Returns the first game object under the picking line or screen position with optional flags.
+---
+---@field pickPosition fun(line:LINE, outPosition:vec3f, flag?:integer_and_unsigned_integer, recursiveFlag?:boolean, objectToSearchInto?:GAME_OBJECT):boolean
+---@field pickPosition fun(screenPosition:vec2i, outPosition:vec3f, flag?:integer_and_unsigned_integer, recursiveFlag?:boolean, objectToSearchInto?:GAME_OBJECT):boolean
+---Returns the picked position in world coordinates by line or screen position.
+---
+---@field worldToScreenCoordinates fun(worldPosition:vec3f, outScreenPosition:vec2f):boolean
+---@field worldToScreenCoordinates fun(worldPosition:vec3f):vec2f
+---Converts world coordinates to screen coordinates. Can output via out parameter or return vec2f directly.
+---
+---@field isVisibleOnScreen fun(worldPosition:vec3f):boolean
+---Checks whether a world position is visible on the screen.
+---
+---@field rayCast fun(screenPosition:vec2i, distance:float, outResult:PHYSICS_RAY_RESULT, flag?:integer_and_unsigned_integer):boolean
+---@field rayCast fun(from:vec3f, to:vec3f, outResult:PHYSICS_RAY_RESULT, flag?:integer_and_unsigned_integer):boolean
+---Performs a ray cast from the screen or between two world points. Outputs a physics ray result.
+---
+
 local LEVEL = {}
 
---- Gets the GAME instance.
----@return GAME
-function LEVEL:getGame() end
+LEVEL.DataType = "LEVEL"
 
---- Creates a GAME_OBJECT.
----@overload fun(self: LEVEL, objectSetuperCallback: fun(obj: GAME_OBJECT))
----@overload fun(self: LEVEL, prefab: PREFAB, objectSetuperCallback: fun(obj: GAME_OBJECT))
----@overload fun(self: LEVEL, prefab: PREFAB, position: vec3f, orientation: quaternion, objectSetuperCallback: fun(obj: GAME_OBJECT))
----@overload fun(self: LEVEL, prefab: PREFAB, position: vec3f, orientation: quaternion)
----@param prefab? PREFAB
----@param position? vec3f
----@param orientation? quaternion
----@param objectSetuperCallback? fun(obj: GAME_OBJECT)
----@return GAME_OBJECT
-function LEVEL:createObject(prefab, position, orientation, objectSetuperCallback) end
-
---- Gets the delta time.
----@return float
-function LEVEL:getDeltaTime() end
-
---- Gets the unscaled delta time.
----@return float
-function LEVEL:getUnscaledDeltaTime() end
-
---- Gets the environment delta time.
----@return float
-function LEVEL:getEnvironmentDeltaTime() end
-
---- Gets the time scale.
----@return float
-function LEVEL:getTimeScale() end
-
---- Gets the COMPONENT_MANAGER for a component type.
----@param componentType component_type
----@return COMPONENT_MANAGER
-function LEVEL:getComponentManager(componentType) end
-
---- Finds a component, GAME_OBJECT, or fills a list, depending on arguments.
----@overload fun(self: LEVEL, componentType: component_type, enabledOnly?: boolean): COMPONENT
----@overload fun(self: LEVEL, id: guid, componentType: component_type): COMPONENT
----@overload fun(self: LEVEL, id: guid): GAME_OBJECT
----@overload fun(self: LEVEL, name: string): GAME_OBJECT
----@overload fun(self: LEVEL, name: string, outObjectList: list<GAME_OBJECT>)
-function LEVEL:find(...) end
-
---- Creates a picking line from a screen position.
----@overload fun(self: LEVEL, screenPos: vec2f): LINE
----@overload fun(self: LEVEL, screenPos: vec2i): LINE
----@param screenPos vec2f|vec2i
----@return LINE
-function LEVEL:createPickingLine(screenPos) end
-
---- Picks an object or position.
----@overload fun(self: LEVEL, line: LINE, outPosition: vec3f, outObject: GAME_OBJECT, flag?: integer_and_unsigned_integer, recursiveFlag?: boolean, objectToSearchInto?: GAME_OBJECT): boolean
----@overload fun(self: LEVEL, screenPosition: vec2i, outPosition: vec3f, outObject: GAME_OBJECT, flag?: integer_and_unsigned_integer, recursiveFlag?: boolean, objectToSearchInto?: GAME_OBJECT): boolean
-function LEVEL:pick(...) end
-
---- Picks a GAME_OBJECT.
----@overload fun(self: LEVEL, line: LINE, flag?: integer_and_unsigned_integer, recursiveFlag?: boolean, objectToSearchInto?: GAME_OBJECT): GAME_OBJECT
----@overload fun(self: LEVEL, screenPosition: vec2i, flag?: integer_and_unsigned_integer, recursiveFlag?: boolean, objectToSearchInto?: GAME_OBJECT): GAME_OBJECT
-function LEVEL:pickObject(...) end
-
---- Picks a position.
----@overload fun(self: LEVEL, line: LINE, outPosition: vec3f, flag?: integer_and_unsigned_integer, recursiveFlag?: boolean, objectToSearchInto?: GAME_OBJECT): boolean
----@overload fun(self: LEVEL, screenPosition: vec2i, outPosition: vec3f, flag?: integer_and_unsigned_integer, recursiveFlag?: boolean, objectToSearchInto?: GAME_OBJECT): boolean
-function LEVEL:pickPosition(...) end
-
---- Converts world coordinates to screen coordinates.
----@overload fun(self: LEVEL, worldPosition: vec3f, outScreenPosition: vec2f): boolean
----@overload fun(self: LEVEL, worldPosition: vec3f): vec2f
-function LEVEL:worldToScreenCoordinates(...) end
-
---- Checks if a world position is visible on screen.
----@param worldPosition vec3f
----@return boolean
-function LEVEL:isVisibleOnScreen(worldPosition) end
-
---- Raycasts from screen or world positions.
----@overload fun(self: LEVEL, screenPosition: vec2i, distance: float, outResult: PHYSICS_RAY_RESULT, flag?: integer_and_unsigned_integer): boolean
----@overload fun(self: LEVEL, from: vec3f, to: vec3f, outResult: PHYSICS_RAY_RESULT, flag?: integer_and_unsigned_integer): boolean
-function LEVEL:rayCast(...) end
-
----@type LEVEL
-_G.LEVEL = LEVEL
+return LEVEL

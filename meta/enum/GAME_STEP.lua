@@ -1,0 +1,28 @@
+---@meta
+
+---
+---Dynamic enumeration for different game steps or tiers used internally.
+---Includes default, tier levels, and specific splendor tiers for monastery and labor.
+---[Reference](https://www.polymorph.games/foundation/modding/api/game_step)
+---
+---@enum GAME_STEP
+GAME_STEP = {
+    DEFAULT = "DEFAULT",
+    TIER0 = "TIER0",
+    TIER1 = "TIER1",
+    TIER2 = "TIER2",
+    TIER3 = "TIER3",
+    TIER4 = "TIER4",
+    TIER5 = "TIER5",
+    ["TIER0-MONASTERYSPLENDOR"] = "TIER0-MONASTERYSPLENDOR",
+    ["TIER1-MONASTERYSPLENDOR"] = "TIER1-MONASTERYSPLENDOR",
+    ["TIER2-MONASTERYSPLENDOR"] = "TIER2-MONASTERYSPLENDOR",
+    ["TIER3-MONASTERYSPLENDOR"] = "TIER3-MONASTERYSPLENDOR",
+    ["TIER4-MONASTERYSPLENDOR"] = "TIER4-MONASTERYSPLENDOR",
+    ["TIER5-MONASTERYSPLENDOR"] = "TIER5-MONASTERYSPLENDOR",
+    ["TIER1-LABORSPLENDOR"] = "TIER1-LABORSPLENDOR",
+    ["TIER2-LABORSPLENDOR"] = "TIER2-LABORSPLENDOR",
+    ["TIER3-LABORSPLENDOR"] = "TIER3-LABORSPLENDOR",
+    ["TIER4-LABORSPLENDOR"] = "TIER4-LABORSPLENDOR",
+    ["TIER5-LABORSPLENDOR"] = "TIER5-LABORSPLENDOR",
+}

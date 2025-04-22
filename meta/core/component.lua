@@ -1,59 +1,73 @@
 ---@meta
 
+---
+---Extendable
+---Category: Data
+---Inherited by multiple subclasses including COMP_ABSTRACT_BUILDABLE, COMP_ACCOMMODATION, COMP_AGENT, and others.
+---[Reference](https://www.polymorph.games/foundation/modding/api/component)
+---
 ---@class COMPONENT
----@field Enabled boolean
-
-local COMPONENT = {}
-
---- Gets the owner GAME_OBJECT.
----@return GAME_OBJECT
+---@field DataType 'COMPONENT' The name of this data type (always "COMPONENT")
+---@field Enabled? boolean Runtime only; use to get or set the enabled state of the component
+---
+---@return GAME_OBJECT owner The owner of this component
 function COMPONENT:getOwner() end
 
---- Gets the LEVEL.
----@return LEVEL
+---
+---@return LEVEL level The level this component belongs to
 function COMPONENT:getLevel() end
 
---- Returns true if the component is pre-initialized.
----@return boolean
+---
+---@return boolean isPreInitialized Returns true if the component is pre-initialized
 function COMPONENT:isPreInitialized() end
 
---- Returns true if the component is initialized.
----@return boolean
+---
+---@return boolean isInitialized Returns true if the component is initialized
 function COMPONENT:isInitialized() end
 
---- Returns true if the component is enabled. (Deprecated since 1.8.1; use Enabled property)
----@return boolean
-function COMPONENT:isEnabled() end
-
---- Returns true if the component has the enabled flag.
----@return boolean
+---
+---@return boolean hasEnabledFlag Checks if the component has an enabled flag set
 function COMPONENT:hasEnabledFlag() end
 
---- Virtual function: called to initialize the component.
+---
+---Deprecated since version 1.8.1; use Enabled property instead
+---@return boolean isEnabled Returns true if enabled
+function COMPONENT:isEnabled() end
+
+---
+---Virtual function, Protected function
 function COMPONENT:init() end
 
---- Virtual function: called on finalize.
----@param isClearingLevel boolean
+---
+---Virtual function, Protected function
+---@param isClearingLevel boolean 
 function COMPONENT:onFinalize(isClearingLevel) end
 
---- Virtual function: called on destroy.
----@param isClearingLevel boolean
+---
+---Virtual function, Protected function
+---@param isClearingLevel boolean 
 function COMPONENT:onDestroy(isClearingLevel) end
 
---- Virtual function: called when enabled.
+---
+---Virtual function, Protected function
 function COMPONENT:onEnabled() end
 
---- Virtual function: called when disabled.
+---
+---Virtual function, Protected function
 function COMPONENT:onDisabled() end
 
---- Virtual function: called when the owner changes.
+---
+---Virtual function, Protected function
 ---@param previousOwner GAME_OBJECT
 ---@param newOwner GAME_OBJECT
 function COMPONENT:onOwnerChanged(previousOwner, newOwner) end
 
---- Gets the component type.
----@return component_type
+---
+---@return component_type The type of this component
 function COMPONENT:getComponentType() end
 
----@type COMPONENT
-_G.COMPONENT = COMPONENT
+local COMPONENT = {}
+
+COMPONENT.DataType = "COMPONENT"
+
+return COMPONENT

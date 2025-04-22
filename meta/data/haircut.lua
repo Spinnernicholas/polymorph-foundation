@@ -1,10 +1,19 @@
 ---@meta
 
+---
+---Category: Data
+---Cloneable
+---[Reference](https://www.polymorph.games/foundation/modding/api/haircut)
+---
 ---@class HAIRCUT
----@field HaircutModel? PREFAB # Optional asset ID. Default: nil.
----@field HelmVariantModel? PREFAB # Optional asset ID. Default: nil.
+---@field DataType 'HAIRCUT' The name of this data type (always "HAIRCUT")
+---@field HaircutModel? PREFAB Asset ID of the haircut model (Serialized)
+---@field HelmVariantModel? PREFAB Asset ID of the helm variant model (Serialized)
 
 local HAIRCUT = {}
 
----@type HAIRCUT
-_G.HAIRCUT = HAIRCUT
+HAIRCUT.DataType = "HAIRCUT"
+
+---Class methods and properties go here
+
+return HAIRCUT

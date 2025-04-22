@@ -1,11 +1,20 @@
 ---@meta
 
+---
+---Data
+---Cloneable
+---[Reference](https://www.polymorph.games/foundation/modding/api/extracted_resource_config)
+---
 ---@class EXTRACTED_RESOURCE_CONFIG
----@field Model PREFAB # Asset ID.
----@field ModelDestroyDelay TIME_SYSTEM # TIME_SYSTEM value.
----@field FallUndergroundSpeed float # Downward translation per second. Default: 0.005
+---@field DataType 'EXTRACTED_RESOURCE_CONFIG' The name of this data type (always "EXTRACTED_RESOURCE_CONFIG")
+---@field Model? PREFAB Serialized; Expected: asset ID
+---@field ModelDestroyDelay? TIME_SYSTEM Serialized; Expected: TIME_SYSTEM value
+---@field FallUndergroundSpeed? float Serialized; Downward translation per second; Default value: 0.005f
 
 local EXTRACTED_RESOURCE_CONFIG = {}
 
----@type EXTRACTED_RESOURCE_CONFIG
-_G.EXTRACTED_RESOURCE_CONFIG = EXTRACTED_RESOURCE_CONFIG
+EXTRACTED_RESOURCE_CONFIG.DataType = "EXTRACTED_RESOURCE_CONFIG"
+
+---Class methods and properties go here
+
+return EXTRACTED_RESOURCE_CONFIG

@@ -1,9 +1,18 @@
 ---@meta
 
+---
+---Category: Data
+---Cloneable
+---[Reference](https://www.polymorph.games/foundation/modding/api/job_progession_element)
+---
 ---@class JOB_PROGESSION_ELEMENT
----@field XpNeeded integer_and_unsigned_integer # Default: 1
+---@field DataType 'JOB_PROGESSION_ELEMENT' The name of this data type (always "JOB_PROGESSION_ELEMENT")
+---@field XpNeeded? integer integer value, default is 1
 
 local JOB_PROGESSION_ELEMENT = {}
 
----@type JOB_PROGESSION_ELEMENT
-_G.JOB_PROGESSION_ELEMENT = JOB_PROGESSION_ELEMENT
+JOB_PROGESSION_ELEMENT.DataType = "JOB_PROGESSION_ELEMENT"
+
+---Class methods and properties go here
+
+return JOB_PROGESSION_ELEMENT

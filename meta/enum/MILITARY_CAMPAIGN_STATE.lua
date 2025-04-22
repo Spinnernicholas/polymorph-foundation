@@ -1,0 +1,20 @@
+---@meta
+
+---
+---Enumeration describing the various states of a military campaign.
+---[Reference](https://www.polymorph.games/foundation/modding/api/military_campaign_state)
+---
+---@enum MILITARY_CAMPAIGN_STATE
+MILITARY_CAMPAIGN_STATE = {
+    AVAILABLE = "AVAILABLE",
+    PICK_SOLDIERS = "PICK_SOLDIERS",
+    SOLDIERS_REGROUP = "SOLDIERS_REGROUP",
+    SOLDIERS_SENT = "SOLDIERS_SENT",
+    SOLDIERS_ABROAD = "SOLDIERS_ABROAD",
+    SOLDIERS_PAUSED = "SOLDIERS_PAUSED",
+    SOLDIERS_BACK = "SOLDIERS_BACK",
+    SOLDIERS_STUCK = "SOLDIERS_STUCK",
+    SOLDIERS_BETWEEN_CYCLE = "SOLDIERS_BETWEEN_CYCLE",
+    SOLDIERS_DONE = "SOLDIERS_DONE",
+    NEXT_BATTLE_CHOICE = "NEXT_BATTLE_CHOICE",
+}

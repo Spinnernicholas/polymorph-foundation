@@ -1,0 +1,23 @@
+---@meta
+
+---
+---Dynamic enumeration
+---[Reference](https://www.polymorph.games/foundation/modding/api/building_type)
+---
+---@enum BUILDING_TYPE
+BUILDING_TYPE = {
+    GENERAL = "GENERAL",
+    MONUMENT = "MONUMENT",
+    DECORATION = "DECORATION",
+    HOUSING = "HOUSING",
+    MASTERPIECE = "MASTERPIECE",
+    FORTIFICATION = "FORTIFICATION",
+    RESOURCE_PRODUCTION = "RESOURCE_PRODUCTION",
+    FOOD_PRODUCTION = "FOOD_PRODUCTION",
+    GOODS_PRODUCTION = "GOODS_PRODUCTION",
+    LOGISTICS = "LOGISTICS",
+    SERVICE = "SERVICE",
+    ADMINISTRATION = "ADMINISTRATION",
+    MODS = "MODS",
+    BRIDGE = "BRIDGE",
+}

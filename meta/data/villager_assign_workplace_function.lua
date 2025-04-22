@@ -1,13 +1,23 @@
 ---@meta
 
+---
+---Abstract class  
+---Extendable  
+---Category: Data  
+---Inherited by: VILLAGER_ASSIGN_WORKPLACE_FUNCTION_AUTO_ASSIGN_JOB, VILLAGER_ASSIGN_WORKPLACE_FUNCTION_DEFAULT, VILLAGER_ASSIGN_WORKPLACE_MANUAL_ASSIGN  
+---[Reference](https://www.polymorph.games/foundation/modding/api/villager_assign_workplace_function)
+---
 ---@class VILLAGER_ASSIGN_WORKPLACE_FUNCTION
+---@field DataType 'VILLAGER_ASSIGN_WORKPLACE_FUNCTION' The name of this data type (always "VILLAGER_ASSIGN_WORKPLACE_FUNCTION")
+
 local VILLAGER_ASSIGN_WORKPLACE_FUNCTION = {}
 
---- Virtual function: Executes the workplace assignment logic.
----@param agent COMP_AGENT The agent component.
----@param villager COMP_VILLAGER The villager component.
----@return BEHAVIOR_TREE_NODE_RESULT # The result of the execution (e.g., TRUE, FALSE, RUNNING).
-function VILLAGER_ASSIGN_WORKPLACE_FUNCTION:execute(agent, villager) end
+VILLAGER_ASSIGN_WORKPLACE_FUNCTION.DataType = "VILLAGER_ASSIGN_WORKPLACE_FUNCTION"
 
----@type VILLAGER_ASSIGN_WORKPLACE_FUNCTION
-_G.VILLAGER_ASSIGN_WORKPLACE_FUNCTION = VILLAGER_ASSIGN_WORKPLACE_FUNCTION
+---Virtual function  
+---@param agent COMP_AGENT  
+---@param villager COMP_VILLAGER  
+---@return BEHAVIOR_TREE_NODE_RESULT
+function VILLAGER_ASSIGN_WORKPLACE_FUNCTION.execute(agent, villager) end
+
+return VILLAGER_ASSIGN_WORKPLACE_FUNCTION

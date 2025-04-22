@@ -1,10 +1,20 @@
 ---@meta
 
+---
+---Category: Data
+---Serialized properties representing the ratio of a villager status.
+---Includes the status and its corresponding floating point ratio value.
+---[Reference](https://www.polymorph.games/foundation/modding/api/villager_status_ratio)
+---
 ---@class VILLAGER_STATUS_RATIO
----@field Status VILLAGER_STATUS # Asset ID of the villager status.
----@field Ratio float # Default: 0.0
+---@field DataType 'VILLAGER_STATUS_RATIO' The name of this data type (always "VILLAGER_STATUS_RATIO")
+---@field Status? VILLAGER_STATUS Serialized; Expected: asset ID of a villager status
+---@field Ratio? number Serialized; Expected: float value; Default: 0.0f
 
 local VILLAGER_STATUS_RATIO = {}
 
----@type VILLAGER_STATUS_RATIO
-_G.VILLAGER_STATUS_RATIO = VILLAGER_STATUS_RATIO
+VILLAGER_STATUS_RATIO.DataType = "VILLAGER_STATUS_RATIO"
+
+---Class methods and properties go here
+
+return VILLAGER_STATUS_RATIO

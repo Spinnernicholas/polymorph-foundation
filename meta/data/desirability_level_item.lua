@@ -1,12 +1,21 @@
 ---@meta
 
+---
+---Category: Data
+---Cloneable
+---[Reference](https://www.polymorph.games/foundation/modding/api/desirability_level_item)
+---
 ---@class DESIRABILITY_LEVEL_ITEM
----@field DesirabilityLevel DESIRABILITY_LEVEL # Enum value. Default: DESIRABILITY_LEVEL.LOW
----@field Name string
----@field Value float # Default: 0.0
----@field ZoneColor color # Default: COL_TRANSPARENT (Assuming COL_TRANSPARENT is a predefined color value)
+---@field DataType 'DESIRABILITY_LEVEL_ITEM' The name of this data type (always "DESIRABILITY_LEVEL_ITEM")
+---@field DesirabilityLevel? DESIRABILITY_LEVEL Enum value. Default: DESIRABILITY_LEVEL.LOW
+---@field Name? string String value
+---@field Value? number Float value. Default: 0.0f
+---@field ZoneColor? color Color value. Default: COL_TRANSPARENT
 
 local DESIRABILITY_LEVEL_ITEM = {}
 
----@type DESIRABILITY_LEVEL_ITEM
-_G.DESIRABILITY_LEVEL_ITEM = DESIRABILITY_LEVEL_ITEM
+DESIRABILITY_LEVEL_ITEM.DataType = "DESIRABILITY_LEVEL_ITEM"
+
+---Class methods and properties go here
+
+return DESIRABILITY_LEVEL_ITEM
