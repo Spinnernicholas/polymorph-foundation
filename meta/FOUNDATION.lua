@@ -43,11 +43,3 @@ function foundation.findGameObject(objectName) end
 
 -- Make 'foundation' global for autocomplete
 _G.foundation = foundation
-
---[[ 
-  You may want to define ASSET and GAME_OBJECT types for better autocomplete.
-  For now, they are left as placeholders. You can expand them as you learn more.
---]]
-
----@class ASSET
----@class GAME_OBJECT
