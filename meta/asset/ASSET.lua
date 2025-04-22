@@ -8,11 +8,10 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/asset)
 ---
 ---@class ASSET
----@field DataType 'ASSET' The name of this data type (always "ASSET")
+---@field DataType string # Required: The type of this asset (e.g., "NOTIFICATION", "BUILDING", etc.)
+---@field Id string      # Required: Unique identifier for this asset
 
 local ASSET = {}
-
-ASSET.DataType = "ASSET"
 
 ---Class methods and properties go here
 
