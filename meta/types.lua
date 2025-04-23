@@ -12,3 +12,5 @@
 
 ---@alias fixed_sized_array<T> T[]
 ---@alias fixed_sized_map<T, K> table<K, T>
+
+---@alias asset_id string
