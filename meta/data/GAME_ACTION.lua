@@ -14,7 +14,9 @@
 ---@field DebugComment? string Unlocalized string for debug purposes (could show in some logs)
 ---@field Delay? TIME_SYSTEM TIME_SYSTEM value
 ---@field IsHidden? boolean boolean value, default false
----
+
+local GAME_ACTION = {}
+
 ---@return string
 function GAME_ACTION:getHeaderText() end
 ---

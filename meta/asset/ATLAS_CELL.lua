@@ -9,7 +9,7 @@
 ---@class ATLAS_CELL:ASSET
 ---@field DataType 'ATLAS_CELL' The name of this data type (always "ATLAS_CELL")
 ---@field Bleed? boolean Serialized boolean value, default false
----@field 4kResolution? boolean Serialized boolean value, default false
+---@field ['4kResolution']? boolean Serialized boolean value, default false
 ---@field UsageSizeList? vec2i[] Serialized list of vec2i values
 
 local ATLAS_CELL = {}

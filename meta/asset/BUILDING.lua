@@ -18,7 +18,7 @@
 ---@field HasOwnNavMeshZoneId? boolean Serialized boolean value, default true
 ---@field IsForceMonument? boolean Serialized boolean value, default false Forces building to be considered as a monument. For example, this will allow the building to have decorations and masterpieces.
 ---@field OptionalSubBuildingIcon? ATLAS_CELL Serialized asset ID, default nil
----@field AssetCoreBuildingPart? BUILDING_PART Serialized asset ID
+---@field AssetCoreBuildingPart? BUILDING_PART | asset_id Serialized asset ID
 ---@field AssetMiniatureBuildingPart? BUILDING_PART Serialized asset ID, default nil
 ---@field SubAssetBuildingList? BUILDING[] Serialized list of asset IDs
 ---@field AssetBuildingPartList? BUILDING_PART[] Serialized list of asset IDs

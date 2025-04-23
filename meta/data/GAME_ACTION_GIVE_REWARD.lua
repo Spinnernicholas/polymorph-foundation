@@ -12,7 +12,6 @@
 ---
 ---@class GAME_ACTION_GIVE_REWARD:GAME_ACTION
 ---@field ActionList? list<GAME_ACTION> List of GAME_ACTION values
----@field ActionList? list<GAME_ACTION> Serialized
 
 local GAME_ACTION_GIVE_REWARD = {}
 

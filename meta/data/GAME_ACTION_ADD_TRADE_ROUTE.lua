@@ -2,7 +2,7 @@
 
 ---
 ---Deprecated names:
----@field EVENT_ACTION_ADD_TRADE_ROUTE? any Deprecated name for this class.
+---EVENT_ACTION_ADD_TRADE_ROUTE
 ---
 ---Category: Data
 ---Parent class: GAME_ACTION

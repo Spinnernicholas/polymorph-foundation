@@ -13,7 +13,7 @@
 ---@field DataType 'RESOURCE' The name of this data type (always "RESOURCE")
 ---@field ResourceName? string Serialized string value
 ---@field OrderId? integer Serialized integer value (default 0)
----@field Icon? ATLAS_CELL Serialized asset ID
+---@field Icon? ATLAS_CELL | asset_id Serialized asset ID
 ---@field ResourceTypeList? RESOURCE_TYPE[] Serialized list of enum values
 ---@field ResourceLayoutType? RESOURCE_LAYOUT_TYPE Serialized enum value (default RESOURCE_LAYOUT_TYPE.CRATES)
 ---@field IsUnique? boolean Serialized boolean value (default false)
