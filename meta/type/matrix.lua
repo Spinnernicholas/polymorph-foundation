@@ -7,21 +7,21 @@
 ---
 ---@class matrix
 ---@field DataType 'matrix' The name of this data type (always "matrix")
----@field setIdentity? fun(object: matrix) void
----@field setTranslation? fun(object: matrix, translation: vec3f):void
----@field setTranslation? fun(object: matrix, x: float, y: float, z: float):void
----@field translate? fun(object: matrix, translation: vec3f):void
----@field translate? fun(object: matrix, x: float, y: float, z: float):void
+---@field setIdentity? fun(object: matrix)
+---@field setTranslation? fun(object: matrix, translation: vec3f)
+---@field setTranslation? fun(object: matrix, x: float, y: float, z: float)
+---@field translate? fun(object: matrix, translation: vec3f)
+---@field translate? fun(object: matrix, x: float, y: float, z: float)
 ---@field getTranslation? fun(object: matrix): vec3f
 ---@field getScale? fun(object: matrix): vec3f
----@field setScale? fun(object: matrix, x: float, y: float, z: float):void
----@field setScale? fun(object: matrix, scale: vec3f):void
----@field rotate? fun(object: matrix, quaternion: quaternion):void
+---@field setScale? fun(object: matrix, x: float, y: float, z: float)
+---@field setScale? fun(object: matrix, scale: vec3f)
+---@field rotate? fun(object: matrix, quaternion: quaternion)
 ---@field det? fun(object: matrix): float
 ---@field detUniform? fun(object: matrix): float
 ---@field inverse? fun(object: matrix): matrix
 ---@field inverseUniform? fun(object: matrix): matrix
----@field getTransform? fun(object: matrix, outTranslation: vec3f, outOrientation: quaternion, outScale: vec3f):void
+---@field getTransform? fun(object: matrix, outTranslation: vec3f, outOrientation: quaternion, outScale: vec3f)
 ---@field transpose? fun(object: matrix): matrix
 ---@field transformPoint? fun(object: matrix, v: vec3f): vec3f
 ---@field transformPoint? fun(object: matrix, v: vec3f, outW: float): vec3f

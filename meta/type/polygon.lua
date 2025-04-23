@@ -21,14 +21,14 @@
 ---@field edgeDistance? fun(object: polygon, polygon: polygon): float
 ---@field edgeDistance2? fun(object: polygon, point: vec2f): float
 ---@field edgeDistance2? fun(object: polygon, polygon: polygon): float
----@field reverseOrder? fun(object: polygon): void
+---@field reverseOrder? fun(object: polygon)
 ---@field tryComputeCentroid? fun(object: polygon, outCentroid: vec2f): boolean
 ---@field computeCentroid? fun(object: polygon): vec2f
 ---@field computeArea? fun(object: polygon): float
 ---@field computeAbsoluteArea? fun(object: polygon): float
 ---@field isClockWise? fun(object: polygon): boolean
 ---@field isComplex? fun(object: polygon): boolean
----@field getMinMax? fun(object: polygon, outMin: vec2f, outMax: vec2f): void
+---@field getMinMax? fun(object: polygon, outMin: vec2f, outMax: vec2f)
 
 local polygon = {}
 
