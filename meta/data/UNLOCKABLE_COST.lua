@@ -10,7 +10,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/unlockable_cost)
 ---
 ---@class UNLOCKABLE_COST
----@field DataType 'UNLOCKABLE_COST' The name of this data type (always "UNLOCKABLE_COST")
 ---@field DataInfluenceCostList? table<integer,any> list of ESTATE_QUANTITY_PAIR values
 ---@field ResourceCollection? any RESOURCE_COLLECTION_VALUE or list of RESOURCE_QUANTITY_PAIR values
 ---@field InfluenceCap? integer If different than 0, will apply cap on influence values; default is 0

@@ -9,7 +9,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_building_built)
 ---
 ---@class GAME_CONDITION_BUILDING_BUILT:GAME_CONDITION
----@field DataType 'GAME_CONDITION_BUILDING_BUILT' The name of this data type (always "GAME_CONDITION_BUILDING_BUILT")
 ---@field AssetBuilding? BUILDING AssetBuilding (Serialized). Expected: asset ID
 ---@field IsEditingQuest? boolean IsEditingQuest (Serialized). Expected: boolean value. Default: false
 ---@field RequiredPartList? MONUMENT_REQUIRED_PART_PAIR[] RequiredPartList (Serialized). Expected: list of MONUMENT_REQUIRED_PART_PAIR values

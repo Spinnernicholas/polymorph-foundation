@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/help_category)
 ---
 ---@class HELP_CATEGORY
----@field DataType 'HELP_CATEGORY' The name of this data type (always "HELP_CATEGORY")
 ---@field CategoryKey? string Localization key for the title of the help section
 ---@field HelpTopicList? HELP_TOPIC[] List of HELP_TOPIC values
 ---@field AssetUnlockFunction? UNLOCK_FUNCTION Asset ID for unlock function (default: nil)

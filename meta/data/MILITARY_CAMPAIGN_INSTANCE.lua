@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/military_campaign_instance)
 ---
 ---@class MILITARY_CAMPAIGN_INSTANCE
----@field DataType 'MILITARY_CAMPAIGN_INSTANCE' The name of this data type (always "MILITARY_CAMPAIGN_INSTANCE")
 
 local MILITARY_CAMPAIGN_INSTANCE = {}
 

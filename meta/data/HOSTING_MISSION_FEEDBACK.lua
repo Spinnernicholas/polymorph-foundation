@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/hosting_mission_feedback)
 ---
 ---@class HOSTING_MISSION_FEEDBACK
----@field DataType 'HOSTING_MISSION_FEEDBACK' The name of this data type (always "HOSTING_MISSION_FEEDBACK")
 ---@field RewardList? GAME_ACTION[] list of GAME_ACTION values
 ---@field AssetNarrativePanel? NARRATIVE_PANEL asset ID
 

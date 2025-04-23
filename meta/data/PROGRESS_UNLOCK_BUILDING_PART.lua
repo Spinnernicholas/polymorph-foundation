@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/progress_unlock_building_part)
 ---
 ---@class PROGRESS_UNLOCK_BUILDING_PART
----@field DataType 'PROGRESS_UNLOCK_BUILDING_PART' The name of this data type (always "PROGRESS_UNLOCK_BUILDING_PART")
 ---@field OwnerBuilding? BUILDING Serialized; expected to be an asset ID of a building
 ---@field AssetBuildingPartList? BUILDING_PART[] Serialized list of asset IDs representing building parts
 ---@field SubBuildingList? BUILDING[] Serialized list of asset IDs representing sub-buildings

@@ -10,7 +10,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/building_asset_taxation_function_pair)
 ---
 ---@class BUILDING_ASSET_TAXATION_FUNCTION_PAIR
----@field DataType 'BUILDING_ASSET_TAXATION_FUNCTION_PAIR' The name of this data type (always "BUILDING_ASSET_TAXATION_FUNCTION_PAIR")
 ---@field AssetBuilding? BUILDING AssetBuilding asset ID
 ---@field AssetTaxationFunction? TAXATION_FUNCTION AssetTaxationFunction asset ID
 

@@ -8,7 +8,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/delayed_quest)
 ---
 ---@class DELAYED_QUEST
----@field DataType 'DELAYED_QUEST' The name of this data type (always "DELAYED_QUEST")
 ---@field AssetQuest? ABSTRACT_QUEST AssetQuest is a serialized field expecting an asset ID reference to an ABSTRACT_QUEST
 ---@field Delay? float Delay is a serialized float value, defaulting to 0.0
 

@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/data_notification_on_click_book)
 ---
 ---@class DATA_NOTIFICATION_ON_CLICK_BOOK:DATA_NOTIFICATION_ON_CLICK
----@field DataType 'DATA_NOTIFICATION_ON_CLICK_BOOK' The name of this data type (always "DATA_NOTIFICATION_ON_CLICK_BOOK")
 ---@field BookId? string Serialized string value
 ---@field BookPageKey? string Serialized string value
 

@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_dice_roller_boolean_outcome)
 ---
 ---@class GAME_ACTION_DICE_ROLLER_BOOLEAN_OUTCOME:GAME_ACTION
----@field DataType 'GAME_ACTION_DICE_ROLLER_BOOLEAN_OUTCOME' The name of this data type (always "GAME_ACTION_DICE_ROLLER_BOOLEAN_OUTCOME")
 ---@field SuccessTitleKey? string string value
 ---@field FailTitleKey? string string value
 ---@field ProbabilityCondition? GAME_CONDITION_PROBABILITY GAME_CONDITION_PROBABILITY value

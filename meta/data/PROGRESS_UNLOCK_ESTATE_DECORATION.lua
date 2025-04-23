@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/progress_unlock_estate_decoration)
 ---
 ---@class PROGRESS_UNLOCK_ESTATE_DECORATION
----@field DataType 'PROGRESS_UNLOCK_ESTATE_DECORATION' The name of this data type (always "PROGRESS_UNLOCK_ESTATE_DECORATION")
 ---@field AssetEstate? ESTATE Asset estate (asset ID)
 ---@field AssetBuildingPartList? BUILDING_PART[] List of building part asset IDs to unlock (only 'DECORATIVE_ESTATE' category)
 

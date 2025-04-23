@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/military_campaign_probability)
 ---
 ---@class MILITARY_CAMPAIGN_PROBABILITY
----@field DataType 'MILITARY_CAMPAIGN_PROBABILITY' The name of this data type (always "MILITARY_CAMPAIGN_PROBABILITY")
 ---@field SuccessfulMissionMultiplier? float Multiplier value if the mission is successful
 ---@field SoldierWoundedMultiplier? float Multiplier value if the soldier is wounded
 ---@field SoldierHealthyMultiplier? float Multiplier value if the soldier is healthy

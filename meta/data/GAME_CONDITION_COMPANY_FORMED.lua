@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_company_formed)
 ---
 ---@class GAME_CONDITION_COMPANY_FORMED:GAME_CONDITION
----@field DataType 'GAME_CONDITION_COMPANY_FORMED' The name of this data type (always "GAME_CONDITION_COMPANY_FORMED")
 ---@field AssetMilitaryCompanyToLook? MILITARY_COMPANY If null, will look if any company is formed. Expected asset ID. Default is nil.
 ---@field Quantity? integer_and_unsigned_integer Expected integer value. Default is 1.
 

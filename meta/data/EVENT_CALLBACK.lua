@@ -9,7 +9,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/event_callback)
 ---
 ---@class EVENT_CALLBACK
----@field DataType 'EVENT_CALLBACK' The name of this data type (always "EVENT_CALLBACK")
 
 local EVENT_CALLBACK = {}
 

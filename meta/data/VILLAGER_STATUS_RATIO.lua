@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/villager_status_ratio)
 ---
 ---@class VILLAGER_STATUS_RATIO
----@field DataType 'VILLAGER_STATUS_RATIO' The name of this data type (always "VILLAGER_STATUS_RATIO")
 ---@field Status? VILLAGER_STATUS Serialized; Expected: asset ID of a villager status
 ---@field Ratio? number Serialized; Expected: float value; Default: 0.0f
 

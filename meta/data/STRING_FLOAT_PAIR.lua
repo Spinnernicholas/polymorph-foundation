@@ -10,7 +10,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/string_float_pair)
 ---
 ---@class STRING_FLOAT_PAIR
----@field DataType 'STRING_FLOAT_PAIR' The name of this data type (always "STRING_FLOAT_PAIR")
 ---@field StringKey? string Serialized string value
 ---@field Value? number Serialized float value (default 0)
 

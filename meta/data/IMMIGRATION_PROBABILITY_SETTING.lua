@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/immigration_probability_setting)
 ---
 ---@class IMMIGRATION_PROBABILITY_SETTING
----@field DataType 'IMMIGRATION_PROBABILITY_SETTING' The name of this data type (always "IMMIGRATION_PROBABILITY_SETTING")
 ---@field ProbabilityUpperValue? float Serialized float value, default is 0.0f
 ---@field VillagerCountRange? vec2i Serialized vec2i value
 

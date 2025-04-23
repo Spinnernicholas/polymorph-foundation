@@ -11,7 +11,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_building_splendor)
 ---
 ---@class GAME_RULE_MODIFIER_BUILDING_SPLENDOR:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_BUILDING_SPLENDOR' The name of this data type (always "GAME_RULE_MODIFIER_BUILDING_SPLENDOR")
 ---@field SplendorMultiplier? float Serialized float value, default is 1.5f
 ---@field ApplyToParentBuilding? boolean Serialized boolean value, default is true
 

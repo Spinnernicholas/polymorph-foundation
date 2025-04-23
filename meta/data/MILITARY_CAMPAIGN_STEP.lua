@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/military_campaign_step)
 ---
 ---@class MILITARY_CAMPAIGN_STEP
----@field DataType 'MILITARY_CAMPAIGN_STEP' The name of this data type (always "MILITARY_CAMPAIGN_STEP")
 ---@field AssetNarrativePanel? NARRATIVE_PANEL Serialized. Expected: asset ID. Default value: nil
 ---@field MissionList? table<number, MILITARY_MISSION> Serialized. Expected: list of MILITARY_MISSION values
 

@@ -4,7 +4,6 @@
 ---Category: Data
 ---
 ---@class VILLAGER_VALUE_PAIR
----@field DataType 'VILLAGER_VALUE_PAIR' The name of this data type (always "VILLAGER_VALUE_PAIR")
 
 local VILLAGER_VALUE_PAIR = {}
 

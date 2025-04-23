@@ -8,7 +8,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/building_path_data)
 ---
 ---@class BUILDING_PATH_DATA
----@field DataType 'BUILDING_PATH_DATA' The name of this data type (always "BUILDING_PATH_DATA")
 ---@field WaypointPositionList? table<integer,vec3f> list of vec3f values
 ---@field WaypointLinkList? table<integer,vec2i> list of vec2i values
 ---@field EntranceList? table<integer,BUILDING_ENTRANCE_DATA> list of BUILDING_ENTRANCE_DATA values

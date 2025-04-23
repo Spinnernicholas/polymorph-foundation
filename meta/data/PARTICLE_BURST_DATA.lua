@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/particle_burst_data)
 ---
 ---@class PARTICLE_BURST_DATA
----@field DataType 'PARTICLE_BURST_DATA' The name of this data type (always "PARTICLE_BURST_DATA")
 ---@field Time? number Serialized float value, defaults to 0.0
 ---@field Count? integer Serialized integer value, defaults to 10
 ---@field Cycles? integer Serialized integer value, defaults to 1

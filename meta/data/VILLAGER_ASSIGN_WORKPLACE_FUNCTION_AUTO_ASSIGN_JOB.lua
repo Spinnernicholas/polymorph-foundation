@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/villager_assign_workplace_function_auto_assign_job)
 ---
 ---@class VILLAGER_ASSIGN_WORKPLACE_FUNCTION_AUTO_ASSIGN_JOB:VILLAGER_ASSIGN_WORKPLACE_FUNCTION
----@field DataType 'VILLAGER_ASSIGN_WORKPLACE_FUNCTION_AUTO_ASSIGN_JOB' The name of this data type (always "VILLAGER_ASSIGN_WORKPLACE_FUNCTION_AUTO_ASSIGN_JOB")
 
 local VILLAGER_ASSIGN_WORKPLACE_FUNCTION_AUTO_ASSIGN_JOB = {}
 

@@ -11,7 +11,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/particle_float3_value)
 ---
 ---@class PARTICLE_FLOAT3_VALUE
----@field DataType 'PARTICLE_FLOAT3_VALUE' The name of this data type (always "PARTICLE_FLOAT3_VALUE")
 
 local PARTICLE_FLOAT3_VALUE = {}
 

@@ -4,7 +4,6 @@
 ---Category: Data
 ---
 ---@class BUILDING_FUNCTION_WAREHOUSE_ALLOWED_RESOURCE_TYPE_INFO
----@field DataType 'BUILDING_FUNCTION_WAREHOUSE_ALLOWED_RESOURCE_TYPE_INFO' The name of this data type (always "BUILDING_FUNCTION_WAREHOUSE_ALLOWED_RESOURCE_TYPE_INFO")
 ---@field ResourceType? RESOURCE_TYPE Serialized enum value
 ---@field ShowInDescription? boolean Serialized boolean value, default true
 

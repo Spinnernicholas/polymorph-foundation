@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/building_part_cost_pair)
 ---
 ---@class BUILDING_PART_COST_PAIR
----@field DataType 'BUILDING_PART_COST_PAIR' The name of this data type (always "BUILDING_PART_COST_PAIR")
 ---@field BuildingPart? BUILDING_PART Serialized building part reference, expected to be an asset ID.
 ---@field BuildingPartCost? BUILDING_PART_COST Serialized building part cost value.
 

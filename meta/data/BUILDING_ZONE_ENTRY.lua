@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/building_zone_entry)
 ---
 ---@class BUILDING_ZONE_ENTRY
----@field DataType 'BUILDING_ZONE_ENTRY' The name of this data type (always "BUILDING_ZONE_ENTRY")
 ---@field Polygon? polygon Serialized polygon value
 ---@field Type? bitfield<BUILDING_ZONE_TYPE> Serialized bitfield of BUILDING_ZONE_TYPE values
 

@@ -9,7 +9,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_revenue)
 ---
 ---@class GAME_CONDITION_REVENUE:GAME_CONDITION
----@field DataType 'GAME_CONDITION_REVENUE' The name of this data type (always "GAME_CONDITION_REVENUE")
 ---@field ComparisonOperator? COMPARISON_OPERATOR Serialized enum value. Default: COMPARISON_OPERATOR.GREATER_OR_EQUAL
 ---@field Profit? integer Serialized integer value. Default: 0
 ---@field BudgetCategoryList? BUDGET_CATEGORY[] Serialized list of enum values. If empty, all budget categories are considered.

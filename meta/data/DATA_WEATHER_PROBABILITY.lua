@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/data_weather_probability)
 ---
 ---@class DATA_WEATHER_PROBABILITY
----@field DataType 'DATA_WEATHER_PROBABILITY' The name of this data type (always "DATA_WEATHER_PROBABILITY")
 ---@field Probability? integer integer value representing the probability (default 0)
 ---@field Weather? WEATHER_SETTING asset ID of the associated weather setting
 

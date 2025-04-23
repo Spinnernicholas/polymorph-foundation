@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_crop_yields)
 ---
 ---@class GAME_RULE_MODIFIER_CROP_YIELDS:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_CROP_YIELDS' The name of this data type (always "GAME_RULE_MODIFIER_CROP_YIELDS")
 ---@field ResourceList? list<RESOURCE> list of asset IDs
 ---@field YieldPercentage? float float value (default is 1.0f)
 

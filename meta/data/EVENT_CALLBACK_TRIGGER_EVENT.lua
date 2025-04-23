@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/event_callback_trigger_event)
 ---
 ---@class EVENT_CALLBACK_TRIGGER_EVENT:EVENT_CALLBACK
----@field DataType 'EVENT_CALLBACK_TRIGGER_EVENT' The name of this data type (always "EVENT_CALLBACK_TRIGGER_EVENT")
 ---@field Event? EVENT Serialized event. Expected: asset ID
 ---@field Delay? float Delay in seconds. Expected: float value. Default: 0.0f
 

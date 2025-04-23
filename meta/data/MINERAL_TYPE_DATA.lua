@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/mineral_type_data)
 ---
 ---@class MINERAL_TYPE_DATA
----@field DataType 'MINERAL_TYPE_DATA' The name of this data type (always "MINERAL_TYPE_DATA")
 ---@field AssetMineralBuilding? BUILDING Serialized; Expected: asset ID
 
 local MINERAL_TYPE_DATA = {}

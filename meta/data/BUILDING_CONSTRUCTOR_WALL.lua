@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/building_constructor_wall)
 ---
 ---@class BUILDING_CONSTRUCTOR_WALL:BUILDING_CONSTRUCTOR
----@field DataType 'BUILDING_CONSTRUCTOR_WALL' The name of this data type (always "BUILDING_CONSTRUCTOR_WALL")
 ---@field ControlPointPart? BUILDING_PART Serialized. Expected: asset ID
 ---@field SectionPart? BUILDING_PART Serialized. Expected: asset ID
 ---@field SegmentPart? BUILDING_PART Serialized. Expected: asset ID

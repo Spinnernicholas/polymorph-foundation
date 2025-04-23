@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/taxation_per_house_status)
 ---
 ---@class TAXATION_PER_HOUSE_STATUS
----@field DataType 'TAXATION_PER_HOUSE_STATUS' The name of this data type (always "TAXATION_PER_HOUSE_STATUS")
 ---@field HouseStatus? integer integer value, default 0, serialized
 ---@field MaxAmountToCumulatePerOccupant? integer integer value, default 0, serialized
 

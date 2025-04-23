@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/agent_profile_function_visitor)
 ---
 ---@class AGENT_PROFILE_FUNCTION_VISITOR:AGENT_PROFILE_FUNCTION
----@field DataType 'AGENT_PROFILE_FUNCTION_VISITOR' The name of this data type (always "AGENT_PROFILE_FUNCTION_VISITOR")
 
 local AGENT_PROFILE_FUNCTION_VISITOR = {}
 

@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_production_cycle_duration_multiplier)
 ---
 ---@class GAME_RULE_MODIFIER_PRODUCTION_CYCLE_DURATION_MULTIPLIER:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_PRODUCTION_CYCLE_DURATION_MULTIPLIER' The name of this data type (always "GAME_RULE_MODIFIER_PRODUCTION_CYCLE_DURATION_MULTIPLIER")
 ---@field ProductionCycleDurationMultiplier? float Serialized float value, default is 1.0f
 
 local GAME_RULE_MODIFIER_PRODUCTION_CYCLE_DURATION_MULTIPLIER = {}

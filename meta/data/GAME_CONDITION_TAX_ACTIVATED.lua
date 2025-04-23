@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_tax_activated)
 ---
 ---@class GAME_CONDITION_TAX_ACTIVATED:GAME_CONDITION
----@field DataType 'GAME_CONDITION_TAX_ACTIVATED' The name of this data type (always "GAME_CONDITION_TAX_ACTIVATED")
 ---@field AssetTaxationFunctionList? list<TAXATION_FUNCTION> If empty, will look at all available taxes to verify condition. Expected: list of asset IDs
 ---@field IsAny? boolean True: one item in the list needs to be active. False: All items in the list must be active. Default value: true
 

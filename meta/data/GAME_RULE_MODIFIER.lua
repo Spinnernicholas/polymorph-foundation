@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier)
 ---
 ---@class GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER' The name of this data type (always "GAME_RULE_MODIFIER")
 ---@field Name? string Serialized string value
 ---@field DurationInDays? integer Serialized integer value. If set to 0, it means 'infinite'. Default is 0.
 ---@field IsGlobal? boolean Serialized boolean value. Default is true.

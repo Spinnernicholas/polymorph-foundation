@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/particle_default_visual)
 ---
 ---@class PARTICLE_DEFAULT_VISUAL:PARTICLE_VISUAL
----@field DataType 'PARTICLE_DEFAULT_VISUAL' The name of this data type (always "PARTICLE_DEFAULT_VISUAL")
 
 local PARTICLE_DEFAULT_VISUAL = {}
 

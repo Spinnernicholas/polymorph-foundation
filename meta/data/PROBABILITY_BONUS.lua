@@ -9,7 +9,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/probability_bonus)
 ---
 ---@class PROBABILITY_BONUS
----@field DataType 'PROBABILITY_BONUS' The name of this data type (always "PROBABILITY_BONUS")
 
 local PROBABILITY_BONUS = {}
 

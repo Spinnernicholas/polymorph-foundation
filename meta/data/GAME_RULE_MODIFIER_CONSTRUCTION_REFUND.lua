@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_construction_refund)
 ---
 ---@class GAME_RULE_MODIFIER_CONSTRUCTION_REFUND:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_CONSTRUCTION_REFUND' The name of this data type (always "GAME_RULE_MODIFIER_CONSTRUCTION_REFUND")
 ---@field ResourceList? list<RESOURCE> List of resource asset IDs to consider for refund
 ---@field RefundPercentage? float Refund ratio where 1 is 100% of construction cost and 0.5 is 50%, default is 0.5
 

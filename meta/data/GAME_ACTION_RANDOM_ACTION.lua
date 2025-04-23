@@ -12,7 +12,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_random_action)
 ---
 ---@class GAME_ACTION_RANDOM_ACTION:GAME_ACTION
----@field DataType 'GAME_ACTION_RANDOM_ACTION' The name of this data type (always "GAME_ACTION_RANDOM_ACTION")
 ---@field ActionList? list<GAME_ACTION> list of GAME_ACTION values
 
 local GAME_ACTION_RANDOM_ACTION = {}

@@ -4,7 +4,6 @@
 ---Category: Data
 ---
 ---@class CHARACTER_SETUP_DATA
----@field DataType 'CHARACTER_SETUP_DATA' The name of this data type (always "CHARACTER_SETUP_DATA")
 ---@field LeftHandObject? HAND_OBJECT Serialized; HAND_OBJECT value; default nil
 ---@field RightHandObject? HAND_OBJECT Serialized; HAND_OBJECT value; default nil
 ---@field HatList? PREFAB[] Serialized; list of asset IDs

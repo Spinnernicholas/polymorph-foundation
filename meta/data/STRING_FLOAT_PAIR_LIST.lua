@@ -9,7 +9,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/string_float_pair_list)
 ---
 ---@class STRING_FLOAT_PAIR_LIST
----@field DataType 'STRING_FLOAT_PAIR_LIST' The name of this data type (always "STRING_FLOAT_PAIR_LIST")
 ---@field StringValueList? table[] List of STRING_FLOAT_PAIR values (serialized list of pairs)
 
 local STRING_FLOAT_PAIR_LIST = {}

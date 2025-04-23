@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/masterpiece_effect_condition)
 ---
 ---@class MASTERPIECE_EFFECT_CONDITION
----@field DataType 'MASTERPIECE_EFFECT_CONDITION' The name of this data type (always "MASTERPIECE_EFFECT_CONDITION")
 ---@field Condition? GAME_CONDITION Serialized game condition affecting masterpieces
 ---@field ExcludedMasterpieceList? MASTERPIECE[] Serialized list of masterpiece asset IDs to exclude
 

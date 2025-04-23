@@ -10,7 +10,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_building_part_count)
 ---
 ---@class GAME_CONDITION_BUILDING_PART_COUNT:GAME_CONDITION_BUILDING
----@field DataType 'GAME_CONDITION_BUILDING_PART_COUNT' The name of this data type (always "GAME_CONDITION_BUILDING_PART_COUNT")
 ---@field ExcludeMasterpieceParts? boolean Serialized. Expected: boolean value. Default: false
 ---@field IsLessOrEqual? boolean Serialized. Expected: boolean value. Default: true
 ---@field PartCount? integer Serialized. Expected: integer value. Default: 5

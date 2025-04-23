@@ -8,7 +8,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/score_tracker)
 ---
 ---@class SCORE_TRACKER
----@field DataType 'SCORE_TRACKER' The name of this data type (always "SCORE_TRACKER")
 ---@field getScoreValue? fun(self): integer|unsigned_integer Virtual function. Returns the score value.
 ---@field getScoreTrackerData? fun(self): SCORE_TRACKER_DATA Returns related SCORE_TRACKER_DATA.
 ---@field addScoreValue? fun(self, scoreDelta: float) Virtual function. Adds the given delta to the score.

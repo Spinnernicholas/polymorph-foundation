@@ -9,7 +9,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/agent_profile_status_pair)
 ---
 ---@class AGENT_PROFILE_STATUS_PAIR
----@field DataType 'AGENT_PROFILE_STATUS_PAIR' The name of this data type (always "AGENT_PROFILE_STATUS_PAIR")
 ---@field AssetAgentProfile? AGENT_PROFILE Serialized asset ID reference to an agent profile
 ---@field AssetVillagerStatus? VILLAGER_STATUS Serialized asset ID reference to a villager status
 

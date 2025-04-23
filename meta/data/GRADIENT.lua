@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/gradient)
 ---
 ---@class GRADIENT
----@field DataType 'GRADIENT' The name of this data type (always "GRADIENT")
 ---@field ColorList? table[] list of GRADIENT_COLOR_VALUE values
 ---@field AlphaList? table[] list of GRADIENT_ALPHA_VALUE values
 

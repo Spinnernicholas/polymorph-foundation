@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/bailiff_instance)
 ---
 ---@class BAILIFF_INSTANCE
----@field DataType 'BAILIFF_INSTANCE' The name of this data type (always "BAILIFF_INSTANCE")
 ---@field villager? COMP_VILLAGER Pair of asset ID and component data type
 ---@field profile? BAILIFF_PROFILE BAILIFF_PROFILE value
 

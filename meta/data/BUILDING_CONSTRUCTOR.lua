@@ -12,7 +12,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/building_constructor)
 ---
 ---@class BUILDING_CONSTRUCTOR
----@field DataType 'BUILDING_CONSTRUCTOR' The name of this data type (always "BUILDING_CONSTRUCTOR")
 ---@field MiniatureConfig? BUILDING_MINIATURE_CONFIG MiniatureConfig property, serialized
 
 local BUILDING_CONSTRUCTOR = {}

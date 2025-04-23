@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/outcome_panel_extra_gui)
 ---
 ---@class OUTCOME_PANEL_EXTRA_GUI
----@field DataType 'OUTCOME_PANEL_EXTRA_GUI' The name of this data type (always "OUTCOME_PANEL_EXTRA_GUI")
 
 local OUTCOME_PANEL_EXTRA_GUI = {}
 

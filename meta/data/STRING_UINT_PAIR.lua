@@ -4,7 +4,6 @@
 ---Category: Data
 ---
 ---@class STRING_UINT_PAIR
----@field DataType 'STRING_UINT_PAIR' The name of this data type (always "STRING_UINT_PAIR")
 ---@field StringKey? string Serialized string value
 ---@field Value? integer Serialized integer value (default 0)
 

@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_mandate_cost)
 ---
 ---@class GAME_RULE_MODIFIER_MANDATE_COST:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_MANDATE_COST' The name of this data type (always "GAME_RULE_MODIFIER_MANDATE_COST")
 ---@field AssetMandateList? list<MANDATE_TYPE> List of asset IDs
 ---@field CostPercentage? float Percentage in decimal (1 is 100%). The minimum value is 0
 

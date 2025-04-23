@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_agent_happiness)
 ---
 ---@class GAME_RULE_MODIFIER_AGENT_HAPPINESS:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_AGENT_HAPPINESS' The name of this data type (always "GAME_RULE_MODIFIER_AGENT_HAPPINESS")
 ---@field DataGameRuleModifier? GAME_RULE_MODIFIER_VILLAGER_HAPPINESS Serialized GAME_RULE_MODIFIER_VILLAGER_HAPPINESS value
 ---@field VillagerStatusList? list<VILLAGER_STATUS> Serialized list of asset IDs
 ---@field AssetAgentProfileList? list<AGENT_PROFILE> Serialized list of asset IDs

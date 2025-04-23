@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/data_house_density)
 ---
 ---@class DATA_HOUSE_DENSITY
----@field DataType 'DATA_HOUSE_DENSITY' The name of this data type (always "DATA_HOUSE_DENSITY")
 ---@field Name? string Serialized string value
 ---@field Description? string Serialized string value
 ---@field HouseIcon? ATLAS_CELL Serialized asset ID

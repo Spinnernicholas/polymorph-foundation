@@ -8,7 +8,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/mandate)
 ---
 ---@class MANDATE
----@field DataType 'MANDATE' The name of this data type (always "MANDATE")
 ---@field AssetMandate? MANDATE_TYPE Runtime only, Savegame. Expected: asset ID
 ---@field ResourceListNeeded? RESOURCE_COLLECTION_VALUE|table<RESOURCE_QUANTITY_PAIR> Runtime only, Savegame. Can also be built from list<RESOURCE_QUANTITY_PAIR>. Expected: RESOURCE_COLLECTION_VALUE value or list of RESOURCE_QUANTITY_PAIR values
 ---@field AssignedVillager? COMP_VILLAGER Runtime only, Savegame. Expected: pair of asset ID and component data type

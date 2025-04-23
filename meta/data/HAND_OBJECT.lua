@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/hand_object)
 ---
 ---@class HAND_OBJECT
----@field DataType 'HAND_OBJECT' The name of this data type (always "HAND_OBJECT")
 ---@field Model? PREFAB Asset ID of the model
 ---@field KeepObjectOnWalkCycle? boolean Whether to keep the object during walk cycle (default: true)
 ---@field IdleOverrideAttachOnCharacter? CHARACTER_PART The attach used to set the tool when the character is on idle animation, used only if nothing is attached there already (default: CHARACTER_PART.-1)

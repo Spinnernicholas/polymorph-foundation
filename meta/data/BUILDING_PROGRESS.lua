@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/building_progress)
 ---
 ---@class BUILDING_PROGRESS
----@field DataType 'BUILDING_PROGRESS' The name of this data type (always "BUILDING_PROGRESS")
 ---@field UnlockName? string Serialized string value
 ---@field AssetBuildingList? BUILDING[] Serialized list of asset IDs
 ---@field AdditionalBuildingUnlockList? PROGRESS_UNLOCK_BUILDING_PART[] Serialized list of PROGRESS_UNLOCK_BUILDING_PART values

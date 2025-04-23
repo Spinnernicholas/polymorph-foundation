@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/association_job_behavior)
 ---
 ---@class ASSOCIATION_JOB_BEHAVIOR
----@field DataType 'ASSOCIATION_JOB_BEHAVIOR' The name of this data type (always "ASSOCIATION_JOB_BEHAVIOR")
 ---@field Job? JOB Serialized. Expected: asset ID
 ---@field Behavior? BEHAVIOR_TREE Serialized. Expected: asset ID
 

@@ -9,7 +9,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/procedural_color)
 ---
 ---@class PROCEDURAL_COLOR
----@field DataType 'PROCEDURAL_COLOR' The name of this data type (always "PROCEDURAL_COLOR")
 ---@field Type? PROCEDURAL_VALUE_TYPE Serialized. Type of procedural value. Expected: enum value. Default: PROCEDURAL_VALUE_TYPE.RANDOM_RANGE
 ---@field Value? color Serialized. Constant color value. Expected: color value. Default: COL_BLACK
 ---@field Min? color Serialized. Lower value of random range. Expected: color value. Default: COL_BLACK

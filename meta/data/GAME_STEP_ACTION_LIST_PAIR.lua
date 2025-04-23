@@ -9,7 +9,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_step_action_list_pair)
 ---
 ---@class GAME_STEP_ACTION_LIST_PAIR
----@field DataType 'GAME_STEP_ACTION_LIST_PAIR' The name of this data type (always "GAME_STEP_ACTION_LIST_PAIR")
 ---@field GameStep? GAME_STEP Serialized enum value representing the game step (default: GAME_STEP.DEFAULT)
 ---@field ActionList? GAME_ACTION[] Serialized list of game action values
 

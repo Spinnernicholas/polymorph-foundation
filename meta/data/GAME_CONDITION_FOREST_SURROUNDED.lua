@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_forest_surrounded)
 ---
 ---@class GAME_CONDITION_FOREST_SURROUNDED:GAME_CONDITION
----@field DataType 'GAME_CONDITION_FOREST_SURROUNDED' The name of this data type (always "GAME_CONDITION_FOREST_SURROUNDED")
 ---@field MinimumForestRatio? float Serialized float value, default 0.9f
 ---@field RecessDistance? float Serialized float value, default 10.0f
 ---@field MaxForestDetectionDistance? float Serialized float value, default 20.0f

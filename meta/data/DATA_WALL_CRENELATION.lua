@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/data_wall_crenelation)
 ---
 ---@class DATA_WALL_CRENELATION
----@field DataType 'DATA_WALL_CRENELATION' The name of this data type (always "DATA_WALL_CRENELATION")
 ---@field Visual? PREFAB Serialized. Expected: asset ID
 ---@field Length? float Serialized. Expected: float value. Default value: 2.0f
 ---@field Offset? vec3f Serialized. Expected: vec3f value

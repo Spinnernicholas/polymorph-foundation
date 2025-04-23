@@ -5,7 +5,6 @@
 ---Parent class: GAME_RULE_MODIFIER
 ---
 ---@class GAME_RULE_MODIFIER_JOB_LEARNING_SPEED:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_JOB_LEARNING_SPEED' The name of this data type (always "GAME_RULE_MODIFIER_JOB_LEARNING_SPEED")
 ---@field XPBonusPercentage? float @Default value: 0.1f
 
 local GAME_RULE_MODIFIER_JOB_LEARNING_SPEED = {}

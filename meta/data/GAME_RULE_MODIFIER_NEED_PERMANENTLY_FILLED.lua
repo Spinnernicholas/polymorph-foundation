@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_need_permanently_filled)
 ---
 ---@class GAME_RULE_MODIFIER_NEED_PERMANENTLY_FILLED:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_NEED_PERMANENTLY_FILLED' The name of this data type (always "GAME_RULE_MODIFIER_NEED_PERMANENTLY_FILLED")
 ---@field NeedResource? RESOURCE Asset ID of the required resource
 
 local GAME_RULE_MODIFIER_NEED_PERMANENTLY_FILLED = {}

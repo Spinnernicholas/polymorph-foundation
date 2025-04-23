@@ -4,7 +4,6 @@
 ---Category: Data
 ---
 ---@class MAP_SPAWN_INFO
----@field DataType 'MAP_SPAWN_INFO' The name of this data type (always "MAP_SPAWN_INFO")
 ---@field Prefab? PREFAB The prefab that will be spawned. Expected: asset ID
 ---@field Position? vec3f The position at which the prefab will be spawned. Expected: vec3f value. Default: { 0, 0, 0 }
 ---@field Orientation? quaternion The orientation at which the prefab will be spawned. Expected: quaternion value

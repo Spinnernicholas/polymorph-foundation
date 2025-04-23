@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/heraldry_config)
 ---
 ---@class HERALDRY_CONFIG
----@field DataType 'HERALDRY_CONFIG' The name of this data type (always "HERALDRY_CONFIG")
 ---@field BackgroundColor? HERALDRY_COLOR Asset ID for the background color
 ---@field Pattern? HERALDRY_PATTERN Asset ID for the pattern
 ---@field PatternColor? HERALDRY_COLOR Asset ID for the pattern color

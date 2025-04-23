@@ -11,7 +11,6 @@
 ---Cloneable
 ---
 ---@class GAME_ACTION_SHOW_NARRATIVE_PANEL:GAME_ACTION
----@field DataType 'GAME_ACTION_SHOW_NARRATIVE_PANEL' The name of this data type (always "GAME_ACTION_SHOW_NARRATIVE_PANEL")
 ---@field AssetNarrativePanel? NARRATIVE_PANEL Serialized. Expected: asset ID
 ---@field OptionalAssetNotification? NOTIFICATION Serialized. Expected: asset ID. Default: nil
 ---@field DescriptionKey? string Serialized. Expected: string value

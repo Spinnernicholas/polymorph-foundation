@@ -9,7 +9,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_descriptor_job_status)
 ---
 ---@class GAME_RULE_MODIFIER_DESCRIPTOR_JOB_STATUS:GAME_RULE_MODIFIER_DESCRIPTOR
----@field DataType 'GAME_RULE_MODIFIER_DESCRIPTOR_JOB_STATUS' The name of this data type (always "GAME_RULE_MODIFIER_DESCRIPTOR_JOB_STATUS")
 ---@field AssetStatusNeeded? VILLAGER_STATUS Asset status expected as asset ID
 ---@field AssetJob? JOB Job expected as asset ID
 

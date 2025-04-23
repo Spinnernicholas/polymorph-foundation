@@ -9,7 +9,6 @@
 ---Parent class: GAME_CONDITION
 ---
 ---@class GAME_CONDITION_RESOURCE_UNLOCKED:GAME_CONDITION
----@field DataType 'GAME_CONDITION_RESOURCE_UNLOCKED' The name of this data type (always "GAME_CONDITION_RESOURCE_UNLOCKED")
 ---@field AssetResource? RESOURCE Expected: asset ID
 
 local GAME_CONDITION_RESOURCE_UNLOCKED = {}

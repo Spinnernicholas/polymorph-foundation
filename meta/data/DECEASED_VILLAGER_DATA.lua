@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/deceased_villager_data)
 ---
 ---@class DECEASED_VILLAGER_DATA
----@field DataType 'DECEASED_VILLAGER_DATA' The name of this data type (always "DECEASED_VILLAGER_DATA")
 ---@field FullName? string Runtime only, Savegame; string value
 ---@field Title? string Runtime only, Savegame; string value
 ---@field AssetVillagerStatus? VILLAGER_STATUS Runtime only, Savegame; asset ID

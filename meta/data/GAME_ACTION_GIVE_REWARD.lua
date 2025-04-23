@@ -11,7 +11,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_give_reward)
 ---
 ---@class GAME_ACTION_GIVE_REWARD:GAME_ACTION
----@field DataType 'GAME_ACTION_GIVE_REWARD' The name of this data type (always "GAME_ACTION_GIVE_REWARD")
 ---@field ActionList? list<GAME_ACTION> List of GAME_ACTION values
 ---@field ActionList? list<GAME_ACTION> Serialized
 

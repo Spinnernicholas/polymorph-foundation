@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_execute_action_list)
 ---
 ---@class GAME_CONDITION_EXECUTE_ACTION_LIST:GAME_CONDITION
----@field DataType 'GAME_CONDITION_EXECUTE_ACTION_LIST' The name of this data type (always "GAME_CONDITION_EXECUTE_ACTION_LIST")
 ---@field ActionList? list<GAME_ACTION> list of GAME_ACTION values
 
 local GAME_CONDITION_EXECUTE_ACTION_LIST = {}

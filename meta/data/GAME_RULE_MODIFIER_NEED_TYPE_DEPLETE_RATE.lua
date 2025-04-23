@@ -10,7 +10,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_need_type_deplete_rate)
 ---
 ---@class GAME_RULE_MODIFIER_NEED_TYPE_DEPLETE_RATE:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_NEED_TYPE_DEPLETE_RATE' The name of this data type (always "GAME_RULE_MODIFIER_NEED_TYPE_DEPLETE_RATE")
 ---@field AgentProfile? AGENT_PROFILE If null, will affect every agent profile. Expected: asset ID
 ---@field AssetVillagerStatus? VILLAGER_STATUS If null, will affect every status. Expected: asset ID
 ---@field NeedType? AGENT_NEED_TYPE Expected: asset ID

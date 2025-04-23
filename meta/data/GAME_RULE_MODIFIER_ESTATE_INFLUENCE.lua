@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_estate_influence)
 ---
 ---@class GAME_RULE_MODIFIER_ESTATE_INFLUENCE:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_ESTATE_INFLUENCE' The name of this data type (always "GAME_RULE_MODIFIER_ESTATE_INFLUENCE")
 ---@field Estate? ESTATE Serialized; Expected: asset ID
 ---@field InfluenceGainPerWeek? float Serialized; Expected: float value; Default: 1.0f
 

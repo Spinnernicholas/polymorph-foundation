@@ -9,7 +9,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_dice_roller)
 ---
 ---@class GAME_ACTION_DICE_ROLLER:GAME_ACTION
----@field DataType 'GAME_ACTION_DICE_ROLLER' The name of this data type (always "GAME_ACTION_DICE_ROLLER")
 
 local GAME_ACTION_DICE_ROLLER = {}
 

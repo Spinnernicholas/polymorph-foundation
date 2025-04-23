@@ -8,7 +8,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_apply_happiness_factor)
 ---
 ---@class GAME_ACTION_APPLY_HAPPINESS_FACTOR:GAME_ACTION
----@field DataType 'GAME_ACTION_APPLY_HAPPINESS_FACTOR' The name of this data type (always "GAME_ACTION_APPLY_HAPPINESS_FACTOR")
 ---@field IsOnlyVillagers? boolean @Serialized boolean value, default true
 ---@field HappinessFactor? HAPPINESS_FACTOR @Serialized asset ID
 ---@field HappinessFactorDescriptor? GAME_RULE_MODIFIER_DESCRIPTOR @Serialized GAME_RULE_MODIFIER_DESCRIPTOR value

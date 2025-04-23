@@ -10,7 +10,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_building_inventory)
 ---
 ---@class GAME_CONDITION_BUILDING_INVENTORY:GAME_CONDITION
----@field DataType 'GAME_CONDITION_BUILDING_INVENTORY' The name of this data type (always "GAME_CONDITION_BUILDING_INVENTORY")
 ---@field AssetBuilding? BUILDING asset ID for retro-compatibility, default is nil
 ---@field AssetBuildingFunction? BUILDING_FUNCTION asset ID for retro-compatibility, default is nil
 ---@field InventoryRequired? RESOURCE_COLLECTION_VALUE|RESOURCE_QUANTITY_PAIR[] Inventory needed, can be a RESOURCE_COLLECTION_VALUE or a list of RESOURCE_QUANTITY_PAIR

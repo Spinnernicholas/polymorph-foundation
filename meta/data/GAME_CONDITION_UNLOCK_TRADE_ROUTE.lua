@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_unlock_trade_route)
 ---
 ---@class GAME_CONDITION_UNLOCK_TRADE_ROUTE:GAME_CONDITION
----@field DataType 'GAME_CONDITION_UNLOCK_TRADE_ROUTE' The name of this data type (always "GAME_CONDITION_UNLOCK_TRADE_ROUTE")
 ---@field resource? RESOURCE Asset ID of the resource
 
 local GAME_CONDITION_UNLOCK_TRADE_ROUTE = {}

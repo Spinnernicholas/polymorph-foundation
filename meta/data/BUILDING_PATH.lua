@@ -5,7 +5,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/building_path)
 ---
 ---@class BUILDING_PATH
----@field DataType 'BUILDING_PATH' The name of this data type (always "BUILDING_PATH")
 ---@field PathType? BUILDING_PATH_TYPE Serialized enum value. Default is BUILDING_PATH_TYPE.DEFAULT
 ---@field PathShape? BUILDING_PATH_RANDOM_SHAPE Serialized enum value. Default is BUILDING_PATH_RANDOM_SHAPE.NONE
 ---@field ShapeParameter? vec2f Serialized vec2f value

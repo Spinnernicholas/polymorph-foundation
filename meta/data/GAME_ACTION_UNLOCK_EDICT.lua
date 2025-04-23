@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_unlock_edict)
 ---
 ---@class GAME_ACTION_UNLOCK_EDICT:GAME_ACTION
----@field DataType 'GAME_ACTION_UNLOCK_EDICT' The name of this data type (always "GAME_ACTION_UNLOCK_EDICT")
 ---@field AssetEdictList? list<EDICT> List of asset IDs
 
 local GAME_ACTION_UNLOCK_EDICT = {}

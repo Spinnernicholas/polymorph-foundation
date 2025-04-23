@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/job_instance)
 ---
 ---@class JOB_INSTANCE
----@field DataType 'JOB_INSTANCE' The name of this data type (always "JOB_INSTANCE")
 ---@field AssetJob? JOB Asset job (expected: asset ID). Serialized, Savegame.
 ---@field Experience? float Experience value. Default is 0.0f. Serialized, Savegame.
 ---@field CurrentLevel? integer_and_unsigned_integer Current integer level. Default is 0. Serialized, Savegame.

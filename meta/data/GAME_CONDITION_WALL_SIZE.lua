@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_wall_size)
 ---
 ---@class GAME_CONDITION_WALL_SIZE:GAME_CONDITION
----@field DataType 'GAME_CONDITION_WALL_SIZE' The name of this data type (always "GAME_CONDITION_WALL_SIZE")
 ---@field TargetWallLength? integer integer value, default is 0
 ---@field AllowPreview? boolean boolean value, default is false
 ---@field IsFortificationWallOnly? boolean boolean value, default is true

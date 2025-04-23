@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_trade_bonus)
 ---
 ---@class GAME_RULE_MODIFIER_TRADE_BONUS:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_TRADE_BONUS' The name of this data type (always "GAME_RULE_MODIFIER_TRADE_BONUS")
 ---@field TradeBonusType? TRADE_BONUS_TYPE Trade bonus type enum value (default: TRADE_BONUS_TYPE.PRICE)
 ---@field EstateAllegianceList? ESTATE[] List of estate asset IDs
 ---@field BonusPercentage? number Float value representing the bonus percentage (default: 0.1)

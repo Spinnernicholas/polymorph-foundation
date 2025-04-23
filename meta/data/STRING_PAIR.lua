@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/string_pair)
 ---
 ---@class STRING_PAIR
----@field DataType 'STRING_PAIR' The name of this data type (always "STRING_PAIR")
 ---@field Name? string Serialized string value representing the name
 ---@field Value? string Serialized string value representing the value
 

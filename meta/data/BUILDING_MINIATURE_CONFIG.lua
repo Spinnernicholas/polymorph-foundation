@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/building_miniature_config)
 ---
 ---@class BUILDING_MINIATURE_CONFIG
----@field DataType 'BUILDING_MINIATURE_CONFIG' The name of this data type (always "BUILDING_MINIATURE_CONFIG")
 ---@field ClipUnderGround? boolean Clip building part under plane y = 0, default true
 ---@field GroupHeight? float Default: 0
 ---@field CameraPosition? vec3f Default: { 0, 0, 0 }

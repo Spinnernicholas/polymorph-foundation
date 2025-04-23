@@ -11,7 +11,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/data_notification_on_click)
 ---
 ---@class DATA_NOTIFICATION_ON_CLICK
----@field DataType 'DATA_NOTIFICATION_ON_CLICK' The name of this data type (always "DATA_NOTIFICATION_ON_CLICK")
 
 local DATA_NOTIFICATION_ON_CLICK = {}
 

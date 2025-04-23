@@ -10,7 +10,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_change_weather)
 ---
 ---@class GAME_ACTION_CHANGE_WEATHER:GAME_ACTION
----@field DataType 'GAME_ACTION_CHANGE_WEATHER' The name of this data type (always "GAME_ACTION_CHANGE_WEATHER")
 ---@field AssetWeather? WEATHER_SETTING Serialized; Expected: asset ID
 ---@field IsWeatherSystemOverriden? boolean Serialized; Expected: boolean value; Default: false
 

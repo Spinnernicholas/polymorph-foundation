@@ -11,7 +11,6 @@
 ---Cloneable
 ---
 ---@class GAME_ACTION_VISIT:GAME_ACTION
----@field DataType 'GAME_ACTION_VISIT' The name of this data type (always "GAME_ACTION_VISIT")
 ---@field VisitorProfile? AGENT_PROFILE Asset ID of the visitor profile
 ---@field DescriptionKey? string String value description key
 ---@field OverrideInteractiveLocationSetup? INTERACTIVE_LOCATION_SETUP Asset ID, default nil

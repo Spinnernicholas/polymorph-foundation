@@ -8,7 +8,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/villager_assign_workplace_function)
 ---
 ---@class VILLAGER_ASSIGN_WORKPLACE_FUNCTION
----@field DataType 'VILLAGER_ASSIGN_WORKPLACE_FUNCTION' The name of this data type (always "VILLAGER_ASSIGN_WORKPLACE_FUNCTION")
 
 local VILLAGER_ASSIGN_WORKPLACE_FUNCTION = {}
 

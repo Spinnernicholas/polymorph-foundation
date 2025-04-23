@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/particle_sub_emitter_data)
 ---
 ---@class PARTICLE_SUB_EMITTER_DATA
----@field DataType 'PARTICLE_SUB_EMITTER_DATA' The name of this data type (always "PARTICLE_SUB_EMITTER_DATA")
 ---@field Type? PARTICLE_SUB_SYSTEM_TYPE Enum value specifying the sub system type (default: PARTICLE_SUB_SYSTEM_TYPE.ON_BIRTH)
 ---@field System? PARTICLE_SYSTEM Asset ID referencing the particle system to use
 ---@field AttachToParticle? boolean Boolean flag indicating if the sub emitter attaches to the parent particle (default: false)

@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_unlock_system)
 ---
 ---@class GAME_ACTION_UNLOCK_SYSTEM:GAME_ACTION
----@field DataType 'GAME_ACTION_UNLOCK_SYSTEM' The name of this data type (always "GAME_ACTION_UNLOCK_SYSTEM")
 ---@field SystemNameList? list<GAMEPLAY_SYSTEM_NAME> list of enum values
 
 local GAME_ACTION_UNLOCK_SYSTEM = {}

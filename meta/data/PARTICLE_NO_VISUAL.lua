@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/particle_no_visual)
 ---
 ---@class PARTICLE_NO_VISUAL:PARTICLE_VISUAL
----@field DataType 'PARTICLE_NO_VISUAL' The name of this data type (always "PARTICLE_NO_VISUAL")
 
 local PARTICLE_NO_VISUAL = {}
 

@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/estate_mandate_pair)
 ---
 ---@class ESTATE_MANDATE_PAIR
----@field DataType 'ESTATE_MANDATE_PAIR' The name of this data type (always "ESTATE_MANDATE_PAIR")
 ---@field AssetEstate? ESTATE Serialized asset ID of type ESTATE
 ---@field AssetMandate? MANDATE_TYPE Serialized asset ID of type MANDATE_TYPE
 

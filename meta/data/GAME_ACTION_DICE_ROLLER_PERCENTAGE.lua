@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_dice_roller_percentage)
 ---
 ---@class GAME_ACTION_DICE_ROLLER_PERCENTAGE:GAME_ACTION_DICE_ROLLER
----@field DataType 'GAME_ACTION_DICE_ROLLER_PERCENTAGE' The name of this data type (always "GAME_ACTION_DICE_ROLLER_PERCENTAGE")
 ---@field OptionList? list<GAME_ACTION_DICE_ROLLER_PERCENTAGE_OPTION> list of GAME_ACTION_DICE_ROLLER_PERCENTAGE_OPTION values, Serialized
 
 local GAME_ACTION_DICE_ROLLER_PERCENTAGE = {}

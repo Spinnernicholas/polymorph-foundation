@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/unlock_function_instance)
 ---
 ---@class UNLOCK_FUNCTION_INSTANCE
----@field DataType 'UNLOCK_FUNCTION_INSTANCE' The name of this data type (always "UNLOCK_FUNCTION_INSTANCE")
 ---
 ---@field getAssetUnlockFunction? fun():UNLOCK_FUNCTION Returns the associated UNLOCK_FUNCTION.
 ---

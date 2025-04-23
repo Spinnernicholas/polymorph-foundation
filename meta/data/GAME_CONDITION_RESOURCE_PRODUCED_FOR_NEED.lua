@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_resource_produced_for_need)
 ---
 ---@class GAME_CONDITION_RESOURCE_PRODUCED_FOR_NEED:GAME_CONDITION
----@field DataType 'GAME_CONDITION_RESOURCE_PRODUCED_FOR_NEED' The name of this data type (always "GAME_CONDITION_RESOURCE_PRODUCED_FOR_NEED")
 ---@field AssetNeedTypeResourceToFill? AGENT_NEED_TYPE_RESOURCE AssetNeedTypeResourceToFill (asset ID)
 ---@field DifferentResourceCount? integer DifferentResourceCount (integer value, default 1)
 ---@field ComparisonOperator? COMPARISON_OPERATOR ComparisonOperator (enum value, default COMPARISON_OPERATOR.GREATER_OR_EQUAL)

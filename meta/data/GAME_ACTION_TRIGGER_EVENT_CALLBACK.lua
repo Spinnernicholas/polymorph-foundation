@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_trigger_event_callback)
 ---
 ---@class GAME_ACTION_TRIGGER_EVENT_CALLBACK:GAME_ACTION
----@field DataType 'GAME_ACTION_TRIGGER_EVENT_CALLBACK' The name of this data type (always "GAME_ACTION_TRIGGER_EVENT_CALLBACK")
 ---@field Callback? EVENT_CALLBACK Serialized; Expected: EVENT_CALLBACK value; Default: nil
 
 local GAME_ACTION_TRIGGER_EVENT_CALLBACK = {}

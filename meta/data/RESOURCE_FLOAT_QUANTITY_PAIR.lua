@@ -8,7 +8,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/resource_float_quantity_pair)
 ---
 ---@class RESOURCE_FLOAT_QUANTITY_PAIR
----@field DataType 'RESOURCE_FLOAT_QUANTITY_PAIR' The name of this data type (always "RESOURCE_FLOAT_QUANTITY_PAIR")
 ---@field resource? RESOURCE The resource asset ID
 ---@field quantity? float The float quantity, default is 0
 

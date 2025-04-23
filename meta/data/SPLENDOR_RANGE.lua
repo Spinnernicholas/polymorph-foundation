@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/splendor_range)
 ---
 ---@class SPLENDOR_RANGE
----@field DataType 'SPLENDOR_RANGE' The name of this data type (always "SPLENDOR_RANGE")
 ---@field SplendorMax? float Serialized float value, default 0.0f
 ---@field DefaultInfluence? integer Serialized integer value, default 0
 

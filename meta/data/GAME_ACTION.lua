@@ -11,7 +11,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action)
 ---
 ---@class GAME_ACTION
----@field DataType 'GAME_ACTION' The name of this data type (always "GAME_ACTION")
 ---@field DebugComment? string Unlocalized string for debug purposes (could show in some logs)
 ---@field Delay? TIME_SYSTEM TIME_SYSTEM value
 ---@field IsHidden? boolean boolean value, default false

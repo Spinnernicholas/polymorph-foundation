@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_add_taxation)
 ---
 ---@class GAME_ACTION_ADD_TAXATION:GAME_ACTION
----@field DataType 'GAME_ACTION_ADD_TAXATION' The name of this data type (always "GAME_ACTION_ADD_TAXATION")
 ---@field AssetTaxationFunctionList? list<TAXATION_FUNCTION> list of asset IDs
 
 local GAME_ACTION_ADD_TAXATION = {}

@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/assemblage_custom_set)
 ---
 ---@class ASSEMBLAGE_CUSTOM_SET
----@field DataType 'ASSEMBLAGE_CUSTOM_SET' The name of this data type (always "ASSEMBLAGE_CUSTOM_SET")
 ---@field CustomValueList? list<PART_PROBABILITY> list of PART_PROBABILITY values, Serialized
 
 local ASSEMBLAGE_CUSTOM_SET = {}

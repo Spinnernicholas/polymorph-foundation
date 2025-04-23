@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_enclosed_area_size)
 ---
 ---@class GAME_CONDITION_ENCLOSED_AREA_SIZE:GAME_CONDITION
----@field DataType 'GAME_CONDITION_ENCLOSED_AREA_SIZE' The name of this data type (always "GAME_CONDITION_ENCLOSED_AREA_SIZE")
 ---@field Min? float Serialized minimum enclosed area size value (default 0.0)
 ---@field Max? float Serialized maximum enclosed area size value (default 0.0)
 

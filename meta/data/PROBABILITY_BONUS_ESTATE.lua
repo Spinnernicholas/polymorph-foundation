@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/probability_bonus_estate)
 ---
 ---@class PROBABILITY_BONUS_ESTATE:PROBABILITY_BONUS
----@field DataType 'PROBABILITY_BONUS_ESTATE' The name of this data type (always "PROBABILITY_BONUS_ESTATE")
 ---@field Estate? ESTATE Serialized. Expected: asset ID
 ---@field EstateValue? ESTATE_VALUE_TYPE Serialized. Expected: enum value. Default: ESTATE_VALUE_TYPE.INFLUENCE
 ---@field PercentageBonusPerUnit? float Serialized. Expected: float value. Default: 10.0f

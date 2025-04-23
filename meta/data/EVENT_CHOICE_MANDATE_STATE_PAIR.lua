@@ -4,7 +4,6 @@
 ---Category: Data
 ---
 ---@class EVENT_CHOICE_MANDATE_STATE_PAIR
----@field DataType 'EVENT_CHOICE_MANDATE_STATE_PAIR' The name of this data type (always "EVENT_CHOICE_MANDATE_STATE_PAIR")
 ---@field Choice? EVENT_CHOICE Serialized EVENT_CHOICE value
 ---@field MandateState? MANDATE_SHOW_NARRATIVE_PANEL_CHOICE Serialized enum value. Default value is MANDATE_SHOW_NARRATIVE_PANEL_CHOICE.COUNT
 

@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_kick_unemployed_villagers)
 ---
 ---@class GAME_ACTION_KICK_UNEMPLOYED_VILLAGERS:GAME_ACTION
----@field DataType 'GAME_ACTION_KICK_UNEMPLOYED_VILLAGERS' The name of this data type (always "GAME_ACTION_KICK_UNEMPLOYED_VILLAGERS")
 ---@field AssetAgentProfileList? list<AGENT_PROFILE> list of asset IDs
 
 local GAME_ACTION_KICK_UNEMPLOYED_VILLAGERS = {}

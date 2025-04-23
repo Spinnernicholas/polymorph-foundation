@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/vehicle_animation)
 ---
 ---@class VEHICLE_ANIMATION
----@field DataType 'VEHICLE_ANIMATION' The name of this data type (always "VEHICLE_ANIMATION")
 ---@field MaximumSpeed? float Serialized float value representing the maximum speed. Default is 0.0f.
 ---@field VehicleAnimation? AGENT_ANIMATION_STATE Serialized enum value representing the vehicle's animation state.
 ---@field RiderAnimation? AGENT_ANIMATION_STATE Serialized enum value representing the rider's animation state.

@@ -9,7 +9,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_trigger_immigration_wave)
 ---
 ---@class GAME_ACTION_TRIGGER_IMMIGRATION_WAVE:GAME_ACTION
----@field DataType 'GAME_ACTION_TRIGGER_IMMIGRATION_WAVE' The name of this data type (always "GAME_ACTION_TRIGGER_IMMIGRATION_WAVE")
 
 local GAME_ACTION_TRIGGER_IMMIGRATION_WAVE = {}
 

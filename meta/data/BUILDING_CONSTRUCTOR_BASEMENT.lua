@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/building_constructor_basement)
 ---
 ---@class BUILDING_CONSTRUCTOR_BASEMENT:BUILDING_CONSTRUCTOR_DEFAULT
----@field DataType 'BUILDING_CONSTRUCTOR_BASEMENT' The name of this data type (always "BUILDING_CONSTRUCTOR_BASEMENT")
 ---@field FillerList? list<BUILDING_PART> list of asset IDs
 
 local BUILDING_CONSTRUCTOR_BASEMENT = {}

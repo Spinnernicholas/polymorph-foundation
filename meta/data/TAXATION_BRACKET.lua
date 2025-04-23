@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/taxation_bracket)
 ---
 ---@class TAXATION_BRACKET
----@field DataType 'TAXATION_BRACKET' The name of this data type (always "TAXATION_BRACKET")
 ---@field TaxPercentage? float Serialized float value representing the tax percentage, default 0.0f
 
 local TAXATION_BRACKET = {}

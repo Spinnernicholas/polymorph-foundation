@@ -8,7 +8,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/agent_profile_function)
 ---
 ---@class AGENT_PROFILE_FUNCTION
----@field DataType 'AGENT_PROFILE_FUNCTION' The name of this data type (always "AGENT_PROFILE_FUNCTION")
 ---@field AssetStatusQuotaGendered? fixed_sized_map<GENDER_USAGE, VILLAGER_STATUS_QUOTA> map with enum values as keys and asset IDs as values
 ---@field IsNeedMasteredJobToPromote? boolean boolean value (default true)
 

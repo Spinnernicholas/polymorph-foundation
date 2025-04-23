@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_population_count)
 ---
 ---@class GAME_CONDITION_POPULATION_COUNT:GAME_CONDITION
----@field DataType 'GAME_CONDITION_POPULATION_COUNT' The name of this data type (always "GAME_CONDITION_POPULATION_COUNT")
 ---@field PopulationCount? integer integer value (default 0)
 ---@field OptionalAssetProfileGenderList? table<AGENT_PROFILE_GENDER_USAGE_PAIR> list of AGENT_PROFILE_GENDER_USAGE_PAIR values
 ---@field ComparisonOperator? COMPARISON_OPERATOR enum value (default COMPARISON_OPERATOR.GREATER_OR_EQUAL)

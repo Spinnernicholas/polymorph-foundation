@@ -10,7 +10,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_give_territory)
 ---
 ---@class GAME_ACTION_GIVE_TERRITORY:GAME_ACTION
----@field DataType 'GAME_ACTION_GIVE_TERRITORY' The name of this data type (always "GAME_ACTION_GIVE_TERRITORY")
 ---@field Amount? integer_and_unsigned_integer Serialized. Expected integer value. Default is 1.
 
 local GAME_ACTION_GIVE_TERRITORY = {}

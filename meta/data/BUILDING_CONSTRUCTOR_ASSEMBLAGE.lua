@@ -12,7 +12,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/building_constructor_assemblage)
 ---
 ---@class BUILDING_CONSTRUCTOR_ASSEMBLAGE:BUILDING_CONSTRUCTOR
----@field DataType 'BUILDING_CONSTRUCTOR_ASSEMBLAGE' The name of this data type (always "BUILDING_CONSTRUCTOR_ASSEMBLAGE")
 ---@field CoreObjectPrefab? PREFAB If empty, will spawn an empty object as core prefab. Expected: asset ID
 ---@field MainRandomBuildingPartList? BUILDING_PART[] List of asset IDs for main random building parts.
 ---@field MandatoryBuildingPartList? PART_PROBABILITY[] List of PART_PROBABILITY values for mandatory building parts.

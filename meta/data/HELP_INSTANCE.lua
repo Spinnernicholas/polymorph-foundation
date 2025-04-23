@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/help_instance)
 ---
 ---@class HELP_INSTANCE
----@field DataType 'HELP_INSTANCE' The name of this data type (always "HELP_INSTANCE")
 
 local HELP_INSTANCE = {}
 

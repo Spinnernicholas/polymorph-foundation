@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/material_set)
 ---
 ---@class MATERIAL_SET
----@field DataType 'MATERIAL_SET' The name of this data type (always "MATERIAL_SET")
 ---@field SetName? string Serialized string value representing the name of the material set.
 ---@field AssetSelectionButtonImage? ATLAS_CELL Serialized asset ID used for the asset selection button image.
 ---@field MaterialList? MATERIAL[] Serialized list of materials. Materials indexes must match between material sets.

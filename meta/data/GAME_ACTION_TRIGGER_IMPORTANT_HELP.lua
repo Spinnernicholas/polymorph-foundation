@@ -12,7 +12,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_trigger_important_help)
 ---
 ---@class GAME_ACTION_TRIGGER_IMPORTANT_HELP:GAME_ACTION
----@field DataType 'GAME_ACTION_TRIGGER_IMPORTANT_HELP' The name of this data type (always "GAME_ACTION_TRIGGER_IMPORTANT_HELP")
 ---@field OptionalBuildingFunction? BUILDING_FUNCTION Serialized property. Expected: asset ID. Default value: nil
 ---@field OptionalAssetBuilding? BUILDING Serialized property. Expected: asset ID. Default value: nil
 

@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_unlimited_small_mineral_deposit)
 ---
 ---@class GAME_RULE_MODIFIER_UNLIMITED_SMALL_MINERAL_DEPOSIT:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_UNLIMITED_SMALL_MINERAL_DEPOSIT' The name of this data type (always "GAME_RULE_MODIFIER_UNLIMITED_SMALL_MINERAL_DEPOSIT")
 ---@field AssetResourceList? list<RESOURCE> List of asset IDs
 
 local GAME_RULE_MODIFIER_UNLIMITED_SMALL_MINERAL_DEPOSIT = {}

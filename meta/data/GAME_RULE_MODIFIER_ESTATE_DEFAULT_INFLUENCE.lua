@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_estate_default_influence)
 ---
 ---@class GAME_RULE_MODIFIER_ESTATE_DEFAULT_INFLUENCE:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_ESTATE_DEFAULT_INFLUENCE' The name of this data type (always "GAME_RULE_MODIFIER_ESTATE_DEFAULT_INFLUENCE")
 ---@field Estate? ESTATE Serialized. Expected: asset ID
 ---@field Modifier? integer Serialized. Expected: integer value. Default value: 0
 

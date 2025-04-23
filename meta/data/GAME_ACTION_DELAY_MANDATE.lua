@@ -8,7 +8,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_delay_mandate)
 ---
 ---@class GAME_ACTION_DELAY_MANDATE:GAME_ACTION
----@field DataType 'GAME_ACTION_DELAY_MANDATE' The name of this data type (always "GAME_ACTION_DELAY_MANDATE")
 ---@field AssetMandateType? MANDATE_TYPE This will delay all instance of mandate of that type immediately or after their completion if they are currently active. Expected: asset ID
 ---@field DelayTime? TIME_SYSTEM Expected: TIME_SYSTEM value
 

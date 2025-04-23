@@ -8,7 +8,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/military_mission)
 ---
 ---@class MILITARY_MISSION
----@field DataType 'MILITARY_MISSION' The name of this data type (always "MILITARY_MISSION")
 ---@field MissionNameKey? string Serialized string value
 ---@field BattleDescriptionKey? string Serialized string value
 ---@field MissionDifficulty? float Serialized float value, default 100.0

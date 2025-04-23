@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/unlockable_mandate)
 ---
 ---@class UNLOCKABLE_MANDATE
----@field DataType 'UNLOCKABLE_MANDATE' The name of this data type (always "UNLOCKABLE_MANDATE")
 ---@field AssetUnlockableFunction? UNLOCK_FUNCTION Serialized unlock function; expected: asset ID
 ---@field AssetMandateType? MANDATE_TYPE Serialized mandate type; expected: asset ID
 

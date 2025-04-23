@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_scale_event_resource_reward_amount)
 ---
 ---@class GAME_RULE_MODIFIER_SCALE_EVENT_RESOURCE_REWARD_AMOUNT:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_SCALE_EVENT_RESOURCE_REWARD_AMOUNT' The name of this data type (always "GAME_RULE_MODIFIER_SCALE_EVENT_RESOURCE_REWARD_AMOUNT")
 ---@field EventResourceRewardScalerMultiplier? float Serialized float value, default is 1.0f
 
 local GAME_RULE_MODIFIER_SCALE_EVENT_RESOURCE_REWARD_AMOUNT = {}

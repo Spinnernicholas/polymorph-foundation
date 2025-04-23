@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_buildable_as_point_of_interest)
 ---
 ---@class GAME_RULE_MODIFIER_BUILDABLE_AS_POINT_OF_INTEREST:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_BUILDABLE_AS_POINT_OF_INTEREST' The name of this data type (always "GAME_RULE_MODIFIER_BUILDABLE_AS_POINT_OF_INTEREST")
 ---@field AssetPointOfInterest? POINT_OF_INTEREST AssetPointOfInterest (Serialized, Expected: asset ID)
 ---@field OverrideDescription? string OverrideDescription (Serialized, Expected: string value)
 

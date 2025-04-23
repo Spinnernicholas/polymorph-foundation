@@ -16,7 +16,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_condition_building)
 ---
 ---@class GAME_CONDITION_BUILDING:GAME_CONDITION
----@field DataType 'GAME_CONDITION_BUILDING' The name of this data type (always "GAME_CONDITION_BUILDING")
 
 local GAME_CONDITION_BUILDING = {}
 

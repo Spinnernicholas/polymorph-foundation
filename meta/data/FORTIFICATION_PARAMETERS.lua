@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/fortification_parameters)
 ---
 ---@class FORTIFICATION_PARAMETERS
----@field DataType 'FORTIFICATION_PARAMETERS' The name of this data type (always "FORTIFICATION_PARAMETERS")
 ---@field FortificationType? FORTIFICATION_TYPE Enum value. Default is FORTIFICATION_TYPE.NONE
 ---@field AreaAngle? float Float value. Default is 360.0f
 ---@field StartAngle? float Float value. Default is 0.0f

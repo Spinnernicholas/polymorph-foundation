@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/desirability_level_item)
 ---
 ---@class DESIRABILITY_LEVEL_ITEM
----@field DataType 'DESIRABILITY_LEVEL_ITEM' The name of this data type (always "DESIRABILITY_LEVEL_ITEM")
 ---@field DesirabilityLevel? DESIRABILITY_LEVEL Enum value. Default: DESIRABILITY_LEVEL.LOW
 ---@field Name? string String value
 ---@field Value? number Float value. Default: 0.0f

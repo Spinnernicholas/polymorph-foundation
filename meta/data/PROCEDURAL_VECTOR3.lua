@@ -15,7 +15,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/procedural_vector3)
 ---
 ---@class PROCEDURAL_VECTOR3
----@field DataType 'PROCEDURAL_VECTOR3' The name of this data type (always "PROCEDURAL_VECTOR3")
 ---@field Type? PROCEDURAL_VALUE_TYPE Enum value defining the procedural value type. Default: PROCEDURAL_VALUE_TYPE.RANDOM_RANGE
 ---@field Value? vec3f Constant vector3 value
 ---@field Min? vec3f Lower bound of random range. Default: {0, 0, 0}

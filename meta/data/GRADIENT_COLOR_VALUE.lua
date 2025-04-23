@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/gradient_color_value)
 ---
 ---@class GRADIENT_COLOR_VALUE
----@field DataType 'GRADIENT_COLOR_VALUE' The name of this data type (always "GRADIENT_COLOR_VALUE")
 ---@field T? number Serialized float value representing the position (default 0.0f)
 ---@field Color? color Serialized color value
 

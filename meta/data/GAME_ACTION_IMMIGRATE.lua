@@ -11,7 +11,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_immigrate)
 ---
 ---@class GAME_ACTION_IMMIGRATE:GAME_ACTION
----@field DataType 'GAME_ACTION_IMMIGRATE' The name of this data type (always "GAME_ACTION_IMMIGRATE")
 
 local GAME_ACTION_IMMIGRATE = {}
 

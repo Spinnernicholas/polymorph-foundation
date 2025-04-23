@@ -5,7 +5,6 @@
 ---Category: Data
 ---
 ---@class PARTICLE_EMITER_ANIMATOR_TRIGGER
----@field DataType 'PARTICLE_EMITER_ANIMATOR_TRIGGER' The name of this data type (always "PARTICLE_EMITER_ANIMATOR_TRIGGER")
 ---@field ParticleSystemPrefab? PREFAB Asset ID of the particle system prefab
 ---@field TriggerEvent? string String value for the trigger event
 ---@field StartEvent? string String value for the start event

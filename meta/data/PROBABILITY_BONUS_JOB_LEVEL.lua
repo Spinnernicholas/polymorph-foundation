@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/probability_bonus_job_level)
 ---
 ---@class PROBABILITY_BONUS_JOB_LEVEL:PROBABILITY_BONUS
----@field DataType 'PROBABILITY_BONUS_JOB_LEVEL' The name of this data type (always "PROBABILITY_BONUS_JOB_LEVEL")
 ---@field Job? JOB Serialized. Expected: asset ID
 ---@field PercentageBonusPerLevel? float Serialized. Expected: float value. Default: 10.0f
 

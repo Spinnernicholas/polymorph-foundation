@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_set_village_level)
 ---
 ---@class GAME_ACTION_SET_VILLAGE_LEVEL:GAME_ACTION
----@field DataType 'GAME_ACTION_SET_VILLAGE_LEVEL' The name of this data type (always "GAME_ACTION_SET_VILLAGE_LEVEL")
 ---@field VillageLevel? integer integer value (default 0)
 
 local GAME_ACTION_SET_VILLAGE_LEVEL = {}

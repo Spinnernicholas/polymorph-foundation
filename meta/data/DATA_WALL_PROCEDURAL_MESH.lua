@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/data_wall_procedural_mesh)
 ---
 ---@class DATA_WALL_PROCEDURAL_MESH
----@field DataType 'DATA_WALL_PROCEDURAL_MESH' The name of this data type (always "DATA_WALL_PROCEDURAL_MESH")
 ---@field SideMaterial? MATERIAL Serialized. Expected: asset ID
 ---@field TopMaterial? MATERIAL Serialized. Expected: asset ID
 ---@field UvTilingSide? float Serialized. Expected: float value. Default: 1.0f

@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/job_progession_element)
 ---
 ---@class JOB_PROGESSION_ELEMENT
----@field DataType 'JOB_PROGESSION_ELEMENT' The name of this data type (always "JOB_PROGESSION_ELEMENT")
 ---@field XpNeeded? integer integer value, default is 1
 
 local JOB_PROGESSION_ELEMENT = {}

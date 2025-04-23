@@ -13,7 +13,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/building_constructor_default)
 ---
 ---@class BUILDING_CONSTRUCTOR_DEFAULT:BUILDING_CONSTRUCTOR
----@field DataType 'BUILDING_CONSTRUCTOR_DEFAULT' The name of this data type (always "BUILDING_CONSTRUCTOR_DEFAULT")
 ---@field CoreObjectPrefab? PREFAB Serialized asset ID for the core object prefab
 
 local BUILDING_CONSTRUCTOR_DEFAULT = {}

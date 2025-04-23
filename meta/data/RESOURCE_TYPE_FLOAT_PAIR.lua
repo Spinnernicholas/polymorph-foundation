@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/resource_type_float_pair)
 ---
 ---@class RESOURCE_TYPE_FLOAT_PAIR
----@field DataType 'RESOURCE_TYPE_FLOAT_PAIR' The name of this data type (always "RESOURCE_TYPE_FLOAT_PAIR")
 ---@field ResourceType? RESOURCE_TYPE Serialized resource type (enum value). Default is RESOURCE_TYPE.FOOD
 ---@field Value? float Serialized float value. Default is 0.0f
 

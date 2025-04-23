@@ -4,7 +4,6 @@
 ---Category: Data
 ---
 ---@class GAME_CONDITION_BUILDING_WORKER_CAPACITY:GAME_CONDITION_BUILDING
----@field DataType 'GAME_CONDITION_BUILDING_WORKER_CAPACITY' The name of this data type (always "GAME_CONDITION_BUILDING_WORKER_CAPACITY")
 ---@field MinimumCapacity? integer integer value, default is 1
 
 local GAME_CONDITION_BUILDING_WORKER_CAPACITY = {}

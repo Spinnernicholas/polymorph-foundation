@@ -9,7 +9,6 @@
 ---Parent class: GAME_ACTION
 ---
 ---@class GAME_ACTION_GIVE_BLUEPRINT:GAME_ACTION
----@field DataType 'GAME_ACTION_GIVE_BLUEPRINT' The name of this data type (always "GAME_ACTION_GIVE_BLUEPRINT")
 ---@field StubBlueprint? BLUEPRINT Serialized. Expected: asset ID
 
 local GAME_ACTION_GIVE_BLUEPRINT = {}

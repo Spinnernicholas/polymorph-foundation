@@ -7,7 +7,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_upkeep_building_parts)
 ---
 ---@class GAME_RULE_MODIFIER_UPKEEP_BUILDING_PARTS:GAME_RULE_MODIFIER
----@field DataType 'GAME_RULE_MODIFIER_UPKEEP_BUILDING_PARTS' The name of this data type (always "GAME_RULE_MODIFIER_UPKEEP_BUILDING_PARTS")
 ---@field BuildingPartCategoryList? list<BUILDING_PART_TYPE> Building part categories affected
 ---@field UpKeepCostPercentageModifierAmount? float Percentage of upkeep cost altered. 1 is 100%
 

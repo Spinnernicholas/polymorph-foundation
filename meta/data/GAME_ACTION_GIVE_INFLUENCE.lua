@@ -11,7 +11,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_action_give_influence)
 ---
 ---@class GAME_ACTION_GIVE_INFLUENCE:GAME_ACTION
----@field DataType 'GAME_ACTION_GIVE_INFLUENCE' The name of this data type (always "GAME_ACTION_GIVE_INFLUENCE")
 ---@field EstateInfluence? ESTATE_QUANTITY_PAIR Serialized property of type ESTATE_QUANTITY_PAIR
 ---@field UseScaleReward? boolean Serialized boolean value, default is false
 

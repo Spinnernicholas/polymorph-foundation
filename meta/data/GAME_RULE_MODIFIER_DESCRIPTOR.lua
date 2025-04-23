@@ -17,7 +17,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/game_rule_modifier_descriptor)
 ---
 ---@class GAME_RULE_MODIFIER_DESCRIPTOR
----@field DataType 'GAME_RULE_MODIFIER_DESCRIPTOR' The name of this data type (always "GAME_RULE_MODIFIER_DESCRIPTOR")
 
 local GAME_RULE_MODIFIER_DESCRIPTOR = {}
 

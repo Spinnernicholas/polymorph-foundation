@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/help_topic)
 ---
 ---@class HELP_TOPIC
----@field DataType 'HELP_TOPIC' The name of this data type (always "HELP_TOPIC")
 ---@field TitleKey? string Localization key for the title of the help section
 ---@field AssetUnlockFunction? UNLOCK_FUNCTION Function that unlocks an asset; expected asset ID (default: nil)
 ---@field IsAvailableInDemo? boolean Whether the help topic is available in the demo (default: false)

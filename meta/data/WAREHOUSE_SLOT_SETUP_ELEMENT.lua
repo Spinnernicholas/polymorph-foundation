@@ -4,7 +4,6 @@
 ---Category: Data
 ---
 ---@class WAREHOUSE_SLOT_SETUP_ELEMENT
----@field DataType 'WAREHOUSE_SLOT_SETUP_ELEMENT' The name of this data type (always "WAREHOUSE_SLOT_SETUP_ELEMENT")
 ---@field ResourceLayoutType? RESOURCE_LAYOUT_TYPE Serialized enum value for the resource layout type
 ---@field ResourceStockpile? PREFAB Serialized asset ID for the resource stockpile
 

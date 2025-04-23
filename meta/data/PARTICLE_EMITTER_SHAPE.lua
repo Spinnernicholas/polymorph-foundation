@@ -11,7 +11,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/particle_emitter_shape)
 ---
 ---@class PARTICLE_EMITTER_SHAPE
----@field DataType 'PARTICLE_EMITTER_SHAPE' The name of this data type (always "PARTICLE_EMITTER_SHAPE")
 
 local PARTICLE_EMITTER_SHAPE = {}
 

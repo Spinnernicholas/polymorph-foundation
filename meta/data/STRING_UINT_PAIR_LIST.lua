@@ -4,7 +4,6 @@
 ---Category: Data
 ---
 ---@class STRING_UINT_PAIR_LIST
----@field DataType 'STRING_UINT_PAIR_LIST' The name of this data type (always "STRING_UINT_PAIR_LIST")
 ---@field StringValueList? list<STRING_UINT_PAIR> list of STRING_UINT_PAIR values
 
 local STRING_UINT_PAIR_LIST = {}
