@@ -15,7 +15,6 @@
 
 local GAME_ACTION_APPLY_HAPPINESS_FACTOR = {}
 
-GAME_ACTION_APPLY_HAPPINESS_FACTOR.DataType = "GAME_ACTION_APPLY_HAPPINESS_FACTOR"
 
 ---Class methods and properties go here
 

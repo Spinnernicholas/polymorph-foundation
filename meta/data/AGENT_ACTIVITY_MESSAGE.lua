@@ -9,7 +9,6 @@
 
 local AGENT_ACTIVITY_MESSAGE = {}
 
-AGENT_ACTIVITY_MESSAGE.DataType = "AGENT_ACTIVITY_MESSAGE"
 
 ---Class methods and properties go here
 

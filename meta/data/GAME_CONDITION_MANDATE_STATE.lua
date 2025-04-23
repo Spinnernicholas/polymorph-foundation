@@ -12,7 +12,6 @@
 
 local GAME_CONDITION_MANDATE_STATE = {}
 
-GAME_CONDITION_MANDATE_STATE.DataType = "GAME_CONDITION_MANDATE_STATE"
 
 ---Class methods and properties go here
 

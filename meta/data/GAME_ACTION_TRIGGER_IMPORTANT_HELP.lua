@@ -17,7 +17,6 @@
 
 local GAME_ACTION_TRIGGER_IMPORTANT_HELP = {}
 
-GAME_ACTION_TRIGGER_IMPORTANT_HELP.DataType = "GAME_ACTION_TRIGGER_IMPORTANT_HELP"
 
 ---Class methods and properties go here
 

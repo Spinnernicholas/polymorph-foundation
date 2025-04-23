@@ -12,7 +12,6 @@
 
 local VILLAGER_STATUS_RATIO = {}
 
-VILLAGER_STATUS_RATIO.DataType = "VILLAGER_STATUS_RATIO"
 
 ---Class methods and properties go here
 

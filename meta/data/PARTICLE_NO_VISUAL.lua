@@ -9,7 +9,6 @@
 
 local PARTICLE_NO_VISUAL = {}
 
-PARTICLE_NO_VISUAL.DataType = "PARTICLE_NO_VISUAL"
 
 ---Class methods and properties go here
 

@@ -9,7 +9,6 @@
 
 local EVENT_CHOICE_MANDATE_STATE_PAIR = {}
 
-EVENT_CHOICE_MANDATE_STATE_PAIR.DataType = "EVENT_CHOICE_MANDATE_STATE_PAIR"
 
 ---Class methods and properties go here
 

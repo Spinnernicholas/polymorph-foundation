@@ -15,7 +15,6 @@
 
 local VILLAGER_STATUS_RESOURCE_LIST_PAIR = {}
 
-VILLAGER_STATUS_RESOURCE_LIST_PAIR.DataType = "VILLAGER_STATUS_RESOURCE_LIST_PAIR"
 
 ---Class methods and properties go here
 

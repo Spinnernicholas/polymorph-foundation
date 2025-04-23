@@ -14,7 +14,6 @@
 
 local PARTICLE_FLOAT3_VALUE = {}
 
-PARTICLE_FLOAT3_VALUE.DataType = "PARTICLE_FLOAT3_VALUE"
 
 ---Class methods and properties go here
 

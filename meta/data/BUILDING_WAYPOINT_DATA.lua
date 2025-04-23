@@ -13,7 +13,6 @@
 
 local BUILDING_WAYPOINT_DATA = {}
 
-BUILDING_WAYPOINT_DATA.DataType = "BUILDING_WAYPOINT_DATA"
 
 ---Class methods and properties go here
 

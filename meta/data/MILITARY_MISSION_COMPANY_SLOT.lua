@@ -9,7 +9,6 @@
 
 local MILITARY_MISSION_COMPANY_SLOT = {}
 
-MILITARY_MISSION_COMPANY_SLOT.DataType = "MILITARY_MISSION_COMPANY_SLOT"
 
 ---Class methods and properties go here
 

@@ -12,7 +12,6 @@
 
 local BUILDING_PART_COST_PAIR = {}
 
-BUILDING_PART_COST_PAIR.DataType = "BUILDING_PART_COST_PAIR"
 
 ---Class methods and properties go here
 

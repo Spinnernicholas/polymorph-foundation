@@ -17,7 +17,6 @@
 
 local GAME_ACTION_IGNORE = {}
 
-GAME_ACTION_IGNORE.DataType = "GAME_ACTION_IGNORE"
 
 ---Class methods and properties go here
 

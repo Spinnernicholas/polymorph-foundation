@@ -15,7 +15,6 @@
 
 local STRING_FLOAT_PAIR = {}
 
-STRING_FLOAT_PAIR.DataType = "STRING_FLOAT_PAIR"
 
 ---Class methods and properties go here
 

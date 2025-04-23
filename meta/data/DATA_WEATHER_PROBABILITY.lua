@@ -11,7 +11,6 @@
 
 local DATA_WEATHER_PROBABILITY = {}
 
-DATA_WEATHER_PROBABILITY.DataType = "DATA_WEATHER_PROBABILITY"
 
 ---Class methods and properties go here
 

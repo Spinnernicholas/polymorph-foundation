@@ -11,7 +11,6 @@
 
 local GAME_ACTION_UPGRADE_TRADE_ROUTE = {}
 
-GAME_ACTION_UPGRADE_TRADE_ROUTE.DataType = "GAME_ACTION_UPGRADE_TRADE_ROUTE"
 
 ---Class methods and properties go here
 

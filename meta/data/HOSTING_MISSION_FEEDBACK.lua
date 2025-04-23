@@ -11,7 +11,6 @@
 
 local HOSTING_MISSION_FEEDBACK = {}
 
-HOSTING_MISSION_FEEDBACK.DataType = "HOSTING_MISSION_FEEDBACK"
 
 ---Class methods and properties go here
 

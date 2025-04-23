@@ -16,7 +16,6 @@
 
 local DATA_WALL_SEGMENT = {}
 
-DATA_WALL_SEGMENT.DataType = "DATA_WALL_SEGMENT"
 
 ---Class methods and properties go here
 

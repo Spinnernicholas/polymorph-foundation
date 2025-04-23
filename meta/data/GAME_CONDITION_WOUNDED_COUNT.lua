@@ -13,7 +13,6 @@
 
 local GAME_CONDITION_WOUNDED_COUNT = {}
 
-GAME_CONDITION_WOUNDED_COUNT.DataType = "GAME_CONDITION_WOUNDED_COUNT"
 
 ---Class methods and properties go here
 

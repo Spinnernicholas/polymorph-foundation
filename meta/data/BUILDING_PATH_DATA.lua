@@ -15,7 +15,6 @@
 
 local BUILDING_PATH_DATA = {}
 
-BUILDING_PATH_DATA.DataType = "BUILDING_PATH_DATA"
 
 ---Class methods and properties go here
 

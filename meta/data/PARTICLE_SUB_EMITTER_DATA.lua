@@ -14,7 +14,6 @@
 
 local PARTICLE_SUB_EMITTER_DATA = {}
 
-PARTICLE_SUB_EMITTER_DATA.DataType = "PARTICLE_SUB_EMITTER_DATA"
 
 ---Class methods and properties go here
 

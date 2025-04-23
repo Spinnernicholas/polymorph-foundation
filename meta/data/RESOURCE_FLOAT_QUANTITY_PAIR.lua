@@ -13,7 +13,6 @@
 
 local RESOURCE_FLOAT_QUANTITY_PAIR = {}
 
-RESOURCE_FLOAT_QUANTITY_PAIR.DataType = "RESOURCE_FLOAT_QUANTITY_PAIR"
 
 ---Class methods and properties go here
 

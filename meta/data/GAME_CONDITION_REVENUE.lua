@@ -15,7 +15,6 @@
 
 local GAME_CONDITION_REVENUE = {}
 
-GAME_CONDITION_REVENUE.DataType = "GAME_CONDITION_REVENUE"
 
 ---Class methods and properties go here
 

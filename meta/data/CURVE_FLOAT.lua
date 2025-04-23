@@ -9,7 +9,6 @@
 ---@field ValueList? list<CURVE_VALUE> list of CURVE_VALUE values
 local CURVE_FLOAT = {}
 
-CURVE_FLOAT.DataType = "CURVE_FLOAT"
 
 ---
 ---Evaluates the curve at the given parameter t.

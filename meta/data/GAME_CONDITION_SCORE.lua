@@ -11,7 +11,6 @@
 
 local GAME_CONDITION_SCORE = {}
 
-GAME_CONDITION_SCORE.DataType = "GAME_CONDITION_SCORE"
 
 ---Class methods and properties go here
 

@@ -10,7 +10,6 @@
 
 local TAXATION_BRACKET = {}
 
-TAXATION_BRACKET.DataType = "TAXATION_BRACKET"
 
 ---Class methods and properties go here
 

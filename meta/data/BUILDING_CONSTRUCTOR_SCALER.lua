@@ -16,7 +16,6 @@
 
 local BUILDING_CONSTRUCTOR_SCALER = {}
 
-BUILDING_CONSTRUCTOR_SCALER.DataType = "BUILDING_CONSTRUCTOR_SCALER"
 
 ---Class methods and properties go here
 

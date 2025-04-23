@@ -11,7 +11,6 @@
 
 local BUILDING_CONSTRUCTOR_BASEMENT = {}
 
-BUILDING_CONSTRUCTOR_BASEMENT.DataType = "BUILDING_CONSTRUCTOR_BASEMENT"
 
 ---Class methods and properties go here
 

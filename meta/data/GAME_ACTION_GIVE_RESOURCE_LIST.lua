@@ -17,7 +17,6 @@
 
 local GAME_ACTION_GIVE_RESOURCE_LIST = {}
 
-GAME_ACTION_GIVE_RESOURCE_LIST.DataType = "GAME_ACTION_GIVE_RESOURCE_LIST"
 
 ---Class methods and properties go here
 

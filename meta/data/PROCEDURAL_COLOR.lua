@@ -17,7 +17,6 @@
 ---@field Curve? EASING Serialized. Curve of random distribution. Expected: enum value. Default: EASING.LINEAR
 local PROCEDURAL_COLOR = {}
 
-PROCEDURAL_COLOR.DataType = "PROCEDURAL_COLOR"
 
 ---Class methods and properties go here
 

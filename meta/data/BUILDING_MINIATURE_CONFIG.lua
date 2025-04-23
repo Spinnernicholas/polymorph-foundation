@@ -14,7 +14,6 @@
 
 local BUILDING_MINIATURE_CONFIG = {}
 
-BUILDING_MINIATURE_CONFIG.DataType = "BUILDING_MINIATURE_CONFIG"
 
 ---Class methods and properties go here
 

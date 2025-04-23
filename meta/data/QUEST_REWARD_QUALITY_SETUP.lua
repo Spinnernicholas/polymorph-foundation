@@ -12,7 +12,6 @@
 
 local QUEST_REWARD_QUALITY_SETUP = {}
 
-QUEST_REWARD_QUALITY_SETUP.DataType = "QUEST_REWARD_QUALITY_SETUP"
 
 ---Class methods and properties go here
 

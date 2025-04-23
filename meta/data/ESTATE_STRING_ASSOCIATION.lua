@@ -9,7 +9,6 @@
 
 local ESTATE_STRING_ASSOCIATION = {}
 
-ESTATE_STRING_ASSOCIATION.DataType = "ESTATE_STRING_ASSOCIATION"
 
 ---Class methods and properties go here
 

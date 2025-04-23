@@ -13,7 +13,6 @@
 
 local DELAYED_QUEST = {}
 
-DELAYED_QUEST.DataType = "DELAYED_QUEST"
 
 ---Class methods and properties go here
 

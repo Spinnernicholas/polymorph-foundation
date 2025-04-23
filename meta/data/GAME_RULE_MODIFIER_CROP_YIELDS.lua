@@ -12,7 +12,6 @@
 
 local GAME_RULE_MODIFIER_CROP_YIELDS = {}
 
-GAME_RULE_MODIFIER_CROP_YIELDS.DataType = "GAME_RULE_MODIFIER_CROP_YIELDS"
 
 ---Class methods and properties go here
 

@@ -10,7 +10,6 @@
 
 local AGENT_PROFILE_FUNCTION_SOLDIER = {}
 
-AGENT_PROFILE_FUNCTION_SOLDIER.DataType = "AGENT_PROFILE_FUNCTION_SOLDIER"
 
 ---Class methods and properties go here
 

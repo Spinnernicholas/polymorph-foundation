@@ -9,7 +9,6 @@
 
 local WAREHOUSE_SLOT_SETUP_ELEMENT = {}
 
-WAREHOUSE_SLOT_SETUP_ELEMENT.DataType = "WAREHOUSE_SLOT_SETUP_ELEMENT"
 
 ---Class methods and properties go here
 

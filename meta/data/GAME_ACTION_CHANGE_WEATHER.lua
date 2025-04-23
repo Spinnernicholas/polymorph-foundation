@@ -15,7 +15,6 @@
 
 local GAME_ACTION_CHANGE_WEATHER = {}
 
-GAME_ACTION_CHANGE_WEATHER.DataType = "GAME_ACTION_CHANGE_WEATHER"
 
 ---Class methods and properties go here
 

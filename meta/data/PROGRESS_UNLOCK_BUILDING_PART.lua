@@ -13,7 +13,6 @@
 
 local PROGRESS_UNLOCK_BUILDING_PART = {}
 
-PROGRESS_UNLOCK_BUILDING_PART.DataType = "PROGRESS_UNLOCK_BUILDING_PART"
 
 ---Class methods and properties go here
 

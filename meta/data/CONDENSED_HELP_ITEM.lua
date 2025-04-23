@@ -13,7 +13,6 @@
 
 local CONDENSED_HELP_ITEM = {}
 
-CONDENSED_HELP_ITEM.DataType = "CONDENSED_HELP_ITEM"
 
 ---Class methods and properties go here
 

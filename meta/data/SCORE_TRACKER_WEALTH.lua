@@ -9,7 +9,6 @@
 
 local SCORE_TRACKER_WEALTH = {}
 
-SCORE_TRACKER_WEALTH.DataType = "SCORE_TRACKER_WEALTH"
 
 ---Class methods and properties go here
 

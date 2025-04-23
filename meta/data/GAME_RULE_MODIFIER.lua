@@ -13,7 +13,6 @@
 
 local GAME_RULE_MODIFIER = {}
 
-GAME_RULE_MODIFIER.DataType = "GAME_RULE_MODIFIER"
 
 ---Class methods and properties go here
 

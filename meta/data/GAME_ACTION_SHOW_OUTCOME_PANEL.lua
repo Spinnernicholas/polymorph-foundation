@@ -12,7 +12,6 @@
 
 local GAME_ACTION_SHOW_OUTCOME_PANEL = {}
 
-GAME_ACTION_SHOW_OUTCOME_PANEL.DataType = "GAME_ACTION_SHOW_OUTCOME_PANEL"
 
 ---Class methods and properties go here
 

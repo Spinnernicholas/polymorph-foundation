@@ -10,7 +10,6 @@
 
 local OUTCOME_PANEL_EXTRA_GUI_MILITARY = {}
 
-OUTCOME_PANEL_EXTRA_GUI_MILITARY.DataType = "OUTCOME_PANEL_EXTRA_GUI_MILITARY"
 
 ---Class methods and properties go here
 

@@ -13,7 +13,6 @@
 
 local MATERIAL_SET = {}
 
-MATERIAL_SET.DataType = "MATERIAL_SET"
 
 ---Class methods and properties go here
 

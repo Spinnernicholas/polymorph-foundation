@@ -14,7 +14,6 @@
 
 local GAME_CONDITION_SPLENDOR_CHANGE = {}
 
-GAME_CONDITION_SPLENDOR_CHANGE.DataType = "GAME_CONDITION_SPLENDOR_CHANGE"
 
 ---Class methods and properties go here
 

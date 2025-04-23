@@ -13,7 +13,6 @@
 
 local STRING_FLOAT_PAIR_LIST = {}
 
-STRING_FLOAT_PAIR_LIST.DataType = "STRING_FLOAT_PAIR_LIST"
 
 ---Class methods and properties go here
 

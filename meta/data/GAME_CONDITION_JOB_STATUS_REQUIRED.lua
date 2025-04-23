@@ -11,7 +11,6 @@
 
 local GAME_CONDITION_JOB_STATUS_REQUIRED = {}
 
-GAME_CONDITION_JOB_STATUS_REQUIRED.DataType = "GAME_CONDITION_JOB_STATUS_REQUIRED"
 
 ---Class methods and properties go here
 

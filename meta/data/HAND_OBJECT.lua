@@ -15,7 +15,6 @@
 
 local HAND_OBJECT = {}
 
-HAND_OBJECT.DataType = "HAND_OBJECT"
 
 ---Class methods and properties go here
 

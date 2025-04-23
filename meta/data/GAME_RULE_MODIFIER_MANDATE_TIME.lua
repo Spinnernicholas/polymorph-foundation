@@ -12,7 +12,6 @@
 
 local GAME_RULE_MODIFIER_MANDATE_TIME = {}
 
-GAME_RULE_MODIFIER_MANDATE_TIME.DataType = "GAME_RULE_MODIFIER_MANDATE_TIME"
 
 ---Class methods and properties go here
 

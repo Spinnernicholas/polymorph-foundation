@@ -11,7 +11,6 @@
 
 local GAME_ACTION_UNLOCK_SYSTEM = {}
 
-GAME_ACTION_UNLOCK_SYSTEM.DataType = "GAME_ACTION_UNLOCK_SYSTEM"
 
 ---Class methods and properties go here
 

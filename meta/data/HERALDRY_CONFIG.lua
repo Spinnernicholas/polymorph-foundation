@@ -18,7 +18,6 @@
 
 local HERALDRY_CONFIG = {}
 
-HERALDRY_CONFIG.DataType = "HERALDRY_CONFIG"
 
 ---Class methods and properties go here
 

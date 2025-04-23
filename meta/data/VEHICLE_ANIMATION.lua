@@ -16,7 +16,6 @@
 
 local VEHICLE_ANIMATION = {}
 
-VEHICLE_ANIMATION.DataType = "VEHICLE_ANIMATION"
 
 ---Class methods and properties go here
 

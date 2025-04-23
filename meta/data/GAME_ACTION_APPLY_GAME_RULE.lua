@@ -19,7 +19,6 @@
 
 local GAME_ACTION_APPLY_GAME_RULE = {}
 
-GAME_ACTION_APPLY_GAME_RULE.DataType = "GAME_ACTION_APPLY_GAME_RULE"
 
 ---Class methods and properties go here
 

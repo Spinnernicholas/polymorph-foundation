@@ -10,7 +10,6 @@
 ---@field StrengthPercentageFromHappiness? float A float value representing the strength percentage adjusted from happiness (default is 0.8)
 local GAME_RULE_MODIFIER_SOLDIER_STRENGTH_FROM_HAPPINESS = {}
 
-GAME_RULE_MODIFIER_SOLDIER_STRENGTH_FROM_HAPPINESS.DataType = "GAME_RULE_MODIFIER_SOLDIER_STRENGTH_FROM_HAPPINESS"
 
 ---Class methods and properties go here
 

@@ -11,7 +11,6 @@
 
 local PART_PROBABILITY = {}
 
-PART_PROBABILITY.DataType = "PART_PROBABILITY"
 
 ---Class methods and properties go here
 

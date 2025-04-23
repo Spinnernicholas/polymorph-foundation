@@ -16,7 +16,6 @@
 
 local PROCEDURAL_FLOAT = {}
 
-PROCEDURAL_FLOAT.DataType = "PROCEDURAL_FLOAT"
 
 ---Class methods and properties go here
 

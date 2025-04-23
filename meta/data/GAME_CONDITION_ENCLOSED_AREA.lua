@@ -15,7 +15,6 @@
 
 local GAME_CONDITION_ENCLOSED_AREA = {}
 
-GAME_CONDITION_ENCLOSED_AREA.DataType = "GAME_CONDITION_ENCLOSED_AREA"
 
 ---Class methods and properties go here
 

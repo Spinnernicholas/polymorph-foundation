@@ -10,7 +10,6 @@
 
 local ASSEMBLAGE_CUSTOM_SET = {}
 
-ASSEMBLAGE_CUSTOM_SET.DataType = "ASSEMBLAGE_CUSTOM_SET"
 
 ---Class methods and properties go here
 

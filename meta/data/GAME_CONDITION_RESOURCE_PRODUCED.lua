@@ -12,7 +12,6 @@
 
 local GAME_CONDITION_RESOURCE_PRODUCED = {}
 
-GAME_CONDITION_RESOURCE_PRODUCED.DataType = "GAME_CONDITION_RESOURCE_PRODUCED"
 
 ---Class methods and properties go here
 

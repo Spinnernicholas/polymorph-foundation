@@ -14,7 +14,6 @@
 
 local BUILDING_PROGRESS = {}
 
-BUILDING_PROGRESS.DataType = "BUILDING_PROGRESS"
 
 ---void unlockTotalBuildingProgress()
 function BUILDING_PROGRESS.unlockTotalBuildingProgress() end

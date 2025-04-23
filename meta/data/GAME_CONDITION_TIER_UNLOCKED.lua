@@ -14,7 +14,6 @@
 
 local GAME_CONDITION_TIER_UNLOCKED = {}
 
-GAME_CONDITION_TIER_UNLOCKED.DataType = "GAME_CONDITION_TIER_UNLOCKED"
 
 ---Class methods and properties go here
 

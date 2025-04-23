@@ -18,7 +18,6 @@
 
 local PROCEDURAL_VECTOR2 = {}
 
-PROCEDURAL_VECTOR2.DataType = "PROCEDURAL_VECTOR2"
 
 ---Class methods and properties go here
 

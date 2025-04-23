@@ -35,7 +35,6 @@
 ---
 local GAME_ACTION_VISIT = {}
 
-GAME_ACTION_VISIT.DataType = "GAME_ACTION_VISIT"
 
 ---Events for GAME_ACTION_VISIT
 GAME_ACTION_VISIT.ON_VISITOR_SPAWNED = function(visitor) end

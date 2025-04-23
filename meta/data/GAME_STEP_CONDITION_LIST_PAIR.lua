@@ -9,7 +9,6 @@
 
 local GAME_STEP_CONDITION_LIST_PAIR = {}
 
-GAME_STEP_CONDITION_LIST_PAIR.DataType = "GAME_STEP_CONDITION_LIST_PAIR"
 
 ---Class methods and properties go here
 

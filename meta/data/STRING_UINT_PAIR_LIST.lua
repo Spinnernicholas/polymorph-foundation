@@ -8,7 +8,6 @@
 
 local STRING_UINT_PAIR_LIST = {}
 
-STRING_UINT_PAIR_LIST.DataType = "STRING_UINT_PAIR_LIST"
 
 ---Class methods and properties go here
 

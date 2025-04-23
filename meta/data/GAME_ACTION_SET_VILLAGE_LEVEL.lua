@@ -11,7 +11,6 @@
 
 local GAME_ACTION_SET_VILLAGE_LEVEL = {}
 
-GAME_ACTION_SET_VILLAGE_LEVEL.DataType = "GAME_ACTION_SET_VILLAGE_LEVEL"
 
 ---Class methods and properties go here
 

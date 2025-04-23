@@ -14,7 +14,6 @@
 
 local DATA_WALL_CRENELATION = {}
 
-DATA_WALL_CRENELATION.DataType = "DATA_WALL_CRENELATION"
 
 ---Class methods and properties go here
 

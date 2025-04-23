@@ -7,7 +7,6 @@
 
 local VILLAGER_VALUE_PAIR = {}
 
-VILLAGER_VALUE_PAIR.DataType = "VILLAGER_VALUE_PAIR"
 
 ---Class methods and properties go here
 

@@ -13,7 +13,6 @@
 
 local HELP_CATEGORY = {}
 
-HELP_CATEGORY.DataType = "HELP_CATEGORY"
 
 ---Class methods and properties go here
 

@@ -12,7 +12,6 @@
 
 local BUILDING_ZONE_ENTRY = {}
 
-BUILDING_ZONE_ENTRY.DataType = "BUILDING_ZONE_ENTRY"
 
 ---Class methods and properties go here
 

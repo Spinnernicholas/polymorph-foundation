@@ -12,7 +12,6 @@
 
 local GAME_CONDITION_TAX_METER_CHANGED = {}
 
-GAME_CONDITION_TAX_METER_CHANGED.DataType = "GAME_CONDITION_TAX_METER_CHANGED"
 
 ---Class methods and properties go here
 

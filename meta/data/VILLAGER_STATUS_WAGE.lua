@@ -11,7 +11,6 @@
 
 local VILLAGER_STATUS_WAGE = {}
 
-VILLAGER_STATUS_WAGE.DataType = "VILLAGER_STATUS_WAGE"
 
 ---Class methods and properties go here
 

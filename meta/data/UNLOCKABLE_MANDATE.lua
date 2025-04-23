@@ -11,7 +11,6 @@
 
 local UNLOCKABLE_MANDATE = {}
 
-UNLOCKABLE_MANDATE.DataType = "UNLOCKABLE_MANDATE"
 
 ---Class methods and properties go here
 

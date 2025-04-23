@@ -12,7 +12,6 @@
 
 local GAME_ACTION_GENERATE_REWARD = {}
 
-GAME_ACTION_GENERATE_REWARD.DataType = "GAME_ACTION_GENERATE_REWARD"
 
 ---Class methods and properties go here
 

@@ -16,7 +16,6 @@
 
 local FORTIFICATION_PARAMETERS = {}
 
-FORTIFICATION_PARAMETERS.DataType = "FORTIFICATION_PARAMETERS"
 
 ---Class methods and properties go here
 

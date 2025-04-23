@@ -11,7 +11,6 @@
 
 local GAME_ACTION_UNLOCK_EDICT = {}
 
-GAME_ACTION_UNLOCK_EDICT.DataType = "GAME_ACTION_UNLOCK_EDICT"
 
 ---Class methods and properties go here
 

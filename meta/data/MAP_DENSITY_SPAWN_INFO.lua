@@ -11,7 +11,6 @@
 
 local MAP_DENSITY_SPAWN_INFO = {}
 
-MAP_DENSITY_SPAWN_INFO.DataType = "MAP_DENSITY_SPAWN_INFO"
 
 ---Class methods and properties go here
 

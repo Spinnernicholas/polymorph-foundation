@@ -11,7 +11,6 @@
 
 local ESTATE_MANDATE_PAIR = {}
 
-ESTATE_MANDATE_PAIR.DataType = "ESTATE_MANDATE_PAIR"
 
 ---Class methods and properties go here
 

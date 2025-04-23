@@ -13,7 +13,6 @@
 
 local GAME_ACTION_SNOOZE_RECURING_EVENT = {}
 
-GAME_ACTION_SNOOZE_RECURING_EVENT.DataType = "GAME_ACTION_SNOOZE_RECURING_EVENT"
 
 ---Class methods and properties go here
 

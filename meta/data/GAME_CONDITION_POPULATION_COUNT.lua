@@ -16,7 +16,6 @@
 
 local GAME_CONDITION_POPULATION_COUNT = {}
 
-GAME_CONDITION_POPULATION_COUNT.DataType = "GAME_CONDITION_POPULATION_COUNT"
 
 ---Class methods and properties go here
 

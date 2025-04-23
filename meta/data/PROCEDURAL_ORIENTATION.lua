@@ -18,7 +18,6 @@
 
 local PROCEDURAL_ORIENTATION = {}
 
-PROCEDURAL_ORIENTATION.DataType = "PROCEDURAL_ORIENTATION"
 
 ---Class methods and properties go here
 

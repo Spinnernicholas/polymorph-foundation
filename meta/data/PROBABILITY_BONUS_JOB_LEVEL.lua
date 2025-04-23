@@ -12,7 +12,6 @@
 
 local PROBABILITY_BONUS_JOB_LEVEL = {}
 
-PROBABILITY_BONUS_JOB_LEVEL.DataType = "PROBABILITY_BONUS_JOB_LEVEL"
 
 ---Class methods and properties go here
 

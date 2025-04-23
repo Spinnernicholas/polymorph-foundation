@@ -8,7 +8,6 @@
 
 local CHARACTER_SETUP = {}
 
-CHARACTER_SETUP.DataType = "CHARACTER_SETUP"
 
 -- Class methods and properties go here
 

@@ -11,7 +11,6 @@
 
 local GAME_CONDITION_BUILDING_NOT_BUILT = {}
 
-GAME_CONDITION_BUILDING_NOT_BUILT.DataType = "GAME_CONDITION_BUILDING_NOT_BUILT"
 
 ---Class methods and properties go here
 

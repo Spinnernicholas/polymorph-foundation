@@ -8,7 +8,6 @@
 
 local BEHAVIOR_TREE_INSTANCE = {}
 
-BEHAVIOR_TREE_INSTANCE.DataType = "BEHAVIOR_TREE_INSTANCE"
 
 ---Class methods and properties go here
 

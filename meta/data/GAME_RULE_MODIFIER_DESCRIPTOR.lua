@@ -20,7 +20,6 @@
 
 local GAME_RULE_MODIFIER_DESCRIPTOR = {}
 
-GAME_RULE_MODIFIER_DESCRIPTOR.DataType = "GAME_RULE_MODIFIER_DESCRIPTOR"
 
 ---Class methods and properties go here
 

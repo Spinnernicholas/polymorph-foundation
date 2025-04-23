@@ -10,7 +10,6 @@
 
 local BUILDING_TYPE_CONFIG = {}
 
-BUILDING_TYPE_CONFIG.DataType = "BUILDING_TYPE_CONFIG"
 
 ---Class methods and properties go here
 

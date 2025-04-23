@@ -13,7 +13,6 @@
 
 local GAME_CONDITION_TRADE_ROUTE_LEVEL = {}
 
-GAME_CONDITION_TRADE_ROUTE_LEVEL.DataType = "GAME_CONDITION_TRADE_ROUTE_LEVEL"
 
 ---Class methods and properties go here
 

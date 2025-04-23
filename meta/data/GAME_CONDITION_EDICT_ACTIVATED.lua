@@ -11,7 +11,6 @@
 
 local GAME_CONDITION_EDICT_ACTIVATED = {}
 
-GAME_CONDITION_EDICT_ACTIVATED.DataType = "GAME_CONDITION_EDICT_ACTIVATED"
 
 ---Class methods and properties go here
 

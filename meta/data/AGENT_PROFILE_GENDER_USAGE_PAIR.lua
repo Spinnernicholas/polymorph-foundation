@@ -11,7 +11,6 @@
 
 local AGENT_PROFILE_GENDER_USAGE_PAIR = {}
 
-AGENT_PROFILE_GENDER_USAGE_PAIR.DataType = "AGENT_PROFILE_GENDER_USAGE_PAIR"
 
 ---Class methods and properties go here
 

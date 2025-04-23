@@ -12,7 +12,6 @@
 
 local GRADIENT_COLOR_VALUE = {}
 
-GRADIENT_COLOR_VALUE.DataType = "GRADIENT_COLOR_VALUE"
 
 ---Class methods and properties go here
 

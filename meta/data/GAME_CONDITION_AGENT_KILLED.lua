@@ -11,7 +11,6 @@
 
 local GAME_CONDITION_AGENT_KILLED = {}
 
-GAME_CONDITION_AGENT_KILLED.DataType = "GAME_CONDITION_AGENT_KILLED"
 
 ---Class methods and properties go here
 

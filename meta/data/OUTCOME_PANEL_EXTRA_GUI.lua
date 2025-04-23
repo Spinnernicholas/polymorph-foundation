@@ -10,7 +10,6 @@
 
 local OUTCOME_PANEL_EXTRA_GUI = {}
 
-OUTCOME_PANEL_EXTRA_GUI.DataType = "OUTCOME_PANEL_EXTRA_GUI"
 
 ---Class methods and properties go here
 

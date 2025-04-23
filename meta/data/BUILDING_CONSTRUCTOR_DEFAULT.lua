@@ -17,7 +17,6 @@
 
 local BUILDING_CONSTRUCTOR_DEFAULT = {}
 
-BUILDING_CONSTRUCTOR_DEFAULT.DataType = "BUILDING_CONSTRUCTOR_DEFAULT"
 
 ---Class methods and properties go here
 

@@ -12,7 +12,6 @@
 
 local GAME_RULE_MODIFIER_JOB_STATUS = {}
 
-GAME_RULE_MODIFIER_JOB_STATUS.DataType = "GAME_RULE_MODIFIER_JOB_STATUS"
 
 ---Class methods and properties go here
 

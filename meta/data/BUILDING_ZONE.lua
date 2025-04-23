@@ -8,7 +8,6 @@
 
 local BUILDING_ZONE = {}
 
-BUILDING_ZONE.DataType = "BUILDING_ZONE"
 
 ---Class methods and properties go here
 

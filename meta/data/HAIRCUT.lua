@@ -11,7 +11,6 @@
 
 local HAIRCUT = {}
 
-HAIRCUT.DataType = "HAIRCUT"
 
 ---Class methods and properties go here
 

@@ -13,7 +13,6 @@
 
 local TAXATION_PER_VILLAGER_STATUS = {}
 
-TAXATION_PER_VILLAGER_STATUS.DataType = "TAXATION_PER_VILLAGER_STATUS"
 
 ---Class methods and properties go here
 

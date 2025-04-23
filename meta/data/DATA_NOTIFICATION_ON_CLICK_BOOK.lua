@@ -12,7 +12,6 @@
 
 local DATA_NOTIFICATION_ON_CLICK_BOOK = {}
 
-DATA_NOTIFICATION_ON_CLICK_BOOK.DataType = "DATA_NOTIFICATION_ON_CLICK_BOOK"
 
 ---Class methods and properties go here
 

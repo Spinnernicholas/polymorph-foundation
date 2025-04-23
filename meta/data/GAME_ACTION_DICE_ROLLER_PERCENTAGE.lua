@@ -11,7 +11,6 @@
 
 local GAME_ACTION_DICE_ROLLER_PERCENTAGE = {}
 
-GAME_ACTION_DICE_ROLLER_PERCENTAGE.DataType = "GAME_ACTION_DICE_ROLLER_PERCENTAGE"
 
 ---Class methods and properties go here
 

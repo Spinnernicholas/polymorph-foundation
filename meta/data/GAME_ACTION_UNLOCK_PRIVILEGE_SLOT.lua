@@ -13,7 +13,6 @@
 
 local GAME_ACTION_UNLOCK_PRIVILEGE_SLOT = {}
 
-GAME_ACTION_UNLOCK_PRIVILEGE_SLOT.DataType = "GAME_ACTION_UNLOCK_PRIVILEGE_SLOT"
 
 ---Class methods and properties go here
 

@@ -9,7 +9,6 @@
 
 local VILLAGER_STATUS_GENDER_USAGE_PAIR = {}
 
-VILLAGER_STATUS_GENDER_USAGE_PAIR.DataType = "VILLAGER_STATUS_GENDER_USAGE_PAIR"
 
 ---Class methods and properties go here
 

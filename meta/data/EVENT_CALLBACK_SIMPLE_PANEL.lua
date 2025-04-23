@@ -14,7 +14,6 @@
 
 local EVENT_CALLBACK_SIMPLE_PANEL = {}
 
-EVENT_CALLBACK_SIMPLE_PANEL.DataType = "EVENT_CALLBACK_SIMPLE_PANEL"
 
 ---Class methods and properties go here
 

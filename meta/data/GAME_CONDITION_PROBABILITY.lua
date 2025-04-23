@@ -13,7 +13,6 @@
 
 local GAME_CONDITION_PROBABILITY = {}
 
-GAME_CONDITION_PROBABILITY.DataType = "GAME_CONDITION_PROBABILITY"
 
 ---Class methods and properties go here
 

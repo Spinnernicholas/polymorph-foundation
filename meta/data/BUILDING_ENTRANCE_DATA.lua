@@ -12,7 +12,6 @@
 
 local BUILDING_ENTRANCE_DATA = {}
 
-BUILDING_ENTRANCE_DATA.DataType = "BUILDING_ENTRANCE_DATA"
 
 ---Class methods and properties go here
 

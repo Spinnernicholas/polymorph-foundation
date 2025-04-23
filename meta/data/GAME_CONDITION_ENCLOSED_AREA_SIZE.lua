@@ -12,7 +12,6 @@
 
 local GAME_CONDITION_ENCLOSED_AREA_SIZE = {}
 
-GAME_CONDITION_ENCLOSED_AREA_SIZE.DataType = "GAME_CONDITION_ENCLOSED_AREA_SIZE"
 
 ---Class methods and properties go here
 

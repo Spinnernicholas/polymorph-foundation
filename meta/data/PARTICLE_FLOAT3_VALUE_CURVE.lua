@@ -13,7 +13,6 @@
 
 local PARTICLE_FLOAT3_VALUE_CURVE = {}
 
-PARTICLE_FLOAT3_VALUE_CURVE.DataType = "PARTICLE_FLOAT3_VALUE_CURVE"
 
 ---Class methods and properties go here
 

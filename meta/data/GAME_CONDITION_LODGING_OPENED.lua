@@ -11,7 +11,6 @@
 
 local GAME_CONDITION_LODGING_OPENED = {}
 
-GAME_CONDITION_LODGING_OPENED.DataType = "GAME_CONDITION_LODGING_OPENED"
 
 ---Class methods and properties go here
 

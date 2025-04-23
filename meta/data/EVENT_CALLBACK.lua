@@ -12,7 +12,6 @@
 
 local EVENT_CALLBACK = {}
 
-EVENT_CALLBACK.DataType = "EVENT_CALLBACK"
 
 ---Class methods and properties go here
 

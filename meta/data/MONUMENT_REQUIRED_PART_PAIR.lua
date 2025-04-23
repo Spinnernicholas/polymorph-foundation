@@ -14,7 +14,6 @@
 
 local MONUMENT_REQUIRED_PART_PAIR = {}
 
-MONUMENT_REQUIRED_PART_PAIR.DataType = "MONUMENT_REQUIRED_PART_PAIR"
 
 ---Class methods and properties go here
 

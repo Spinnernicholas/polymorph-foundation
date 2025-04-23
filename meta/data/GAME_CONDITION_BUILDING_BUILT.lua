@@ -18,7 +18,6 @@
 
 local GAME_CONDITION_BUILDING_BUILT = {}
 
-GAME_CONDITION_BUILDING_BUILT.DataType = "GAME_CONDITION_BUILDING_BUILT"
 
 ---Class methods and properties go here
 

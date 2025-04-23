@@ -13,7 +13,6 @@
 
 local GAME_ACTION_DICE_ROLLER_INFLUENCE = {}
 
-GAME_ACTION_DICE_ROLLER_INFLUENCE.DataType = "GAME_ACTION_DICE_ROLLER_INFLUENCE"
 
 ---Class methods and properties go here
 

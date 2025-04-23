@@ -15,7 +15,6 @@
 
 local BUILDING_CONSTRUCTOR_BRIDGE = {}
 
-BUILDING_CONSTRUCTOR_BRIDGE.DataType = "BUILDING_CONSTRUCTOR_BRIDGE"
 
 ---Class methods and properties go here
 

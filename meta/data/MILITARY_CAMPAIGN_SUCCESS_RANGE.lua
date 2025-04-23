@@ -12,7 +12,6 @@
 
 local MILITARY_CAMPAIGN_SUCCESS_RANGE = {}
 
-MILITARY_CAMPAIGN_SUCCESS_RANGE.DataType = "MILITARY_CAMPAIGN_SUCCESS_RANGE"
 
 ---Class methods and properties go here
 

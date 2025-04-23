@@ -9,7 +9,6 @@
 
 local MILITARY_CAMPAIGN_INSTANCE = {}
 
-MILITARY_CAMPAIGN_INSTANCE.DataType = "MILITARY_CAMPAIGN_INSTANCE"
 
 ---Class methods and properties go here
 

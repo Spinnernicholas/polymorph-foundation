@@ -12,7 +12,6 @@
 
 local GAME_ACTION_DICE_ROLLER = {}
 
-GAME_ACTION_DICE_ROLLER.DataType = "GAME_ACTION_DICE_ROLLER"
 
 ---Class methods and properties go here
 

@@ -13,7 +13,6 @@
 
 local GAME_CONDITION_RESOURCE_UNLOCKED = {}
 
-GAME_CONDITION_RESOURCE_UNLOCKED.DataType = "GAME_CONDITION_RESOURCE_UNLOCKED"
 
 ---Class methods and properties go here
 

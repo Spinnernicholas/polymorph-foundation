@@ -11,7 +11,6 @@
 
 local GAME_CONDITION_UNLOCK_TRADE_ROUTE = {}
 
-GAME_CONDITION_UNLOCK_TRADE_ROUTE.DataType = "GAME_CONDITION_UNLOCK_TRADE_ROUTE"
 
 ---Class methods and properties go here
 

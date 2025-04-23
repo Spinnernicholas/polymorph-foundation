@@ -9,7 +9,6 @@
 
 local MILITARY_MISSION_CYCLE = {}
 
-MILITARY_MISSION_CYCLE.DataType = "MILITARY_MISSION_CYCLE"
 
 ---Class methods and properties go here
 

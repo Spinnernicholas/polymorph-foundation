@@ -11,7 +11,6 @@
 
 local GRADIENT_ALPHA_VALUE = {}
 
-GRADIENT_ALPHA_VALUE.DataType = "GRADIENT_ALPHA_VALUE"
 
 ---Class methods and properties go here
 

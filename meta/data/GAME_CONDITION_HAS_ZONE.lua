@@ -11,7 +11,6 @@
 
 local GAME_CONDITION_HAS_ZONE = {}
 
-GAME_CONDITION_HAS_ZONE.DataType = "GAME_CONDITION_HAS_ZONE"
 
 ---Class methods and properties go here
 

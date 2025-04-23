@@ -13,7 +13,6 @@
 
 local GAME_ACTION_GIVE_BLUEPRINT = {}
 
-GAME_ACTION_GIVE_BLUEPRINT.DataType = "GAME_ACTION_GIVE_BLUEPRINT"
 
 ---Class methods and properties go here
 

@@ -19,7 +19,6 @@
 
 local GAME_CONDITION_BUILDING = {}
 
-GAME_CONDITION_BUILDING.DataType = "GAME_CONDITION_BUILDING"
 
 ---Class methods and properties go here
 

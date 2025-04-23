@@ -14,7 +14,6 @@
 
 local HELP_TOPIC = {}
 
-HELP_TOPIC.DataType = "HELP_TOPIC"
 
 ---Class methods and properties go here
 

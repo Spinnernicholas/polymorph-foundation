@@ -19,7 +19,6 @@
 
 local GAME_ACTION_GIVE_RANDOM_RESOURCE = {}
 
-GAME_ACTION_GIVE_RANDOM_RESOURCE.DataType = "GAME_ACTION_GIVE_RANDOM_RESOURCE"
 
 ---Class methods and properties go here
 

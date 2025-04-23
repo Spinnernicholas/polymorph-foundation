@@ -11,7 +11,6 @@
 
 local BAILIFF_INSTANCE = {}
 
-BAILIFF_INSTANCE.DataType = "BAILIFF_INSTANCE"
 
 ---Class methods and properties go here
 

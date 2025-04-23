@@ -24,7 +24,6 @@
 
 local PROCEDURAL_VECTOR3 = {}
 
-PROCEDURAL_VECTOR3.DataType = "PROCEDURAL_VECTOR3"
 
 ---Class methods and properties go here
 

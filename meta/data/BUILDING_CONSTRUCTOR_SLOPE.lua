@@ -16,7 +16,6 @@
 
 local BUILDING_CONSTRUCTOR_SLOPE = {}
 
-BUILDING_CONSTRUCTOR_SLOPE.DataType = "BUILDING_CONSTRUCTOR_SLOPE"
 
 ---Class methods and properties go here
 

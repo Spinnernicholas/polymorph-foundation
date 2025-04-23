@@ -19,7 +19,6 @@
 
 local MILITARY_CAMPAIGN_PROBABILITY = {}
 
-MILITARY_CAMPAIGN_PROBABILITY.DataType = "MILITARY_CAMPAIGN_PROBABILITY"
 
 ---Class methods and properties go here
 

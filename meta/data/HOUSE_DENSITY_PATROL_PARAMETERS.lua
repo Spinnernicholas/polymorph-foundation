@@ -10,7 +10,6 @@
 
 local HOUSE_DENSITY_PATROL_PARAMETERS = {}
 
-HOUSE_DENSITY_PATROL_PARAMETERS.DataType = "HOUSE_DENSITY_PATROL_PARAMETERS"
 
 ---Class methods and properties go here
 

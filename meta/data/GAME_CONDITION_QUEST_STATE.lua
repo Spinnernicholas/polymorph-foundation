@@ -20,7 +20,6 @@
 
 local GAME_CONDITION_QUEST_STATE = {}
 
-GAME_CONDITION_QUEST_STATE.DataType = "GAME_CONDITION_QUEST_STATE"
 
 -- Class methods and properties go here
 

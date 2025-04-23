@@ -11,7 +11,6 @@
 
 local BUILDING_CONSTRUCTOR_RANDOM_PART = {}
 
-BUILDING_CONSTRUCTOR_RANDOM_PART.DataType = "BUILDING_CONSTRUCTOR_RANDOM_PART"
 
 ---Class methods and properties go here
 

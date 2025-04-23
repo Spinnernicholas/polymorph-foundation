@@ -11,7 +11,6 @@
 
 local TAXATION_PER_HOUSE_STATUS = {}
 
-TAXATION_PER_HOUSE_STATUS.DataType = "TAXATION_PER_HOUSE_STATUS"
 
 ---Class methods and properties go here
 

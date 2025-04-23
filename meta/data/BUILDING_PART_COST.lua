@@ -14,7 +14,6 @@
 
 local BUILDING_PART_COST = {}
 
-BUILDING_PART_COST.DataType = "BUILDING_PART_COST"
 
 ---Class methods and properties go here
 

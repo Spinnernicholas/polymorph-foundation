@@ -14,7 +14,6 @@
 
 local GAME_ACTION_UNLOCK_BUILDING_LIST = {}
 
-GAME_ACTION_UNLOCK_BUILDING_LIST.DataType = "GAME_ACTION_UNLOCK_BUILDING_LIST"
 
 ---Class methods and properties go here
 

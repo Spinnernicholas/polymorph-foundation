@@ -11,7 +11,6 @@
 
 local VILLAGER_STATUS_QUANTITY_PAIR = {}
 
-VILLAGER_STATUS_QUANTITY_PAIR.DataType = "VILLAGER_STATUS_QUANTITY_PAIR"
 
 ---Class methods and properties go here
 

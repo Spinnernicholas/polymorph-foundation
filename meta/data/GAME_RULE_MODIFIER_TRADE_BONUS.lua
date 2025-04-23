@@ -13,7 +13,6 @@
 
 local GAME_RULE_MODIFIER_TRADE_BONUS = {}
 
-GAME_RULE_MODIFIER_TRADE_BONUS.DataType = "GAME_RULE_MODIFIER_TRADE_BONUS"
 
 ---Class methods and properties go here
 

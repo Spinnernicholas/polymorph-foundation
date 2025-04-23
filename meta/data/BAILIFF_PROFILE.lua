@@ -9,7 +9,6 @@
 
 local BAILIFF_PROFILE = {}
 
-BAILIFF_PROFILE.DataType = "BAILIFF_PROFILE"
 
 ---Class methods and properties go here
 

@@ -11,7 +11,6 @@
 
 local MASTERPIECE_EFFECT_CONDITION = {}
 
-MASTERPIECE_EFFECT_CONDITION.DataType = "MASTERPIECE_EFFECT_CONDITION"
 
 ---Class methods and properties go here
 

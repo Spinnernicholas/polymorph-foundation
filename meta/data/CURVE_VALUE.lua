@@ -9,7 +9,6 @@
 
 local CURVE_VALUE = {}
 
-CURVE_VALUE.DataType = "CURVE_VALUE"
 
 ---Class methods and properties go here
 

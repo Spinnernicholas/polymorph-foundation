@@ -10,7 +10,6 @@
 
 local GAME_CONDITION_UNLOCKABLE_BOUGHT = {}
 
-GAME_CONDITION_UNLOCKABLE_BOUGHT.DataType = "GAME_CONDITION_UNLOCKABLE_BOUGHT"
 
 ---Class methods and properties go here
 

@@ -10,7 +10,6 @@
 
 local GAME_RULE_MODIFIER_INVINCIBLE_ARMY = {}
 
-GAME_RULE_MODIFIER_INVINCIBLE_ARMY.DataType = "GAME_RULE_MODIFIER_INVINCIBLE_ARMY"
 
 ---Class methods and properties go here
 

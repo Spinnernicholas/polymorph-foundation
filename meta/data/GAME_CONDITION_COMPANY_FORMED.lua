@@ -12,7 +12,6 @@
 
 local GAME_CONDITION_COMPANY_FORMED = {}
 
-GAME_CONDITION_COMPANY_FORMED.DataType = "GAME_CONDITION_COMPANY_FORMED"
 
 ---Class methods and properties go here
 

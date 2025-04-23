@@ -15,7 +15,6 @@
 
 local MAP_DENSITY_PREFAB_CONFIG = {}
 
-MAP_DENSITY_PREFAB_CONFIG.DataType = "MAP_DENSITY_PREFAB_CONFIG"
 
 ---Class methods and properties go here
 

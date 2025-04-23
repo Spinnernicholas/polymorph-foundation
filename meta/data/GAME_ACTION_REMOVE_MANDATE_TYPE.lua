@@ -11,7 +11,6 @@
 
 local GAME_ACTION_REMOVE_MANDATE_TYPE = {}
 
-GAME_ACTION_REMOVE_MANDATE_TYPE.DataType = "GAME_ACTION_REMOVE_MANDATE_TYPE"
 
 ---Class methods and properties go here
 

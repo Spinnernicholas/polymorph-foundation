@@ -12,7 +12,6 @@
 
 local VILLAGER_STATUS_SCORE_VALUE = {}
 
-VILLAGER_STATUS_SCORE_VALUE.DataType = "VILLAGER_STATUS_SCORE_VALUE"
 
 ---Class methods and properties go here
 

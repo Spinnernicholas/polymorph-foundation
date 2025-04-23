@@ -14,7 +14,6 @@
 
 local GAME_ACTION_IMMIGRATE = {}
 
-GAME_ACTION_IMMIGRATE.DataType = "GAME_ACTION_IMMIGRATE"
 
 ---Class methods and properties go here
 

@@ -41,6 +41,5 @@ function GAME_ACTION:internalIsEqual(otherDataAction) end
 
 local GAME_ACTION = {}
 
-GAME_ACTION.DataType = "GAME_ACTION"
 
 return GAME_ACTION

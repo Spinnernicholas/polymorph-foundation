@@ -11,7 +11,6 @@
 
 local NUMBER_RULE_MODIFIER_LIST_PAIR = {}
 
-NUMBER_RULE_MODIFIER_LIST_PAIR.DataType = "NUMBER_RULE_MODIFIER_LIST_PAIR"
 
 ---Class methods and properties go here
 

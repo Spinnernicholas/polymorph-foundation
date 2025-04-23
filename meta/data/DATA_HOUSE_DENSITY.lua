@@ -16,7 +16,6 @@
 
 local DATA_HOUSE_DENSITY = {}
 
-DATA_HOUSE_DENSITY.DataType = "DATA_HOUSE_DENSITY"
 
 ---Class methods and properties go here
 

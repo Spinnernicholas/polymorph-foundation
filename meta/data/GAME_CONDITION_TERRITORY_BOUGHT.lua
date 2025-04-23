@@ -12,7 +12,6 @@
 
 local GAME_CONDITION_TERRITORY_BOUGHT = {}
 
-GAME_CONDITION_TERRITORY_BOUGHT.DataType = "GAME_CONDITION_TERRITORY_BOUGHT"
 
 ---Class methods and properties go here
 

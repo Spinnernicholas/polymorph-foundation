@@ -10,7 +10,6 @@
 
 local GAME_RULE_MODIFIER_INSTANT_BUILD = {}
 
-GAME_RULE_MODIFIER_INSTANT_BUILD.DataType = "GAME_RULE_MODIFIER_INSTANT_BUILD"
 
 ---Class methods and properties go here
 

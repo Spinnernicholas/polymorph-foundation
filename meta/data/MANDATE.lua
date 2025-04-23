@@ -15,7 +15,6 @@
 
 local MANDATE = {}
 
-MANDATE.DataType = "MANDATE"
 
 ---Call after creation of your instance
 ---@param mandateType MANDATE_TYPE

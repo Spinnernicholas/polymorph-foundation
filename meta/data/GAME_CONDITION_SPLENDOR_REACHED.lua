@@ -15,7 +15,6 @@
 
 local GAME_CONDITION_SPLENDOR_REACHED = {}
 
-GAME_CONDITION_SPLENDOR_REACHED.DataType = "GAME_CONDITION_SPLENDOR_REACHED"
 
 ---Class methods and properties go here
 

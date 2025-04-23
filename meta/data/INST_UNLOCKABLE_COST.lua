@@ -9,7 +9,6 @@
 
 local INST_UNLOCKABLE_COST = {}
 
-INST_UNLOCKABLE_COST.DataType = "INST_UNLOCKABLE_COST"
 
 ---Class methods and properties go here
 

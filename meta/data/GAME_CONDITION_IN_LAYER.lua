@@ -11,7 +11,6 @@
 
 local GAME_CONDITION_IN_LAYER = {}
 
-GAME_CONDITION_IN_LAYER.DataType = "GAME_CONDITION_IN_LAYER"
 
 ---Class methods and properties go here
 

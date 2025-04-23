@@ -12,7 +12,6 @@
 
 local EVENT_CALLBACK_TRIGGER_EVENT = {}
 
-EVENT_CALLBACK_TRIGGER_EVENT.DataType = "EVENT_CALLBACK_TRIGGER_EVENT"
 
 ---Class methods and properties go here
 

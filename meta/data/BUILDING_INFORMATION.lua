@@ -11,7 +11,6 @@
 
 local BUILDING_INFORMATION = {}
 
-BUILDING_INFORMATION.DataType = "BUILDING_INFORMATION"
 
 ---Class methods and properties go here
 

@@ -23,7 +23,6 @@
 
 local BUILDING_CONSTRUCTOR_WALL = {}
 
-BUILDING_CONSTRUCTOR_WALL.DataType = "BUILDING_CONSTRUCTOR_WALL"
 
 ---Class methods and properties go here
 

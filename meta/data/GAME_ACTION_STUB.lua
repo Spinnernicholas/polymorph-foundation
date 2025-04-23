@@ -18,7 +18,6 @@
 
 local GAME_ACTION_STUB = {}
 
-GAME_ACTION_STUB.DataType = "GAME_ACTION_STUB"
 
 ---Class methods and properties go here
 

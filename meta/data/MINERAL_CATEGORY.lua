@@ -13,7 +13,6 @@
 
 local MINERAL_CATEGORY = {}
 
-MINERAL_CATEGORY.DataType = "MINERAL_CATEGORY"
 
 ---Class methods and properties go here
 

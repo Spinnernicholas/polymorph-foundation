@@ -15,7 +15,6 @@
 
 local HOUSE_STATUS = {}
 
-HOUSE_STATUS.DataType = "HOUSE_STATUS"
 
 ---Class methods and properties go here
 

@@ -16,7 +16,6 @@
 
 local GAME_ACTION_RANDOM_ACTION = {}
 
-GAME_ACTION_RANDOM_ACTION.DataType = "GAME_ACTION_RANDOM_ACTION"
 
 ---Class methods and properties go here
 

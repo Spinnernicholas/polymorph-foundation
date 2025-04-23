@@ -12,7 +12,6 @@
 
 local INCOMING_RESERVED_RESOURCE_LIST = {}
 
-INCOMING_RESERVED_RESOURCE_LIST.DataType = "INCOMING_RESERVED_RESOURCE_LIST"
 
 ---Class methods and properties go here
 

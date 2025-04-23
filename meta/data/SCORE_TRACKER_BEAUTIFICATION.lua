@@ -9,7 +9,6 @@
 
 local SCORE_TRACKER_BEAUTIFICATION = {}
 
-SCORE_TRACKER_BEAUTIFICATION.DataType = "SCORE_TRACKER_BEAUTIFICATION"
 
 ---Class methods and properties go here
 

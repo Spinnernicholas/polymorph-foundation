@@ -14,7 +14,6 @@
 
 local PARTICLE_BURST_DATA = {}
 
-PARTICLE_BURST_DATA.DataType = "PARTICLE_BURST_DATA"
 
 ---Class methods and properties go here
 

@@ -9,7 +9,6 @@
 
 local STRING_UINT_PAIR = {}
 
-STRING_UINT_PAIR.DataType = "STRING_UINT_PAIR"
 
 ---Class methods and properties go here
 

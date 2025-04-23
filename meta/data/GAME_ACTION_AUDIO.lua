@@ -12,7 +12,6 @@
 
 local GAME_ACTION_AUDIO = {}
 
-GAME_ACTION_AUDIO.DataType = "GAME_ACTION_AUDIO"
 
 ---Class methods and properties go here
 

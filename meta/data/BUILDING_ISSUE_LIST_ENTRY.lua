@@ -11,7 +11,6 @@
 
 local BUILDING_ISSUE_LIST_ENTRY = {}
 
-BUILDING_ISSUE_LIST_ENTRY.DataType = "BUILDING_ISSUE_LIST_ENTRY"
 
 ---Class methods and properties go here
 

@@ -11,7 +11,6 @@
 
 local GAME_ACTION_USE_INFLUENCE = {}
 
-GAME_ACTION_USE_INFLUENCE.DataType = "GAME_ACTION_USE_INFLUENCE"
 
 ---Class methods and properties go here
 

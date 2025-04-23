@@ -16,7 +16,6 @@
 
 local DATA_WALL_PROCEDURAL_MESH = {}
 
-DATA_WALL_PROCEDURAL_MESH.DataType = "DATA_WALL_PROCEDURAL_MESH"
 
 ---Class methods and properties go here
 

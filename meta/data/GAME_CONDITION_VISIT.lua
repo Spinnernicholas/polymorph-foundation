@@ -12,7 +12,6 @@
 
 local GAME_CONDITION_VISIT = {}
 
-GAME_CONDITION_VISIT.DataType = "GAME_CONDITION_VISIT"
 
 ---Class methods and properties go here
 

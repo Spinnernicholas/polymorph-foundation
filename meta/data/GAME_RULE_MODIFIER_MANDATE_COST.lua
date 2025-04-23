@@ -12,7 +12,6 @@
 
 local GAME_RULE_MODIFIER_MANDATE_COST = {}
 
-GAME_RULE_MODIFIER_MANDATE_COST.DataType = "GAME_RULE_MODIFIER_MANDATE_COST"
 
 ---Class methods and properties go here
 

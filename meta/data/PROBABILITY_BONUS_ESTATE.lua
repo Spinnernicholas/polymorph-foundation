@@ -13,7 +13,6 @@
 
 local PROBABILITY_BONUS_ESTATE = {}
 
-PROBABILITY_BONUS_ESTATE.DataType = "PROBABILITY_BONUS_ESTATE"
 
 ---Class methods and properties go here
 

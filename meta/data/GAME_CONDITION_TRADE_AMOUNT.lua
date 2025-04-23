@@ -15,7 +15,6 @@
 
 local GAME_CONDITION_TRADE_AMOUNT = {}
 
-GAME_CONDITION_TRADE_AMOUNT.DataType = "GAME_CONDITION_TRADE_AMOUNT"
 
 ---Class methods and properties go here
 

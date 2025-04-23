@@ -11,7 +11,6 @@
 
 local MILITARY_CAMPAIGN_STEP = {}
 
-MILITARY_CAMPAIGN_STEP.DataType = "MILITARY_CAMPAIGN_STEP"
 
 ---Class methods and properties go here
 

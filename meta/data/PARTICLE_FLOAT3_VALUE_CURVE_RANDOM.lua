@@ -18,7 +18,6 @@
 
 local PARTICLE_FLOAT3_VALUE_CURVE_RANDOM = {}
 
-PARTICLE_FLOAT3_VALUE_CURVE_RANDOM.DataType = "PARTICLE_FLOAT3_VALUE_CURVE_RANDOM"
 
 ---Class methods and properties go here
 

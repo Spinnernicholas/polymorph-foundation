@@ -12,7 +12,6 @@
 
 local EXTRACTED_RESOURCE_CONFIG = {}
 
-EXTRACTED_RESOURCE_CONFIG.DataType = "EXTRACTED_RESOURCE_CONFIG"
 
 ---Class methods and properties go here
 

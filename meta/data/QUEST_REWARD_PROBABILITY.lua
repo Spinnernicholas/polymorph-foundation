@@ -13,7 +13,6 @@
 
 local QUEST_REWARD_PROBABILITY = {}
 
-QUEST_REWARD_PROBABILITY.DataType = "QUEST_REWARD_PROBABILITY"
 
 ---Class methods and properties go here
 

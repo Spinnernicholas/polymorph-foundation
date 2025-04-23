@@ -11,7 +11,6 @@
 
 local DESIRABILITY_MODIFIER_ITEM = {}
 
-DESIRABILITY_MODIFIER_ITEM.DataType = "DESIRABILITY_MODIFIER_ITEM"
 
 ---Class methods and properties go here
 

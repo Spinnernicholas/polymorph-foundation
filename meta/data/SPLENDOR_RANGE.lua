@@ -11,7 +11,6 @@
 
 local SPLENDOR_RANGE = {}
 
-SPLENDOR_RANGE.DataType = "SPLENDOR_RANGE"
 
 ---Class methods and properties go here
 

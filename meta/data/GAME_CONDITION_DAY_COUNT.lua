@@ -11,7 +11,6 @@
 
 local GAME_CONDITION_DAY_COUNT = {}
 
-GAME_CONDITION_DAY_COUNT.DataType = "GAME_CONDITION_DAY_COUNT"
 
 ---Class methods and properties go here
 

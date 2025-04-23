@@ -14,7 +14,6 @@
 
 local GAME_ACTION_GIVE_TERRITORY = {}
 
-GAME_ACTION_GIVE_TERRITORY.DataType = "GAME_ACTION_GIVE_TERRITORY"
 
 ---Class methods and properties go here
 

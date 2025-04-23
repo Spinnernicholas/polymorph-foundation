@@ -15,7 +15,6 @@
 
 local JOB_INSTANCE = {}
 
-JOB_INSTANCE.DataType = "JOB_INSTANCE"
 
 ---Class methods and properties go here
 

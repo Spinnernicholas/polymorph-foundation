@@ -11,7 +11,6 @@
 
 local GRADIENT = {}
 
-GRADIENT.DataType = "GRADIENT"
 
 ---Class methods and properties go here
 

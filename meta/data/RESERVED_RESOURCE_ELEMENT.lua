@@ -16,7 +16,6 @@
 
 local RESERVED_RESOURCE_ELEMENT = {}
 
-RESERVED_RESOURCE_ELEMENT.DataType = "RESERVED_RESOURCE_ELEMENT"
 
 ---Class methods and properties go here
 

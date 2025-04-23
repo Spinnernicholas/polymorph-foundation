@@ -11,7 +11,6 @@
 
 local BUILDING_PART_CATEGORY_CONFIG = {}
 
-BUILDING_PART_CATEGORY_CONFIG.DataType = "BUILDING_PART_CATEGORY_CONFIG"
 
 ---Class methods and properties go here
 

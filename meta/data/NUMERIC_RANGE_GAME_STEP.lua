@@ -10,7 +10,6 @@
 ---@field MinimumValue? integer Serialized integer value representing the minimum value. Default is 0.
 local NUMERIC_RANGE_GAME_STEP = {}
 
-NUMERIC_RANGE_GAME_STEP.DataType = "NUMERIC_RANGE_GAME_STEP"
 
 ---
 ---Returns the GameStep enum value.

@@ -12,7 +12,6 @@
 
 local GAME_CONDITION_TAX_ACTIVATED = {}
 
-GAME_CONDITION_TAX_ACTIVATED.DataType = "GAME_CONDITION_TAX_ACTIVATED"
 
 ---Class methods and properties go here
 

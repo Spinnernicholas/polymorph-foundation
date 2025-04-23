@@ -8,7 +8,6 @@
 
 local OUTGOING_RESERVED_RESOURCE_LIST = {}
 
-OUTGOING_RESERVED_RESOURCE_LIST.DataType = "OUTGOING_RESERVED_RESOURCE_LIST"
 
 ---Class methods and properties go here
 

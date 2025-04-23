@@ -12,7 +12,6 @@
 
 local PARTICLE_EMITTER_SHAPE_BOX = {}
 
-PARTICLE_EMITTER_SHAPE_BOX.DataType = "PARTICLE_EMITTER_SHAPE_BOX"
 
 ---Class methods and properties go here
 

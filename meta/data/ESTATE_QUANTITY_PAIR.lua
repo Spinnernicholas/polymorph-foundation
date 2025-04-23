@@ -11,7 +11,6 @@
 
 local ESTATE_QUANTITY_PAIR = {}
 
-ESTATE_QUANTITY_PAIR.DataType = "ESTATE_QUANTITY_PAIR"
 
 ---Class methods and properties go here
 

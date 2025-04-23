@@ -13,7 +13,6 @@
 
 local GAME_RULE_MODIFIER_AGENT_HAPPINESS = {}
 
-GAME_RULE_MODIFIER_AGENT_HAPPINESS.DataType = "GAME_RULE_MODIFIER_AGENT_HAPPINESS"
 
 ---Class methods and properties go here
 

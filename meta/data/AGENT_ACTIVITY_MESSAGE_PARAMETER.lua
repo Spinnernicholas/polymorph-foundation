@@ -12,7 +12,6 @@
 
 local AGENT_ACTIVITY_MESSAGE_PARAMETER = {}
 
-AGENT_ACTIVITY_MESSAGE_PARAMETER.DataType = "AGENT_ACTIVITY_MESSAGE_PARAMETER"
 
 ---Class methods and properties go here
 

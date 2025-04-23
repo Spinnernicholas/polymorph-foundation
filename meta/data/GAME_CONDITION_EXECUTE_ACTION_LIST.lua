@@ -11,7 +11,6 @@
 
 local GAME_CONDITION_EXECUTE_ACTION_LIST = {}
 
-GAME_CONDITION_EXECUTE_ACTION_LIST.DataType = "GAME_CONDITION_EXECUTE_ACTION_LIST"
 
 ---Class methods and properties go here
 

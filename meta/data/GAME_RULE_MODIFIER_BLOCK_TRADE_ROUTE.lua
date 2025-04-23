@@ -11,7 +11,6 @@
 
 local GAME_RULE_MODIFIER_BLOCK_TRADE_ROUTE = {}
 
-GAME_RULE_MODIFIER_BLOCK_TRADE_ROUTE.DataType = "GAME_RULE_MODIFIER_BLOCK_TRADE_ROUTE"
 
 ---Class methods and properties go here
 

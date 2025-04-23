@@ -9,6 +9,5 @@
 
 local TIME_SYSTEM = {}
 
-TIME_SYSTEM.DataType = "TIME_SYSTEM"
 
 return TIME_SYSTEM

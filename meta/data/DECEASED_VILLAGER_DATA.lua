@@ -15,7 +15,6 @@
 
 local DECEASED_VILLAGER_DATA = {}
 
-DECEASED_VILLAGER_DATA.DataType = "DECEASED_VILLAGER_DATA"
 
 ---Need to use this function to get the status name since savegames < 1.9 have a null AssetVillagerStatus
 ---@return string statusName

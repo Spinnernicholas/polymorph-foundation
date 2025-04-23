@@ -11,7 +11,6 @@
 
 local GAME_ACTION_REMOVE_TAXATION = {}
 
-GAME_ACTION_REMOVE_TAXATION.DataType = "GAME_ACTION_REMOVE_TAXATION"
 
 ---Class methods and properties go here
 

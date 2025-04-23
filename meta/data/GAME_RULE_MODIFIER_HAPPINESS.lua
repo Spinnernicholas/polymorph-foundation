@@ -11,7 +11,6 @@
 
 local GAME_RULE_MODIFIER_HAPPINESS = {}
 
-GAME_RULE_MODIFIER_HAPPINESS.DataType = "GAME_RULE_MODIFIER_HAPPINESS"
 
 ---Class methods and properties go here
 

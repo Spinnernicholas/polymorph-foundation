@@ -12,7 +12,6 @@
 
 local PARTICLE_EMITER_ANIMATOR_TRIGGER = {}
 
-PARTICLE_EMITER_ANIMATOR_TRIGGER.DataType = "PARTICLE_EMITER_ANIMATOR_TRIGGER"
 
 ---Class methods and properties go here
 

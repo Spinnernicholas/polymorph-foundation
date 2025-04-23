@@ -15,7 +15,6 @@
 
 local GAME_CONDITION_WALL_SIZE = {}
 
-GAME_CONDITION_WALL_SIZE.DataType = "GAME_CONDITION_WALL_SIZE"
 
 ---Class methods and properties go here
 

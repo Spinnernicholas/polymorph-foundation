@@ -13,7 +13,6 @@
 
 local GAME_ACTION_DELAY_MANDATE = {}
 
-GAME_ACTION_DELAY_MANDATE.DataType = "GAME_ACTION_DELAY_MANDATE"
 
 ---Class methods and properties go here
 

@@ -11,7 +11,6 @@
 
 local FLOAT_VALUE_PAIR = {}
 
-FLOAT_VALUE_PAIR.DataType = "FLOAT_VALUE_PAIR"
 
 ---Class methods and properties go here
 

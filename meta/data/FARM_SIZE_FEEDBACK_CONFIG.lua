@@ -14,7 +14,6 @@
 
 local FARM_SIZE_FEEDBACK_CONFIG = {}
 
-FARM_SIZE_FEEDBACK_CONFIG.DataType = "FARM_SIZE_FEEDBACK_CONFIG"
 
 ---Class methods and properties go here
 

@@ -11,7 +11,6 @@
 
 local GAME_RULE_MODIFIER_FREE_TERRITORY = {}
 
-GAME_RULE_MODIFIER_FREE_TERRITORY.DataType = "GAME_RULE_MODIFIER_FREE_TERRITORY"
 
 ---Class methods and properties go here
 

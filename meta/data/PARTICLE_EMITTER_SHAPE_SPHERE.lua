@@ -12,7 +12,6 @@
 
 local PARTICLE_EMITTER_SHAPE_SPHERE = {}
 
-PARTICLE_EMITTER_SHAPE_SPHERE.DataType = "PARTICLE_EMITTER_SHAPE_SPHERE"
 
 ---Class methods and properties go here
 

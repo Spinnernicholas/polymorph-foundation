@@ -16,7 +16,6 @@
 
 local GAME_CONDITION_BUILDING_PART_COUNT = {}
 
-GAME_CONDITION_BUILDING_PART_COUNT.DataType = "GAME_CONDITION_BUILDING_PART_COUNT"
 
 ---Class methods and properties go here
 

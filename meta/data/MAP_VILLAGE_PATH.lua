@@ -9,7 +9,6 @@
 
 local MAP_VILLAGE_PATH = {}
 
-MAP_VILLAGE_PATH.DataType = "MAP_VILLAGE_PATH"
 
 ---Class methods and properties go here
 

@@ -13,7 +13,6 @@
 
 local WAREHOUSE_SLOT_SETUP = {}
 
-WAREHOUSE_SLOT_SETUP.DataType = "WAREHOUSE_SLOT_SETUP"
 
 ---Class methods and properties go here
 

@@ -10,7 +10,6 @@
 
 local JOB_PROGESSION_ELEMENT = {}
 
-JOB_PROGESSION_ELEMENT.DataType = "JOB_PROGESSION_ELEMENT"
 
 ---Class methods and properties go here
 

@@ -22,7 +22,6 @@
 
 local CHARACTER_SETUP_DATA = {}
 
-CHARACTER_SETUP_DATA.DataType = "CHARACTER_SETUP_DATA"
 
 ---Class methods and properties go here
 

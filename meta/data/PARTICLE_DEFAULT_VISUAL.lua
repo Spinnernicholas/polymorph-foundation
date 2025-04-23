@@ -9,7 +9,6 @@
 
 local PARTICLE_DEFAULT_VISUAL = {}
 
-PARTICLE_DEFAULT_VISUAL.DataType = "PARTICLE_DEFAULT_VISUAL"
 
 ---Class methods and properties go here
 

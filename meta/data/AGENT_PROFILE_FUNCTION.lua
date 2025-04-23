@@ -13,7 +13,6 @@
 
 local AGENT_PROFILE_FUNCTION = {}
 
-AGENT_PROFILE_FUNCTION.DataType = "AGENT_PROFILE_FUNCTION"
 
 ---Class methods and properties go here
 

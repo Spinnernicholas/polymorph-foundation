@@ -11,7 +11,6 @@
 
 local GAME_ACTION_ADD_EVENT = {}
 
-GAME_ACTION_ADD_EVENT.DataType = "GAME_ACTION_ADD_EVENT"
 
 ---Class methods and properties go here
 

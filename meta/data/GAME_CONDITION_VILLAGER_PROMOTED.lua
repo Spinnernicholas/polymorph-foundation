@@ -13,7 +13,6 @@
 
 local GAME_CONDITION_VILLAGER_PROMOTED = {}
 
-GAME_CONDITION_VILLAGER_PROMOTED.DataType = "GAME_CONDITION_VILLAGER_PROMOTED"
 
 ---Class methods and properties go here
 

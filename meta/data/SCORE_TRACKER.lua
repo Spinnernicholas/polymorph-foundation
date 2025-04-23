@@ -15,7 +15,6 @@
 
 local SCORE_TRACKER = {}
 
-SCORE_TRACKER.DataType = "SCORE_TRACKER"
 
 ---Class methods and properties go here
 

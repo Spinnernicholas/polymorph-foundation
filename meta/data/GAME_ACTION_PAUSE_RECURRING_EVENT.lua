@@ -11,7 +11,6 @@
 
 local GAME_ACTION_PAUSE_RECURRING_EVENT = {}
 
-GAME_ACTION_PAUSE_RECURRING_EVENT.DataType = "GAME_ACTION_PAUSE_RECURRING_EVENT"
 
 ---Class methods and properties go here
 

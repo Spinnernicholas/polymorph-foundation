@@ -13,7 +13,6 @@
 
 local DESIRABILITY_LEVEL_ITEM = {}
 
-DESIRABILITY_LEVEL_ITEM.DataType = "DESIRABILITY_LEVEL_ITEM"
 
 ---Class methods and properties go here
 

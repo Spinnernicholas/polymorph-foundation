@@ -10,7 +10,6 @@
 
 local RESOURCE_COLLECTION_VALUE = {}
 
-RESOURCE_COLLECTION_VALUE.DataType = "RESOURCE_COLLECTION_VALUE"
 
 ---Class methods and properties go here
 

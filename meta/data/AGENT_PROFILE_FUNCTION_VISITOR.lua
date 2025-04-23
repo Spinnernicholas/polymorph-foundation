@@ -10,7 +10,6 @@
 
 local AGENT_PROFILE_FUNCTION_VISITOR = {}
 
-AGENT_PROFILE_FUNCTION_VISITOR.DataType = "AGENT_PROFILE_FUNCTION_VISITOR"
 
 ---Class methods and properties go here
 

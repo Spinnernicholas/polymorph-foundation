@@ -9,7 +9,6 @@
 
 local GAME_CONDITION_SURVIVE_BAD_WEATHER = {}
 
-GAME_CONDITION_SURVIVE_BAD_WEATHER.DataType = "GAME_CONDITION_SURVIVE_BAD_WEATHER"
 
 ---Class methods and properties go here
 

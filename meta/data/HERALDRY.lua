@@ -10,7 +10,6 @@
 
 local HERALDRY = {}
 
-HERALDRY.DataType = "HERALDRY"
 
 ---Class methods and properties go here
 

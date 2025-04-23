@@ -14,7 +14,6 @@
 
 local AGENT_PROFILE_STATUS_PAIR = {}
 
-AGENT_PROFILE_STATUS_PAIR.DataType = "AGENT_PROFILE_STATUS_PAIR"
 
 ---Class methods and properties go here
 

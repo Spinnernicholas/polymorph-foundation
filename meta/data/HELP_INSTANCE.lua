@@ -9,7 +9,6 @@
 
 local HELP_INSTANCE = {}
 
-HELP_INSTANCE.DataType = "HELP_INSTANCE"
 
 ---Class methods and properties go here
 

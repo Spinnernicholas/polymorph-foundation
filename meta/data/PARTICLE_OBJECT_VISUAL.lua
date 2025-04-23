@@ -12,7 +12,6 @@
 
 local PARTICLE_OBJECT_VISUAL = {}
 
-PARTICLE_OBJECT_VISUAL.DataType = "PARTICLE_OBJECT_VISUAL"
 
 ---Class methods and properties go here
 

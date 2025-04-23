@@ -17,7 +17,6 @@
 
 local GAME_ACTION_SHOW_NARRATIVE_PANEL = {}
 
-GAME_ACTION_SHOW_NARRATIVE_PANEL.DataType = "GAME_ACTION_SHOW_NARRATIVE_PANEL"
 
 ---Class methods and properties go here
 

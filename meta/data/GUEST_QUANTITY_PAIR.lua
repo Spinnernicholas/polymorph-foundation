@@ -13,7 +13,6 @@
 
 local GUEST_QUANTITY_PAIR = {}
 
-GUEST_QUANTITY_PAIR.DataType = "GUEST_QUANTITY_PAIR"
 
 ---Class methods and properties go here
 

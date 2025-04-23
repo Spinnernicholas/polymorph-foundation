@@ -12,7 +12,6 @@
 
 local GAME_CONDITION_PART_OF_BUILDING = {}
 
-GAME_CONDITION_PART_OF_BUILDING.DataType = "GAME_CONDITION_PART_OF_BUILDING"
 
 ---Class methods and properties go here
 

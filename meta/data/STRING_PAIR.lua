@@ -11,7 +11,6 @@
 
 local STRING_PAIR = {}
 
-STRING_PAIR.DataType = "STRING_PAIR"
 
 ---Class methods and properties go here
 

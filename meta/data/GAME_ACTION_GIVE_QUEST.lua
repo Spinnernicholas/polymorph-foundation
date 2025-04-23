@@ -12,7 +12,6 @@
 
 local GAME_ACTION_GIVE_QUEST = {}
 
-GAME_ACTION_GIVE_QUEST.DataType = "GAME_ACTION_GIVE_QUEST"
 
 ---Class methods and properties go here
 

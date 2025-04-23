@@ -11,7 +11,6 @@
 
 local GAME_CONDITION_WORKER_ASSIGNED = {}
 
-GAME_CONDITION_WORKER_ASSIGNED.DataType = "GAME_CONDITION_WORKER_ASSIGNED"
 
 ---Class methods and properties go here
 

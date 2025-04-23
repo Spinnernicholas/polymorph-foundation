@@ -11,7 +11,6 @@
 
 local GAME_ACTION_UNLOCK_PRIVILEGE = {}
 
-GAME_ACTION_UNLOCK_PRIVILEGE.DataType = "GAME_ACTION_UNLOCK_PRIVILEGE"
 
 ---Class methods and properties go here
 

@@ -27,7 +27,6 @@
 
 local GAME_CONDITION = {}
 
-GAME_CONDITION.DataType = "GAME_CONDITION"
 
 ---Class methods and properties go here
 

@@ -11,7 +11,6 @@
 
 local GAME_ACTION_TRIGGER_EVENT_CALLBACK = {}
 
-GAME_ACTION_TRIGGER_EVENT_CALLBACK.DataType = "GAME_ACTION_TRIGGER_EVENT_CALLBACK"
 
 ---Class methods and properties go here
 

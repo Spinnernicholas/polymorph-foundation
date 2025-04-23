@@ -11,7 +11,6 @@
 
 local MINERAL_TYPE_DATA = {}
 
-MINERAL_TYPE_DATA.DataType = "MINERAL_TYPE_DATA"
 
 ---Class methods and properties go here
 

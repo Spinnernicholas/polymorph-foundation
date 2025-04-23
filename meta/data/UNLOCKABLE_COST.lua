@@ -16,7 +16,6 @@
 
 local UNLOCKABLE_COST = {}
 
-UNLOCKABLE_COST.DataType = "UNLOCKABLE_COST"
 
 -- Class methods and properties go here
 

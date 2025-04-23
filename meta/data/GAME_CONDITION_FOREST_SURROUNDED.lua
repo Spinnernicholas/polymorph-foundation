@@ -13,7 +13,6 @@
 
 local GAME_CONDITION_FOREST_SURROUNDED = {}
 
-GAME_CONDITION_FOREST_SURROUNDED.DataType = "GAME_CONDITION_FOREST_SURROUNDED"
 
 ---Class methods and properties go here
 

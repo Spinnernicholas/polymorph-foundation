@@ -13,7 +13,6 @@
 
 local MAP_SPAWN_INFO = {}
 
-MAP_SPAWN_INFO.DataType = "MAP_SPAWN_INFO"
 
 ---Class methods and properties go here
 

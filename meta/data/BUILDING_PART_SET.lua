@@ -12,7 +12,6 @@
 
 local BUILDING_PART_SET = {}
 
-BUILDING_PART_SET.DataType = "BUILDING_PART_SET"
 
 ---Class methods and properties go here
 

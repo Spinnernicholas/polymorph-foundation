@@ -11,7 +11,6 @@
 
 local ASSOCIATION_JOB_BEHAVIOR = {}
 
-ASSOCIATION_JOB_BEHAVIOR.DataType = "ASSOCIATION_JOB_BEHAVIOR"
 
 ---Class methods and properties go here
 
