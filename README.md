@@ -63,6 +63,8 @@ This repository provides comprehensive [luacats](https://github.com/Benjamin-Dob
 
 ## Examples
 
+Full example mod: [foundation-example-01](https://github.com/Spinnernicholas/foundation-example-01)
+
 *For additional details on the luacats annotation syntax, please refer to the [luacats annotation documentation](https://luals.github.io/wiki/annotations/).*
 
 ### Usage Examples
