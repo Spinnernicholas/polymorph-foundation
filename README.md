@@ -16,7 +16,7 @@ This repository provides comprehensive [luacats](https://github.com/Benjamin-Dob
 ## Getting Started
 
 1. **Clone or Download** this repository to a centralized location on your system where you keep common libraries.
-2. **Configure your Lua language server** (e.g., sumneko or EmmyLua) to include the `meta/` directory in your workspace's library paths. [Detailed Instructions](#adding-the-meta-library-to-your-vs-code-workspace)
+2. **Configure your Lua language server** (e.g., sumneko) to include the `meta/` directory in your workspace's library paths. [Detailed Instructions](#adding-the-meta-library-to-your-vs-code-workspace)
 3. **Enjoy enhanced autocomplete and documentation** as you write Foundation mods in your editor.
 
 ---
