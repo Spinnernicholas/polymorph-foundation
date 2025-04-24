@@ -22,7 +22,7 @@
 ---@field ConstructorData? BUILDING_CONSTRUCTOR Serialized BUILDING_CONSTRUCTOR value
 ---@field AssetBuildingFunction? BUILDING_FUNCTION Serialized asset ID, default: nil
 ---@field BuildingZone? BUILDING_ZONE Serialized BUILDING_ZONE value
----@field ConstructionVisual? PREFAB Serialized asset ID, default: nil
+---@field ConstructionVisual? PREFAB | PREFAB_ASSET Serialized asset ID, default: nil
 ---@field ConstructionStepMode? CONSTRUCTION_STEP_MODE Serialized enum value, default: CONSTRUCTION_STEP_MODE.ADDITIVE
 ---@field EstateSplendor? ESTATE_QUANTITY_PAIR[] Serialized list of ESTATE_QUANTITY_PAIR values
 ---@field Cost? BUILDING_PART_COST Serialized BUILDING_PART_COST value
