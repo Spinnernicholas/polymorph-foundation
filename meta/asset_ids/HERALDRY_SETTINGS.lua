@@ -1,0 +1,14 @@
+---@meta
+
+---
+---HERALDRY_SETTINGS
+---Lua enum for heraldry setting types used as assets in the project.
+---[Reference](https://www.polymorph.games/foundation/modding/assets/heraldry_settings)
+---
+---@enum HERALDRY_SETTINGS_ASSET
+HERALDRY_SETTINGS = {
+    DEFAULT_HERALDRY_BOWMAN_SETTINGS = "DEFAULT_HERALDRY_BOWMAN_SETTINGS",
+    DEFAULT_HERALDRY_SETTINGS = "DEFAULT_HERALDRY_SETTINGS",
+    DEFAULT_HERALDRY_SPEARMAN_SETTINGS = "DEFAULT_HERALDRY_SPEARMAN_SETTINGS",
+    DEFAULT_HERALDRY_SWORDMAN_SETTINGS = "DEFAULT_HERALDRY_SWORDMAN_SETTINGS",
+}
