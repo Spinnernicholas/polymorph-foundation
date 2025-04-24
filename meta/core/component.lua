@@ -9,6 +9,11 @@
 ---@class COMPONENT
 ---@field DataType 'COMPONENT' The name of this data type (always "COMPONENT")
 ---@field Enabled? boolean Runtime only; use to get or set the enabled state of the component
+
+local COMPONENT = {}
+
+COMPONENT.DataType = "COMPONENT"
+
 ---
 ---@return GAME_OBJECT owner The owner of this component
 function COMPONENT:getOwner() end
@@ -65,9 +70,5 @@ function COMPONENT:onOwnerChanged(previousOwner, newOwner) end
 ---
 ---@return component_type The type of this component
 function COMPONENT:getComponentType() end
-
-local COMPONENT = {}
-
-COMPONENT.DataType = "COMPONENT"
 
 return COMPONENT

@@ -18,8 +18,8 @@
 ---@field IsRecurrent? boolean If the event recurs (Serialized) (default false)
 ---@field IgnoreConditionOnRecurrence? boolean If true, recurrence ignores conditions (Serialized) (default true)
 ---@field IsInMainPool? boolean If the event is in the main event pool (Serialized) (default false)
----@field ConditionList? GameCondition[] List of conditions for the event (Serialized)
----@field ActionList? GameAction[] List of actions triggered by the event (Serialized)
+---@field ConditionList? GAME_CONDITION[] List of conditions for the event (Serialized)
+---@field ActionList? GAME_ACTION[] List of actions triggered by the event (Serialized)
 
 local EVENT = {}
 

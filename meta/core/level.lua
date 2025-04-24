@@ -11,9 +11,9 @@
 ---@field getGame fun():GAME
 ---Returns the current game instance.
 ---
----@field createObject fun(objectSetuperCallback:fun(GAME_OBJECT):void):GAME_OBJECT
----@field createObject fun(prefab:PREFAB, position?:vec3f, orientation?:quaternion, objectSetuperCallback?:fun(GAME_OBJECT):void):GAME_OBJECT
----@field createObject fun(prefab:PREFAB, objectSetuperCallback:fun(GAME_OBJECT):void):GAME_OBJECT
+---@field createObject fun(objectSetuperCallback:fun(GAME_OBJECT)):GAME_OBJECT
+---@field createObject fun(prefab:PREFAB, position?:vec3f, orientation?:quaternion, objectSetuperCallback?:fun(GAME_OBJECT)):GAME_OBJECT
+---@field createObject fun(prefab:PREFAB, objectSetuperCallback:fun(GAME_OBJECT)):GAME_OBJECT
 ---Creates a new game object. Overloads allow for flexible parameter sets including:
 --- - Optional object setup callback
 --- - Prefab with optional position, orientation and setup callback
@@ -38,7 +38,7 @@
 ---@field find fun(id:guid, componentType:component_type):COMPONENT
 ---@field find fun(id:guid):GAME_OBJECT
 ---@field find fun(name:string):GAME_OBJECT
----@field find fun(name:string, outObjectList:list<GAME_OBJECT>):void
+---@field find fun(name:string, outObjectList:list<GAME_OBJECT>)
 ---Finds components or game objects by type, id or name. Supports retrieving:
 --- - A component by type and optionally whether it is enabled only.
 --- - A component by its id and type.

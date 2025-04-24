@@ -8,7 +8,4 @@
 
 local BUILDING_ZONE = {}
 
-
----Class methods and properties go here
-
 return BUILDING_ZONE

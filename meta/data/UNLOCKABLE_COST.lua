@@ -11,7 +11,7 @@
 ---
 ---@class UNLOCKABLE_COST
 ---@field DataInfluenceCostList? table<integer,any> list of ESTATE_QUANTITY_PAIR values
----@field ResourceCollection? any RESOURCE_COLLECTION_VALUE or list of RESOURCE_QUANTITY_PAIR values
+---@field ResourceCollection? RESOURCE_COLLECTION_VALUE |  RESOURCE_QUANTITY_PAIR[] or list of RESOURCE_QUANTITY_PAIR values
 ---@field InfluenceCap? integer If different than 0, will apply cap on influence values; default is 0
 
 local UNLOCKABLE_COST = {}

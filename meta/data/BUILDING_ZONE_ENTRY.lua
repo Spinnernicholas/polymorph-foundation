@@ -12,7 +12,4 @@
 
 local BUILDING_ZONE_ENTRY = {}
 
-
----Class methods and properties go here
-
 return BUILDING_ZONE_ENTRY

@@ -14,12 +14,9 @@
 ---@field MinimumProbabilityOfImpairment? float Minimum chance value of soldier dying/wounded/weapon break
 ---@field MaximumProbabilityOfDying? float Maximum probability of soldier dying
 ---@field StartImpairmentProbability? float Starting probability of impairment
----@field SoldierHappinessMutiplierRangeList? table<List<FLOAT_VALUE_PAIR>> First value is the max range of soldier happiness, second value is the soldier happiness multiplier from that range
----@field SuccessProbabilityRangeList? table<List<MILITARY_CAMPAIGN_SUCCESS_RANGE>> List of military campaign success ranges
+---@field SoldierHappinessMutiplierRangeList? table<FLOAT_VALUE_PAIR[]> First value is the max range of soldier happiness, second value is the soldier happiness multiplier from that range
+---@field SuccessProbabilityRangeList? table<MILITARY_CAMPAIGN_SUCCESS_RANGE[]> List of military campaign success ranges
 
 local MILITARY_CAMPAIGN_PROBABILITY = {}
-
-
----Class methods and properties go here
 
 return MILITARY_CAMPAIGN_PROBABILITY

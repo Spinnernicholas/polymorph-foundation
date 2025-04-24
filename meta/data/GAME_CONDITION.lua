@@ -27,7 +27,4 @@
 
 local GAME_CONDITION = {}
 
-
----Class methods and properties go here
-
 return GAME_CONDITION

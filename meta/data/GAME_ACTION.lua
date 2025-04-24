@@ -41,7 +41,4 @@ function GAME_ACTION:isHidden() end
 ---@return boolean
 function GAME_ACTION:internalIsEqual(otherDataAction) end
 
-local GAME_ACTION = {}
-
-
 return GAME_ACTION

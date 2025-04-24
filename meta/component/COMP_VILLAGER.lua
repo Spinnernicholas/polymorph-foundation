@@ -7,18 +7,14 @@
 ---
 ---@class COMP_VILLAGER:COMPONENT
 ---@field DataType 'COMP_VILLAGER' The name of this data type (always "COMP_VILLAGER")
----
----@return JOB_INSTANCE getJobInstance()
----@return JOB_INSTANCE findDisplayJobInstance()
----@param job JOB
----@param workplace? COMP_WORKPLACE
----@overload fun(job:JOB):void
----@return JOB getAssetJob()
----@return boolean hasJob()
----@return DECEASED_VILLAGER_DATA getDeceasedData()
----
----@field ON_JOB_CHANGED fun() Event fired when a job is changed
----@field ON_JOB_ASSIGNED fun() Event fired when a job is assigned
+---@field getJobInstance? fun(self):JOB_INSTANCE
+---@field findDisplayJobInstance? fun(self):JOB_INSTANCE
+---@field changeJob? fun(self, job:JOB, workplace?:COMP_WORKPLACE)
+---@field getAssetJob? fun(self):JOB
+---@field hasJob? fun(self):boolean
+---@field getDeceasedData? fun(self):DECEASED_VILLAGER_DATA
+---@field ON_JOB_CHANGED? fun()
+---@field ON_JOB_ASSIGNED? fun()
 
 local COMP_VILLAGER = {}
 

@@ -8,10 +8,11 @@
 ---@class COMP_WORKPLACE_TAX_OFFICE:COMP_WORKPLACE
 ---@field DataType 'COMP_WORKPLACE_TAX_OFFICE' The name of this data type (always "COMP_WORKPLACE_TAX_OFFICE")
 ---
----@param resource RESOURCE
----@param amountWithoutTaxationFunction integer
----@deprecated
-function COMP_WORKPLACE_TAX_OFFICE.depositTaxesCollected(resource, amountWithoutTaxationFunction) end
+---### Functions:
+---
+---void depositTaxesCollected(resource, amountWithoutTaxationFunction)
+---Deprecated since version
+---@field depositTaxesCollected fun(self:COMP_WORKPLACE_TAX_OFFICE, resource:any, amountWithoutTaxationFunction:integer)
 
 local COMP_WORKPLACE_TAX_OFFICE = {}
 

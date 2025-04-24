@@ -13,7 +13,7 @@
 ---@field WorkerRatioFromCapacity? number Will be serialized. Expected float value. Will override worker capacity if value is over 0. Default is 0.0.
 ---@field OutputCapacity? integer Will be serialized. Expected integer value. Default is 50.
 ---@field StorageRatioFromCapacity? number Will be serialized. Expected float value. Will override output capacity if value is over 0. Default is 0.0.
----@field UpkeepPerWorker? RESOURCE_COLLECTION_VALUE|table<uint,RESOURCE_QUANTITY_PAIR> Will be serialized. Expected RESOURCE_COLLECTION_VALUE value or list of RESOURCE_QUANTITY_PAIR values.
+---@field UpkeepPerWorker? RESOURCE_COLLECTION_VALUE|table<integer_and_unsigned_integer,RESOURCE_QUANTITY_PAIR> Will be serialized. Expected RESOURCE_COLLECTION_VALUE value or list of RESOURCE_QUANTITY_PAIR values.
 ---@field RelatedJob? ASSOCIATION_JOB_BEHAVIOR Will be serialized. Expected ASSOCIATION_JOB_BEHAVIOR value.
 ---@field IsPrivate? boolean Will be serialized. Expected boolean value. Default is false.
 ---@field CanAssignWorkerAutomatically? boolean Will be serialized. Expected boolean value. If false, monument like the Monastery can't automatically assign worker to this workplace. Default is true.
@@ -23,9 +23,9 @@
 ---@field ShowProgressBar? boolean Will be serialized. Expected boolean value. Default is true.
 ---@field ProductionCycleDurationInSec? number Will be serialized. Expected float value. Default is 20.0.
 ---@field WorkCycleNeededToProduceOnce? integer Will be serialized. Expected integer value. Default is 1.
----@field InputInventoryCapacity? RESOURCE_COLLECTION_VALUE|table<uint,RESOURCE_QUANTITY_PAIR> Will be serialized. Expected RESOURCE_COLLECTION_VALUE value or list of RESOURCE_QUANTITY_PAIR values.
----@field ResourceListNeeded? RESOURCE_COLLECTION_VALUE|table<uint,RESOURCE_QUANTITY_PAIR> Will be serialized. Expected RESOURCE_COLLECTION_VALUE value or list of RESOURCE_QUANTITY_PAIR values.
----@field ResourceProduced? RESOURCE_COLLECTION_VALUE|table<uint,RESOURCE_QUANTITY_PAIR> Will be serialized. Expected RESOURCE_COLLECTION_VALUE value or list of RESOURCE_QUANTITY_PAIR values.
+---@field InputInventoryCapacity? RESOURCE_COLLECTION_VALUE|table<integer_and_unsigned_integer,RESOURCE_QUANTITY_PAIR> Will be serialized. Expected RESOURCE_COLLECTION_VALUE value or list of RESOURCE_QUANTITY_PAIR values.
+---@field ResourceListNeeded? RESOURCE_COLLECTION_VALUE|table<integer_and_unsigned_integer,RESOURCE_QUANTITY_PAIR> Will be serialized. Expected RESOURCE_COLLECTION_VALUE value or list of RESOURCE_QUANTITY_PAIR values.
+---@field ResourceProduced? RESOURCE_COLLECTION_VALUE|table<integer_and_unsigned_integer,RESOURCE_QUANTITY_PAIR> Will be serialized. Expected RESOURCE_COLLECTION_VALUE value or list of RESOURCE_QUANTITY_PAIR values.
 ---@field DesirabilityLayer? DESIRABILITY Will be serialized. Expected asset ID. Default is nil.
 ---@field AssetNoZoneNotification? NOTIFICATION Will be serialized. Expected asset ID. Default is nil.
 ---@field AssetNoResourceInZoneNotification? NOTIFICATION Will be serialized. Expected asset ID. Default is nil.

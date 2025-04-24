@@ -7,42 +7,38 @@
 ---
 ---@class COMP_LODGING:COMP_WORKPLACE
 ---@field DataType 'COMP_LODGING' The name of this data type (always "COMP_LODGING")
----@field AssetBuildingFunctionLodging? BUILDING_FUNCTION_LODGING Runtime only, Savegame
+---@field AssetBuildingFunctionLodging? BUILDING_FUNCTION_LODGING Runtime only, Savegame, expected to be an asset ID
 
 local COMP_LODGING = {}
 
 COMP_LODGING.DataType = "COMP_LODGING"
 
----Registers a guest to this lodging.
+---
 ---@param guest COMP_GUEST
-function COMP_LODGING:registerGuest(guest) end
+function COMP_LODGING.registerGuest(guest) end
 
----Unregisters a guest from this lodging.
+---
 ---@param guest COMP_GUEST
-function COMP_LODGING:unregisterGuest(guest) end
+function COMP_LODGING.unregisterGuest(guest) end
 
----Returns true if the lodging is full.
 ---@return boolean
-function COMP_LODGING:isFull() end
+function COMP_LODGING.isFull() end
 
----Returns the current number of guests occupying the lodging.
 ---@return integer
-function COMP_LODGING:getCurrentOccupationCount() end
+function COMP_LODGING.getCurrentOccupationCount() end
 
----Returns a list of all guests currently registered to the lodging.
 ---@return COMP_GUEST[]
-function COMP_LODGING:getGuestList() end
+function COMP_LODGING.getGuestList() end
 
----Returns true if the lodging is closed.
 ---@return boolean
-function COMP_LODGING:isClosed() end
+function COMP_LODGING.isClosed() end
 
----Returns the maximum capacity of the lodging.
 ---@return integer
-function COMP_LODGING:getCapacity() end
+function COMP_LODGING.getCapacity() end
 
----Event triggered when the lodging occupancy changes.
+---
+---Event fired when lodging changed
 ---@param currentOccupationCount integer
----function COMP_LODGING.ON_LODGING_CHANGED(currentOccupationCount) end
+function COMP_LODGING.ON_LODGING_CHANGED(currentOccupationCount) end
 
 return COMP_LODGING
