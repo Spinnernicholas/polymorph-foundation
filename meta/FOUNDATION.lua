@@ -41,5 +41,7 @@ function foundation.findAsset(assetName) end
 ---@return GAME_OBJECT # The found GameObject.
 function foundation.findGameObject(objectName) end
 
+function foundation.localize(string) end
+
 -- Make 'foundation' global for autocomplete
 _G.foundation = foundation
