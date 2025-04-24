@@ -95,4 +95,5 @@ function polygon:isComplex() end
 ---@param outMax vec2f
 function polygon:getMinMax(outMin, outMax) end
 
+_G.polygon = polygon
 return polygon
