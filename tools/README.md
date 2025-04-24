@@ -140,3 +140,119 @@ return MyClass
   Ensure your CSV has all required columns: `object`, `category`, `datatype`, `custom_url`.
 - **Output file not generated:**  
   Check for errors in the console; the script will print detailed error messages for each row.
+
+---
+
+## Detailed Explanation: The AI Generation Process
+
+This section describes how the AI-powered meta file generation works, with code snippets from the implementation.
+
+### 1. Reading the CSV and Preparing Inputs
+
+The script reads each row from your CSV file, extracting the object name, category, datatype, and (optionally) a custom URL. For each object, it determines the documentation URL and output path.
+
+```python
+for i, row in enumerate(reader, start=2):
+    object_name = row['object']
+    category = row['category']
+    datatype = row['datatype']
+    custom_url = row.get('custom_url', '').strip()
+    url = custom_url if custom_url else f"{args.endpoint_url.rstrip('/')}/{object_name}"
+    # ...existing code...
+```
+
+### 2. Fetching Documentation Content
+
+The script fetches the documentation page for the object using HTTP GET:
+
+```python
+def fetch_content(url):
+    response = requests.get(url)
+    response.raise_for_status()
+    return response.text
+```
+
+### 3. Building the AI Prompt
+
+A system prompt is constructed using templates from `prompt_templates.py`. This includes:
+
+- Output format instructions
+- Object name and type
+- The fetched documentation content
+- A format template for the expected output
+- Type-specific instructions
+
+```python
+def generate_system_prompt(object_name, datatype, content):
+    instruction = get_type_instruction(datatype)
+    format_template = get_type_format(datatype)
+    output_format_instruction = get_general_output_format_instruction()
+    prompt = (
+        f"{output_format_instruction}\n"
+        f"Object Name: {object_name}\n"
+        f"Type: {datatype}\n"
+        f"Webpage Content:\n{content}\n"
+        f"Use this format:\n{format_template}\n"
+        f"{instruction}\n"
+    )
+    return prompt
+```
+
+### 4. Calling the OpenRouter LLM API
+
+The prompt is sent to the OpenRouter API (e.g., GPT-4.1-mini) using the OpenAI Python client:
+
+```python
+def openrouter_llm(prompt, api_key=None, referer=None, title=None):
+    client = OpenAI(
+        base_url="https://openrouter.ai/api/v1",
+        api_key=api_key,
+    )
+    completion = client.chat.completions.create(
+        extra_headers=extra_headers,
+        model="openai/gpt-4.1-mini",
+        messages=[
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": prompt
+                    }
+                ]
+            }
+        ]
+    )
+    return completion.choices[0].message.content
+```
+
+### 5. Extracting the Lua Code Block
+
+The AI's response is expected to be a Markdown code block with Lua code. The script extracts the code:
+
+```python
+def extract_lua_code_block(text):
+    pattern = r"```lua\s*([\s\S]*?)\s*```"
+    match = re.search(pattern, text, re.IGNORECASE)
+    if match:
+        return match.group(1).strip()
+    return None
+```
+
+### 6. Writing the Output File
+
+The extracted Lua code is written to the output file in the appropriate subdirectory:
+
+```python
+with open(output_path, "w", encoding="utf-8") as f:
+    f.write(to_save)
+```
+
+### 7. Error Handling and Skipping
+
+The script prints detailed error messages and skips rows if any step fails (e.g., missing columns, fetch errors, API errors, or file write errors).
+
+---
+
+**Summary:**  
+The AI process automates the transformation of documentation into precise LuaCats meta files by combining web scraping, prompt engineering, and LLM-powered code generation, all orchestrated by a Python script with robust error handling.
