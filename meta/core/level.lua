@@ -6,7 +6,6 @@
 ---[Reference](https://www.polymorph.games/foundation/modding/api/level)
 ---
 ---@class LEVEL
----@field DataType 'LEVEL' The name of this data type (always "LEVEL")
 ---
 ---@field getGame fun():GAME
 ---Returns the current game instance.

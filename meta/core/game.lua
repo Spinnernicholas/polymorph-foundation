@@ -10,8 +10,6 @@
 
 local GAME = {}
 
-GAME.DataType = "GAME"
-
 ---Class methods and properties go here
 
 return GAME

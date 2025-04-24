@@ -16,8 +16,6 @@
 
 local GAME_OBJECT = {}
 
-GAME_OBJECT.DataType = "GAME_OBJECT"
-
 ---void translate(translation: vec3f)
 function GAME_OBJECT:translate(translation) end
 
