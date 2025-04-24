@@ -48,8 +48,6 @@ With these meta files, your editor will provide:
 - **Better navigation** through your mod codebase.
 
 ```lua
-local foundation = require("FOUNDATION")
-
 local mod = foundation.createMod()
 mod:registerAsset({
     DataType = "BUILDING_PART",
