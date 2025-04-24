@@ -1,7 +1,9 @@
 # LuaCats Meta File Generator
 
+**Note:** All commands and instructions in this document assume a Windows environment.
+
 This tool automates the generation of [luacats](https://github.com/Benjamin-Dobell/luacats) meta files for [Lua](https://www.lua.org/) projects, using content fetched from web documentation and an LLM (via [OpenRouter](https://openrouter.ai/)).  
-It is designed to help with autocomplete and type hinting in editors like [sumneko/lua-language-server](https://github.com/sumneko/lua-language-server) and [EmmyLua](https://emmylua.github.io/).
+It is designed to help with autocomplete and type hinting in editors like [sumneko/lua-language-server](https://github.com/sumneko/lua-language-server).
 
 ---
 
@@ -23,26 +25,29 @@ It is designed to help with autocomplete and type hinting in editors like [sumne
 - [requests](https://pypi.org/project/requests/)
 - [python-dotenv](https://pypi.org/project/python-dotenv/)
 
-Install dependencies:
-
-```sh
-pip install openai requests python-dotenv
-```
-
 ---
 
 ## Setup
 
-1. **Get an OpenRouter API key:**  
+1. **Clone the repository and set up your environment:**
+   ```sh
+   git clone https://github.com/Spinnernicholas/polymorph-foundation.git
+   cd polymorph-foundation
+   python -m venv .venv
+   .venv\Scripts\activate   # For Windows
+   pip install -r tools\requirements.txt
+   ```
+
+2. **Get an OpenRouter API key:**  
    Sign up at [openrouter.ai](https://openrouter.ai/) and get your API key.
 
-2. **Create a `.env` file** in your project directory:
+3. **Create a `.env` file** in your project directory:
 
    ```
    OPENROUTER_KEY=your_openrouter_api_key_here
    ```
 
-3. **Prepare your CSV file** (e.g., `objects.csv`):
+4. **Prepare your CSV file** (e.g., `objects.csv`) in the tools directory:
 
    ```csv
    object,category,datatype,custom_url
@@ -56,14 +61,14 @@ pip install openai requests python-dotenv
    - `datatype`: `enum`, `class`, or `alias`
    - `custom_url`: (optional) Override the default URL for this object
 
-4. **Edit `prompt_templates.py`** if you want to customize the prompt instructions or output formats.
+5. **Edit `prompt_templates.py`** if you want to customize the prompt instructions or output formats.
 
 ---
 
 ## Usage
 
 ```sh
-python script.py <endpoint_url> <csv_file> -o <output_dir>
+python tools\main.py <endpoint_url> <csv_file> -o <output_dir>
 ```
 
 - `<endpoint_url>`: Base URL for documentation (e.g., `https://www.polymorph.games/foundation/modding/api`)
@@ -74,7 +79,7 @@ python script.py <endpoint_url> <csv_file> -o <output_dir>
 **Example:**
 
 ```sh
-python script.py https://www.polymorph.games/foundation/modding/api objects.csv -o meta
+python tools\main.py https://www.polymorph.games/foundation/modding/api tools\objects.csv -o meta
 ```
 
 ---
